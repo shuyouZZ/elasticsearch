@@ -1,0 +1,15 @@
+com\learn\mapper\StudentMapper.class
+com\learn\model\Student.class
+com\learn\mapper\CommentsMapper.class
+com\learn\model\Comment_copy.class
+com\learn\service\impl\RabbitMqServiceImpl.class
+com\learn\config\SpringTaskConfig.class
+com\learn\dto\QueueEnum.class
+com\learn\service\RabbitMqService.class
+com\learn\config\datasource\FirstDataSourceConfig.class
+com\learn\config\RabbitMqConfig.class
+com\learn\WuhanRabbitApplication.class
+com\learn\component\OrderTimeOutCancelTask.class
+com\learn\component\DataReceiver.class
+com\learn\component\DataSender.class
+com\learn\config\ReturnMsgCallBack.class

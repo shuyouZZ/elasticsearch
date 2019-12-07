@@ -1,6 +1,6 @@
 package com.learn.service.impl;
 
-import com.learn.common.ServiceResult;
+import com.learn.common.constant.ServiceResult;
 import com.learn.elasticsearch.Document;
 import com.learn.elasticsearch.Indice;
 import com.learn.elasticsearch.model.SourceEntity;
@@ -13,6 +13,7 @@ import com.learn.elasticsearch.query.query_enum.TermsEnum;
 import com.learn.elasticsearch.suggest.Suggestion;
 import com.learn.service.AsycService;
 import com.learn.service.ElasticsearchService;
+import com.learn.util.DataUtil;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,7 +22,6 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -50,54 +50,65 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 
 	@Override
 	public ServiceResult createIndex(String indexName) {
+		indexName = DataUtil.convert(indexName);
+		if(DataUtil.hasSymbol(indexName)){
+			logger.warn("Parameter Error {}",indexName);
+			return ServiceResult.paramsError(indexName);
+		}
 		ServiceResult result = isIndexExist(indexName);
 		if(! result.equals(ServiceResult.notFound())){
 			return result;
 		}
 		try {
 			if(indice.create(indexName)){
-				logger.info("Create Index Success-" + indexName);
+				logger.info("Create Index Success {}",indexName);
 				return ServiceResult.success(indexName);
 			}
 		} catch (IOException e) {
 			logger.error("Internal Server Error");
 			return ServiceResult.internalServerError();
 		}
-		logger.error("Internal Server Error");
-		return ServiceResult.internalServerError();
+		logger.error("Exception Error");
+		return ServiceResult.exceptionFailed();
 	}
 
 	@Override
 	public ServiceResult createIndex(String indexName,String setting,String mapping) {
+		indexName = DataUtil.convert(indexName);
+		if(DataUtil.hasSymbol(indexName)){
+			logger.warn("Parameter Error {}",indexName);
+			return ServiceResult.paramsError(indexName);
+		}
 		ServiceResult result = isIndexExist(indexName);
 		if(! result.equals(ServiceResult.notFound())){
 			return result;
 		}
 		try {
 			if(indice.create(indexName,setting) && indice.putMapping(indexName,mapping)){
-				logger.info("Create Index Success-" + indexName );
+				logger.info("Create Index Success {}", indexName );
 				return ServiceResult.success(indexName);
 			}
 		} catch (IOException e) {
 			logger.error("Internal Server Error");
 			return ServiceResult.internalServerError();
 		}
-		logger.error("Internal Server Error");
-		return ServiceResult.internalServerError();
+		logger.error("Exception Error");
+		return ServiceResult.exceptionFailed();
 	}
 
 	private ServiceResult isIndexExist(String... index) {
 		try {
 			if(indice.isExists(index)){
-				logger.debug("Index-" + Arrays.toString(index) + " Is Exist");
+				logger.debug("Index {} Is Exist",index);
 				return ServiceResult.isExist();
+			}else {
+				logger.debug("Index {} Is Exist",index);
+				return ServiceResult.notFound();
 			}
 		} catch (IOException e) {
 			logger.error("Internal Server Error");
 			return ServiceResult.internalServerError();
 		}
-		logger.debug("Index-" + Arrays.toString(index) + " Is Not Exist");
-		return ServiceResult.notFound();
 	}
 
 	@Override
@@ -108,15 +119,15 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 		}
 		try {
 			if(indice.deleteIndex(indexName)){
-				logger.info("Delete Index Success-" + indexName);
+				logger.info("Delete Index Success {}", indexName);
 				return ServiceResult.success(indexName);
 			}
 		} catch (IOException e) {
 			logger.error("Internal Server Error");
 			return ServiceResult.internalServerError();
 		}
-		logger.error("Internal Server Error");
-		return ServiceResult.internalServerError();
+		logger.error("Exception Error");
+		return ServiceResult.exceptionFailed();
 	}
 
 	@Override
@@ -127,7 +138,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 		}
 		try {
 			if(indice.putMapping(indexName,mapping)){
-				logger.info("Put Mapping Success-" + indexName);
+				logger.info("Put Mapping Success {}",indexName);
 				return ServiceResult.success(indexName);
 			}
 		} catch (IOException e) {
@@ -147,7 +158,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 		Map<String,Object> mapping;
 		try {
 			mapping = indice.getMapping(indexName);
-			logger.info("Get Mapping Success-" + indexName);
+			logger.info("Get Mapping Success {}",indexName);
 			return ServiceResult.success(mapping);
 		} catch (IOException e) {
 			logger.error("Internal Server Error");
@@ -163,7 +174,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 		}
 		try {
 			indice.updateSetting(indexName,setting);
-			logger.info("Update Setting Success-" + indexName);
+			logger.info("Update Setting Success {}",indexName);
 			return ServiceResult.success(setting);
 		} catch (IOException e) {
 			logger.error("Internal Server Error");
@@ -179,7 +190,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 		}
 		try {
 			String setting = indice.getSetting(indexName);
-			logger.info("Get Setting Success-" + indexName);
+			logger.info("Get Setting Success {}",indexName);
 			return ServiceResult.success(setting);
 		} catch (IOException e) {
 			logger.error("Internal Server Error");
@@ -224,15 +235,15 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 		}
 		try {
 			if(document.index(index,id,source)){
-				logger.info("Index Success-" + index);
+				logger.info("Index Success {}" , index);
 				return ServiceResult.success(id);
 			}
 		} catch (IOException e) {
 			logger.error("Internal Server Error");
 			return ServiceResult.internalServerError();
 		}
-		logger.error("Internal Server Error");
-		return ServiceResult.internalServerError();
+		logger.error("Exception Error");
+		return ServiceResult.exceptionFailed();
 	}
 
 	@Override
@@ -241,20 +252,17 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 		if(! result.equals(ServiceResult.isExist())){
 			return result;
 		}
-		if(result != ServiceResult.isExist()){
-			return result;
-		}
 		try {
 			if(document.update(index,id,source)){
-				logger.info("Updete Success-" + index);
+				logger.info("Updete Success {}",index);
 				return ServiceResult.success(id);
 			}
 		} catch (IOException e) {
 			logger.error("Internal Server Error");
 			return ServiceResult.internalServerError();
 		}
-		logger.error("Internal Server Error");
-		return ServiceResult.internalServerError();
+		logger.error("Exception Error");
+		return ServiceResult.exceptionFailed();
 	}
 
 	@Override
@@ -265,15 +273,15 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 		}
 		try {
 			if(document.delete(index,id)){
-				logger.info("Delete Success-" + index);
+				logger.info("Delete Success {}", index);
 				return ServiceResult.success(id);
 			}
 		} catch (IOException e) {
 			logger.error("Internal Server Error");
 			return ServiceResult.internalServerError();
 		}
-		logger.error("Internal Server Error");
-		return ServiceResult.internalServerError();
+		logger.error("Exception Error");
+		return ServiceResult.exceptionFailed();
 	}
 
 	@Override
@@ -287,10 +295,10 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 			indice.updateSetting(index,INIT_REPLICAS,String.valueOf(INIT_REFLUSH_INTERVAL));
 			long count = document.bulkIndex(index,source);
 			indice.updateSetting(index,REPLICAS,String.valueOf(REFRESH_INTERVAL)+"s");
-			logger.info("Bulk Index Success-" + index);
+			logger.info("Bulk Index Success {}", index);
 			return ServiceResult.success(count);
 		} catch (IOException e) {
-			logger.error("Bulk Index Failed-" + index);
+			logger.error("Bulk Index Failed {}",index);
 			return ServiceResult.internalServerError();
 		}
 	}
@@ -302,7 +310,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 			return result;
 		}
 		asycService.bulkIndex(document,indice,index,source);
-		logger.info("Regist Bulk Index Service Success-" + index);
+		logger.info("Regist Bulk Index Service Success {}", index);
 		return ServiceResult.success();
 	}
 
@@ -313,7 +321,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 			return result;
 		}
 		asycService.bulkUpdate(document,index,source);
-		logger.info("Regist Bulk Update Service Success-" + index);
+		logger.info("Regist Bulk Update Service Success {}", index);
 		return ServiceResult.success();
 	}
 
@@ -324,7 +332,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 			return result;
 		}
 		asycService.bulkDelete(document,index,source);
-		logger.info("Regist Bulk Detete Service Success-" + index);
+		logger.info("Regist Bulk Detete Service Success {}",index);
 		return ServiceResult.success();
 	}
 
@@ -336,7 +344,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 		}
 		try {
 			long count = document.bulkUpdate(index, source);
-			logger.info("Bulk Update Success-" + index);
+			logger.info("Bulk Update Success {}", index);
 			return ServiceResult.success(count);
 		} catch (IOException e) {
 			logger.error("Internal Server Error");
@@ -352,7 +360,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 		}
 		try {
 			long count = document.bulkDelete(index, source);
-			logger.info("Bulk Delete Success-" + index);
+			logger.info("Bulk Delete Success {}", index);
 			return ServiceResult.success(count);
 		} catch (IOException e) {
 			logger.error("Internal Server Error");
@@ -473,7 +481,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 		Suggestion suggestion = new Suggestion(client);
 		try {
 			List<String> list = suggestion.suggest(keyWord,size,fields,index);
-			logger.info("Extend Word Success-"+keyWord);
+			logger.info("Extend Word Success {}",keyWord);
 			return ServiceResult.success(list);
 		} catch (IOException e) {
 			logger.error("Internal Server Error");

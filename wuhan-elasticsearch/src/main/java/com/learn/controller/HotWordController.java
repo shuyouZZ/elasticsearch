@@ -1,6 +1,6 @@
 package com.learn.controller;
 
-import com.learn.common.ServiceResult;
+import com.learn.common.constant.ServiceResult;
 import com.learn.component.HotWord;
 import com.learn.service.HotWordService;
 import io.swagger.annotations.ApiOperation;

@@ -1,6 +1,6 @@
 package com.learn.mbg.mapper1;
 
-import com.learn.mbg.mapper4.CreateSql;
+import com.learn.mbg.BaseMapper;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;
@@ -11,7 +11,7 @@ import java.util.Map;
  * @date 2019/11/20 13:15
  */
 @Mapper
-public interface ViewMapper1 {
+public interface ViewMapper1 extends BaseMapper {
 
     @MapKey("comment_id")
     @Select("SELECT * from ${table}")
@@ -46,9 +46,4 @@ public interface ViewMapper1 {
             + "</script>")
     int add1(@Param("list") List<Map<String, Object>> list);
 
-    @SelectProvider(type = CreateSql.class, method = "selectWithParamSql")
-    Map<String,Object> findOne1(Map<String,Object> params);
-
-    @Select("SELECT * from ${table}")
-    List<Map<String,Object>> select(@Param(value = "table") String table);
 }

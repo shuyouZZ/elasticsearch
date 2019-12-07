@@ -1,0 +1,4 @@
+2019-12-04 22:46:24  [ main:9709 ] - [ ERROR ]  datasource.properties (系统找不到指定的文件。)
+2019-12-04 23:01:43  [ main:9483 ] - [ ERROR ]  datasource.properties (系统找不到指定的文件。)
+2019-12-04 23:09:50  [ main:9429 ] - [ ERROR ]  datasource.properties (系统找不到指定的文件。)
+2019-12-04 23:13:25  [ main:9740 ] - [ ERROR ]  class path resource [database.properties] cannot be opened because it does not exist

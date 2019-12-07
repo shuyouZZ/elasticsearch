@@ -1,0 +1,85 @@
+﻿<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script>
+        jQuery.support.cors = true;
+        function Add() {
+            $.ajax({
+                type: "GET",
+                url: "http://localhost/DataInfo/api/Data/1",
+                contentType: "application/json",
+                success: function (msg) {
+                    console.log(msg)
+                    alert(msg)
+                },
+                error: function (e) {
+                    console.log("error");
+                }
+            });
+        }
+        function Update() {
+            var data = { "KEY": 1, "Order": "featureid DESC", "WHERECLUSE": "featureid=1660" };
+            $.ajax({
+                type: "POST",
+				url: "http://localhost/DataInfo/Info/getInfo",
+                contentType: "application/json",
+                data: JSON.stringify(data),
+                success: function (msg) {
+                    debugger
+                    console.log(msg)
+                },
+                error: function (e) {
+                    console.log("error")
+                }
+            });
+        }
+        function Delete() {
+            $.ajax({
+                type: "GET",
+                url: "http://localhost/DCI.AppServer/resource/delete/1",
+                contentType: "application/json",
+                success: function (msg) {
+                    debugger
+                    console.log(msg)
+                },
+                error: function (e) {
+                    console.log("error")
+                }
+            });
+        }
+        function Select() {
+            var data = { "pageNumber": 10, "pageIndex": 0 };
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:8080/elastic/query/mysql?",
+                contentType: "application/json",
+                data: data,
+                success: function (msg) {
+                    //console.log(msg)
+                    alert(msg)
+                    console.log(msg.code);
+                    console.log(msg.message);
+                    console.log(msg.result);
+                },
+                error: function (e) {
+                    console.log("error")
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <h3>公共服务网</h3>
+     <div>
+         <input type="button" onclick="Add()" title="查询" value="查询" /> 
+        <!-- <input type="button" onclick="Add()" title="新增" value="新增" /> -->
+         <input type="button" onclick="Update()" title="修改" value="修改" /> 
+        <!-- <input type="button" onclick="Delete()" title="删除" value="删除" /> -->
+         <input type="button" onclick="Select()" title="查询mysql" value="查询mysql">
+    </div>
+</body>
+</html>

@@ -1,0 +1,664 @@
+2019-12-04 17:51:19  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 17:51:19  [ main:13 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 17:51:20  [ main:93 ] - [ INFO ]  Finished Spring Data repository scanning in 60ms. Found 0 repository interfaces.
+2019-12-04 17:51:20  [ main:345 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 17:51:20  [ main:348 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 17:56:01  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 17:56:01  [ main:9 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 17:56:02  [ main:74 ] - [ INFO ]  Finished Spring Data repository scanning in 48ms. Found 0 repository interfaces.
+2019-12-04 17:56:02  [ main:277 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 17:56:02  [ main:279 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 17:56:07  [ main:5817 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 17:56:09  [ main:7608 ] - [ INFO ]  Context refreshed
+2019-12-04 17:56:09  [ main:7656 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 17:56:09  [ main:7730 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 17:56:09  [ main:7975 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 17:56:09  [ main:7987 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 17:56:09  [ main:7995 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 17:56:09  [ main:8005 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 17:56:09  [ main:8015 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 17:56:09  [ main:8024 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 17:56:09  [ main:8030 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 17:57:01  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 17:57:01  [ main:8 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 17:57:01  [ main:83 ] - [ INFO ]  Finished Spring Data repository scanning in 55ms. Found 0 repository interfaces.
+2019-12-04 17:57:01  [ main:284 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 17:57:01  [ main:286 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 17:57:07  [ main:5928 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 17:57:09  [ main:7639 ] - [ INFO ]  Context refreshed
+2019-12-04 17:57:09  [ main:7692 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 17:57:09  [ main:7771 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 17:57:09  [ main:8034 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 17:57:09  [ main:8047 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 17:57:09  [ main:8056 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 17:57:09  [ main:8069 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 17:57:09  [ main:8078 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 17:57:09  [ main:8089 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 17:57:09  [ main:8099 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 18:03:37  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 18:03:37  [ main:7 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 18:03:37  [ main:64 ] - [ INFO ]  Finished Spring Data repository scanning in 42ms. Found 0 repository interfaces.
+2019-12-04 18:03:37  [ main:233 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 18:03:37  [ main:235 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 18:03:43  [ main:5469 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 18:03:44  [ main:6975 ] - [ INFO ]  Context refreshed
+2019-12-04 18:03:44  [ main:7026 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 18:03:44  [ main:7090 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 18:03:45  [ main:7363 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 18:03:45  [ main:7376 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 18:03:45  [ main:7387 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 18:03:45  [ main:7396 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 18:03:45  [ main:7407 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 18:03:45  [ main:7420 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 18:03:45  [ main:7428 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 18:04:53  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 18:04:53  [ main:10 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 18:04:53  [ main:81 ] - [ INFO ]  Finished Spring Data repository scanning in 53ms. Found 0 repository interfaces.
+2019-12-04 18:04:53  [ main:284 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 18:04:53  [ main:286 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 18:04:59  [ main:6278 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 18:05:01  [ main:8214 ] - [ INFO ]  Context refreshed
+2019-12-04 18:05:01  [ main:8265 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 18:05:01  [ main:8347 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 18:05:01  [ main:8634 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 18:05:01  [ main:8646 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 18:05:01  [ main:8655 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 18:05:01  [ main:8663 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 18:05:01  [ main:8672 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 18:05:01  [ main:8679 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 18:05:01  [ main:8685 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 18:05:02  [ main:9449 ] - [ INFO ]  {dataSource-1} inited
+2019-12-04 18:05:03  [ Thread-3:10190 ] - [ INFO ]  {dataSource-1} closed
+2019-12-04 18:05:22  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 18:05:22  [ main:8 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 18:05:22  [ main:75 ] - [ INFO ]  Finished Spring Data repository scanning in 50ms. Found 0 repository interfaces.
+2019-12-04 18:05:22  [ main:260 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 18:05:22  [ main:263 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 18:05:29  [ main:7065 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 18:05:31  [ main:8894 ] - [ INFO ]  Context refreshed
+2019-12-04 18:05:31  [ main:8952 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 18:05:31  [ main:9031 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 18:05:31  [ main:9306 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 18:05:31  [ main:9319 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 18:05:31  [ main:9329 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 18:05:31  [ main:9337 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 18:05:31  [ main:9346 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 18:05:31  [ main:9356 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 18:05:31  [ main:9363 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 18:05:46  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 18:05:46  [ main:10 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 18:05:46  [ main:104 ] - [ INFO ]  Finished Spring Data repository scanning in 72ms. Found 0 repository interfaces.
+2019-12-04 18:05:46  [ main:364 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 18:05:46  [ main:366 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 18:05:53  [ main:7193 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 18:05:55  [ main:9146 ] - [ INFO ]  Context refreshed
+2019-12-04 18:05:55  [ main:9197 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 18:05:55  [ main:9283 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 18:05:55  [ main:9573 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 18:05:55  [ main:9586 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 18:05:55  [ main:9595 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 18:05:55  [ main:9603 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 18:05:55  [ main:9611 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 18:05:55  [ main:9621 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 18:05:55  [ main:9630 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 18:06:07  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 18:06:07  [ main:10 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 18:06:07  [ main:92 ] - [ INFO ]  Finished Spring Data repository scanning in 63ms. Found 0 repository interfaces.
+2019-12-04 18:06:07  [ main:308 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 18:06:07  [ main:310 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 18:06:14  [ main:7070 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 18:06:16  [ main:9002 ] - [ INFO ]  Context refreshed
+2019-12-04 18:06:16  [ main:9051 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 18:06:16  [ main:9122 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 18:06:16  [ main:9413 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 18:06:16  [ main:9427 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 18:06:16  [ main:9436 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 18:06:16  [ main:9447 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 18:06:16  [ main:9455 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 18:06:16  [ main:9466 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 18:06:16  [ main:9474 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 18:23:30  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 18:23:30  [ main:7 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 18:23:30  [ main:58 ] - [ INFO ]  Finished Spring Data repository scanning in 38ms. Found 0 repository interfaces.
+2019-12-04 18:23:30  [ main:222 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 18:23:30  [ main:224 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 18:23:36  [ main:6123 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 18:23:38  [ main:7781 ] - [ INFO ]  Context refreshed
+2019-12-04 18:23:38  [ main:7832 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 18:23:38  [ main:7902 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 18:23:38  [ main:8154 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 18:23:38  [ main:8164 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 18:23:38  [ main:8174 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 18:23:38  [ main:8183 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 18:23:38  [ main:8192 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 18:23:38  [ main:8200 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 18:23:38  [ main:8209 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 18:27:17  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 18:27:17  [ main:7 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 18:27:17  [ main:58 ] - [ INFO ]  Finished Spring Data repository scanning in 35ms. Found 0 repository interfaces.
+2019-12-04 18:27:17  [ main:197 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 18:27:17  [ main:198 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 18:27:23  [ main:5469 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 18:27:24  [ main:6673 ] - [ INFO ]  Context refreshed
+2019-12-04 18:27:24  [ main:6713 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 18:27:24  [ main:6791 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 18:27:24  [ main:7019 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 18:27:24  [ main:7033 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 18:27:24  [ main:7042 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 18:27:24  [ main:7054 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 18:27:24  [ main:7066 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 18:27:24  [ main:7074 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 18:27:24  [ main:7080 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 18:28:08  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 18:28:08  [ main:9 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 18:28:08  [ main:82 ] - [ INFO ]  Finished Spring Data repository scanning in 57ms. Found 0 repository interfaces.
+2019-12-04 18:28:08  [ main:295 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 18:28:08  [ main:297 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 18:28:14  [ main:6176 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 18:28:16  [ main:8185 ] - [ INFO ]  Context refreshed
+2019-12-04 18:28:16  [ main:8235 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 18:28:16  [ main:8311 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 18:28:16  [ main:8567 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 18:28:16  [ main:8582 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 18:28:16  [ main:8592 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 18:28:16  [ main:8605 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 18:28:16  [ main:8616 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 18:28:16  [ main:8625 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 18:28:16  [ main:8635 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 18:38:39  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 18:38:39  [ main:8 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 18:38:39  [ main:72 ] - [ INFO ]  Finished Spring Data repository scanning in 48ms. Found 0 repository interfaces.
+2019-12-04 18:38:39  [ main:242 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 18:38:39  [ main:244 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 18:38:45  [ main:5710 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 18:38:47  [ main:7548 ] - [ INFO ]  Context refreshed
+2019-12-04 18:38:47  [ main:7600 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 18:38:47  [ main:7685 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 18:38:47  [ main:8003 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 18:38:47  [ main:8026 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 18:38:47  [ main:8048 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 18:38:47  [ main:8064 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 18:38:47  [ main:8079 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 18:38:47  [ main:8092 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 18:38:47  [ main:8102 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 18:50:53  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 18:50:53  [ main:6 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 18:50:53  [ main:53 ] - [ INFO ]  Finished Spring Data repository scanning in 35ms. Found 0 repository interfaces.
+2019-12-04 18:50:53  [ main:194 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 18:50:53  [ main:196 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 18:50:58  [ main:5236 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 18:50:59  [ main:6552 ] - [ INFO ]  Context refreshed
+2019-12-04 18:51:00  [ main:6597 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 18:51:00  [ main:6659 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 18:51:00  [ main:6865 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 18:51:00  [ main:6877 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 18:51:00  [ main:6885 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 18:51:00  [ main:6894 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 18:51:00  [ main:6902 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 18:51:00  [ main:6911 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 18:51:00  [ main:6918 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 18:52:30  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 18:52:30  [ main:7 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 18:52:30  [ main:71 ] - [ INFO ]  Finished Spring Data repository scanning in 49ms. Found 0 repository interfaces.
+2019-12-04 18:52:30  [ main:318 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 18:52:30  [ main:321 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 18:53:22  [ main:1 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 18:53:22  [ main:12 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 18:53:22  [ main:101 ] - [ INFO ]  Finished Spring Data repository scanning in 67ms. Found 0 repository interfaces.
+2019-12-04 18:53:22  [ main:348 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 18:53:22  [ main:351 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 18:53:56  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 18:53:56  [ main:11 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 18:53:56  [ main:77 ] - [ INFO ]  Finished Spring Data repository scanning in 48ms. Found 0 repository interfaces.
+2019-12-04 18:53:56  [ main:261 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 18:53:56  [ main:263 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 18:54:09  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 18:54:09  [ main:12 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 18:54:09  [ main:81 ] - [ INFO ]  Finished Spring Data repository scanning in 52ms. Found 0 repository interfaces.
+2019-12-04 18:54:09  [ main:307 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 18:54:09  [ main:310 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 18:54:15  [ main:6362 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 18:54:17  [ main:8079 ] - [ INFO ]  Context refreshed
+2019-12-04 18:54:17  [ main:8125 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 18:54:17  [ main:8196 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 18:54:17  [ main:8464 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 18:54:17  [ main:8475 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 18:54:17  [ main:8484 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 18:54:17  [ main:8493 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 18:54:17  [ main:8501 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 18:54:17  [ main:8508 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 18:54:17  [ main:8514 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 18:54:27  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 18:54:28  [ main:12 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 18:54:28  [ main:104 ] - [ INFO ]  Finished Spring Data repository scanning in 68ms. Found 0 repository interfaces.
+2019-12-04 18:54:28  [ main:409 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 18:54:28  [ main:412 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 18:55:24  [ main:1 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 18:55:24  [ main:12 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 18:55:24  [ main:102 ] - [ INFO ]  Finished Spring Data repository scanning in 67ms. Found 0 repository interfaces.
+2019-12-04 18:55:24  [ main:361 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 18:55:24  [ main:363 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 18:56:32  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 18:56:32  [ main:6 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 18:56:32  [ main:58 ] - [ INFO ]  Finished Spring Data repository scanning in 39ms. Found 0 repository interfaces.
+2019-12-04 18:56:32  [ main:220 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 18:56:32  [ main:222 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 18:56:38  [ main:6099 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 18:56:40  [ main:7916 ] - [ INFO ]  Context refreshed
+2019-12-04 18:56:40  [ main:7969 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 18:56:40  [ main:8041 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 18:56:40  [ main:8336 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 18:56:40  [ main:8352 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 18:56:40  [ main:8364 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 18:56:40  [ main:8377 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 18:56:40  [ main:8390 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 18:56:41  [ main:8403 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 18:56:41  [ main:8413 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 18:56:58  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 18:56:58  [ main:9 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 18:56:58  [ main:92 ] - [ INFO ]  Finished Spring Data repository scanning in 63ms. Found 0 repository interfaces.
+2019-12-04 18:56:59  [ main:298 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 18:56:59  [ main:301 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 18:57:05  [ main:6506 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 18:57:07  [ main:8281 ] - [ INFO ]  Context refreshed
+2019-12-04 18:57:07  [ main:8328 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 18:57:07  [ main:8399 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 18:57:07  [ main:8658 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 18:57:07  [ main:8671 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 18:57:07  [ main:8681 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 18:57:07  [ main:8692 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 18:57:07  [ main:8703 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 18:57:07  [ main:8712 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 18:57:07  [ main:8721 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 19:01:25  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 19:01:25  [ main:6 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 19:01:25  [ main:58 ] - [ INFO ]  Finished Spring Data repository scanning in 39ms. Found 0 repository interfaces.
+2019-12-04 19:01:25  [ main:212 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 19:01:25  [ main:215 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 19:01:30  [ main:5442 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 19:01:31  [ main:6800 ] - [ INFO ]  Context refreshed
+2019-12-04 19:01:31  [ main:6838 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 19:01:31  [ main:6892 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 19:01:32  [ main:7080 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 19:01:32  [ main:7090 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 19:01:32  [ main:7096 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 19:01:32  [ main:7105 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 19:01:32  [ main:7112 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 19:01:32  [ main:7119 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 19:01:32  [ main:7125 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 19:01:32  [ main:7881 ] - [ INFO ]  {dataSource-1} inited
+2019-12-04 19:01:33  [ Thread-3:8367 ] - [ INFO ]  {dataSource-1} closed
+2019-12-04 19:28:52  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 19:28:52  [ main:12 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 19:28:52  [ main:100 ] - [ INFO ]  Finished Spring Data repository scanning in 67ms. Found 0 repository interfaces.
+2019-12-04 19:28:53  [ main:379 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 19:28:53  [ main:383 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 19:29:02  [ main:9589 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 19:29:04  [ main:11778 ] - [ INFO ]  Context refreshed
+2019-12-04 19:29:04  [ main:11860 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 19:29:04  [ main:11965 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 19:29:05  [ main:12310 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 19:29:05  [ main:12326 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 19:29:05  [ main:12336 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 19:29:05  [ main:12349 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 19:29:05  [ main:12361 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 19:29:05  [ main:12369 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 19:29:05  [ main:12382 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 19:29:06  [ main:13475 ] - [ INFO ]  {dataSource-1} inited
+2019-12-04 19:29:06  [ Thread-3:14119 ] - [ INFO ]  {dataSource-1} closed
+2019-12-04 19:29:20  [ main:1 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 19:29:20  [ main:13 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 19:29:20  [ main:99 ] - [ INFO ]  Finished Spring Data repository scanning in 66ms. Found 0 repository interfaces.
+2019-12-04 19:29:20  [ main:375 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 19:29:20  [ main:380 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 19:29:28  [ main:8797 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 19:29:30  [ main:10743 ] - [ INFO ]  Context refreshed
+2019-12-04 19:29:30  [ main:10805 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 19:29:30  [ main:10898 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 19:29:31  [ main:11211 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 19:29:31  [ main:11229 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 19:29:31  [ main:11243 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 19:29:31  [ main:11257 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 19:29:31  [ main:11268 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 19:29:31  [ main:11282 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 19:29:31  [ main:11293 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 19:29:32  [ main:12294 ] - [ INFO ]  {dataSource-1} inited
+2019-12-04 19:29:32  [ Thread-3:12902 ] - [ INFO ]  {dataSource-1} closed
+2019-12-04 19:30:05  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 19:30:05  [ main:12 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 19:30:05  [ main:107 ] - [ INFO ]  Finished Spring Data repository scanning in 73ms. Found 0 repository interfaces.
+2019-12-04 19:30:05  [ main:415 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 19:30:05  [ main:420 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 19:30:14  [ main:9454 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 19:30:16  [ main:11682 ] - [ INFO ]  Context refreshed
+2019-12-04 19:30:16  [ main:11759 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 19:30:16  [ main:11852 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 19:30:17  [ main:12194 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 19:30:17  [ main:12211 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 19:30:17  [ main:12226 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 19:30:17  [ main:12239 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 19:30:17  [ main:12253 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 19:30:17  [ main:12265 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 19:30:17  [ main:12277 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 19:30:18  [ main:13324 ] - [ INFO ]  {dataSource-1} inited
+2019-12-04 19:30:19  [ Thread-3:13986 ] - [ INFO ]  {dataSource-1} closed
+2019-12-04 21:32:03  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 21:32:03  [ main:10 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 21:32:03  [ main:77 ] - [ INFO ]  Finished Spring Data repository scanning in 48ms. Found 0 repository interfaces.
+2019-12-04 21:32:03  [ main:270 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 21:32:03  [ main:273 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 21:32:10  [ main:7144 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 21:32:12  [ main:9080 ] - [ INFO ]  Context refreshed
+2019-12-04 21:32:12  [ main:9135 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 21:32:12  [ main:9212 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 21:32:12  [ main:9514 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 21:32:12  [ main:9530 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 21:32:12  [ main:9544 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 21:32:12  [ main:9556 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 21:32:12  [ main:9569 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 21:32:12  [ main:9579 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 21:32:12  [ main:9589 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 21:34:46  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 21:34:46  [ main:8 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 21:34:46  [ main:71 ] - [ INFO ]  Finished Spring Data repository scanning in 46ms. Found 0 repository interfaces.
+2019-12-04 21:34:47  [ main:290 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 21:34:47  [ main:293 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 21:34:56  [ main:9963 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 21:34:59  [ main:12281 ] - [ INFO ]  Context refreshed
+2019-12-04 21:34:59  [ main:12362 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 21:34:59  [ main:12484 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 21:34:59  [ main:12915 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 21:34:59  [ main:12933 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 21:34:59  [ main:12945 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 21:34:59  [ main:12956 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 21:34:59  [ main:12966 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 21:34:59  [ main:12975 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 21:34:59  [ main:12985 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 21:36:16  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 21:36:16  [ main:15 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 21:36:16  [ main:117 ] - [ INFO ]  Finished Spring Data repository scanning in 77ms. Found 0 repository interfaces.
+2019-12-04 21:36:16  [ main:440 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 21:36:17  [ main:443 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 21:36:27  [ main:10493 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 21:36:29  [ main:12792 ] - [ INFO ]  Context refreshed
+2019-12-04 21:36:29  [ main:12880 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 21:36:29  [ main:13041 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 21:36:30  [ main:13453 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 21:36:30  [ main:13468 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 21:36:30  [ main:13477 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 21:36:30  [ main:13488 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 21:36:30  [ main:13499 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 21:36:30  [ main:13509 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 21:36:30  [ main:13520 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 21:36:44  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 21:36:44  [ main:11 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 21:36:44  [ main:101 ] - [ INFO ]  Finished Spring Data repository scanning in 64ms. Found 0 repository interfaces.
+2019-12-04 21:36:44  [ main:345 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 21:36:44  [ main:348 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 21:36:54  [ main:9863 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 21:36:56  [ main:12260 ] - [ INFO ]  Context refreshed
+2019-12-04 21:36:56  [ main:12339 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 21:36:56  [ main:12475 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 21:36:57  [ main:12911 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 21:36:57  [ main:12929 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 21:36:57  [ main:12941 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 21:36:57  [ main:12954 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 21:36:57  [ main:12964 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 21:36:57  [ main:12976 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 21:36:57  [ main:12986 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 21:39:07  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 21:39:07  [ main:7 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 21:39:07  [ main:60 ] - [ INFO ]  Finished Spring Data repository scanning in 41ms. Found 0 repository interfaces.
+2019-12-04 21:39:07  [ main:244 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 21:39:07  [ main:247 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 21:39:13  [ main:6852 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 21:39:15  [ main:8620 ] - [ INFO ]  Context refreshed
+2019-12-04 21:39:15  [ main:8679 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 21:39:15  [ main:8745 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 21:39:16  [ main:9024 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_1
+2019-12-04 21:39:16  [ main:9037 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_1
+2019-12-04 21:39:16  [ main:9047 ] - [ INFO ]  Generating unique operation named: bulkIndex1UsingGET_1
+2019-12-04 21:39:16  [ main:9059 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_1
+2019-12-04 21:39:16  [ main:9072 ] - [ INFO ]  Generating unique operation named: asycIndexUsingGET_2
+2019-12-04 21:39:16  [ main:9081 ] - [ INFO ]  Generating unique operation named: bulkIndexUsingGET_2
+2019-12-04 21:39:16  [ main:9089 ] - [ INFO ]  Generating unique operation named: findOneUsingGET_2
+2019-12-04 21:39:17  [ main:10037 ] - [ INFO ]  {dataSource-1} inited
+2019-12-04 21:39:17  [ Thread-3:10632 ] - [ INFO ]  {dataSource-1} closed
+2019-12-04 22:43:46  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 22:43:46  [ main:9 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 22:43:46  [ main:84 ] - [ INFO ]  Finished Spring Data repository scanning in 57ms. Found 0 repository interfaces.
+2019-12-04 22:43:46  [ main:335 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper5' and 'com.learn.mbg.mapper5.ViewMapper5' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:43:46  [ main:336 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper5]' package. Please check your configuration.
+2019-12-04 22:43:46  [ main:340 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper1' and 'com.learn.mbg.mapper1.ViewMapper1' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:43:46  [ main:341 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper1]' package. Please check your configuration.
+2019-12-04 22:43:46  [ main:345 ] - [ WARN ]  Skipping MapperFactoryBean with name 'gwMapper' and 'com.learn.mbg.mapper4.GwMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:43:46  [ main:346 ] - [ WARN ]  Skipping MapperFactoryBean with name 'kcMapper' and 'com.learn.mbg.mapper4.KcMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:43:46  [ main:346 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper4' and 'com.learn.mbg.mapper4.ViewMapper4' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:43:46  [ main:347 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper4]' package. Please check your configuration.
+2019-12-04 22:43:46  [ main:352 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 22:43:46  [ main:356 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 22:45:12  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 22:45:12  [ main:8 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 22:45:12  [ main:81 ] - [ INFO ]  Finished Spring Data repository scanning in 56ms. Found 0 repository interfaces.
+2019-12-04 22:45:13  [ main:342 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper5' and 'com.learn.mbg.mapper5.ViewMapper5' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:45:13  [ main:343 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper5]' package. Please check your configuration.
+2019-12-04 22:45:13  [ main:346 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper1' and 'com.learn.mbg.mapper1.ViewMapper1' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:45:13  [ main:347 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper1]' package. Please check your configuration.
+2019-12-04 22:45:13  [ main:351 ] - [ WARN ]  Skipping MapperFactoryBean with name 'gwMapper' and 'com.learn.mbg.mapper4.GwMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:45:13  [ main:351 ] - [ WARN ]  Skipping MapperFactoryBean with name 'kcMapper' and 'com.learn.mbg.mapper4.KcMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:45:13  [ main:351 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper4' and 'com.learn.mbg.mapper4.ViewMapper4' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:45:13  [ main:352 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper4]' package. Please check your configuration.
+2019-12-04 22:45:13  [ main:354 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 22:45:13  [ main:358 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 22:46:14  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 22:46:14  [ main:8 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 22:46:15  [ main:72 ] - [ INFO ]  Finished Spring Data repository scanning in 46ms. Found 0 repository interfaces.
+2019-12-04 22:46:15  [ main:232 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper5' and 'com.learn.mbg.mapper5.ViewMapper5' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:46:15  [ main:232 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper5]' package. Please check your configuration.
+2019-12-04 22:46:15  [ main:236 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper1' and 'com.learn.mbg.mapper1.ViewMapper1' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:46:15  [ main:236 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper1]' package. Please check your configuration.
+2019-12-04 22:46:15  [ main:241 ] - [ WARN ]  Skipping MapperFactoryBean with name 'gwMapper' and 'com.learn.mbg.mapper4.GwMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:46:15  [ main:242 ] - [ WARN ]  Skipping MapperFactoryBean with name 'kcMapper' and 'com.learn.mbg.mapper4.KcMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:46:15  [ main:242 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper4' and 'com.learn.mbg.mapper4.ViewMapper4' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:46:15  [ main:242 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper4]' package. Please check your configuration.
+2019-12-04 22:46:15  [ main:245 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 22:46:15  [ main:248 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 22:46:21  [ main:6791 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 22:46:23  [ main:8687 ] - [ INFO ]  Context refreshed
+2019-12-04 22:46:23  [ main:8741 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 22:46:23  [ main:8824 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 22:46:24  [ main:9709 ] - [ ERROR ]  datasource.properties (系统找不到指定的文件。)
+2019-12-04 22:56:25  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 22:56:25  [ main:9 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 22:56:25  [ main:55 ] - [ INFO ]  Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2019-12-04 22:56:25  [ main:192 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper5' and 'com.learn.mbg.mapper5.ViewMapper5' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:56:25  [ main:193 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper5]' package. Please check your configuration.
+2019-12-04 22:56:25  [ main:196 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper1' and 'com.learn.mbg.mapper1.ViewMapper1' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:56:25  [ main:196 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper1]' package. Please check your configuration.
+2019-12-04 22:56:25  [ main:199 ] - [ WARN ]  Skipping MapperFactoryBean with name 'gwMapper' and 'com.learn.mbg.mapper4.GwMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:56:25  [ main:199 ] - [ WARN ]  Skipping MapperFactoryBean with name 'kcMapper' and 'com.learn.mbg.mapper4.KcMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:56:25  [ main:200 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper4' and 'com.learn.mbg.mapper4.ViewMapper4' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:56:25  [ main:200 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper4]' package. Please check your configuration.
+2019-12-04 22:56:25  [ main:202 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 22:56:25  [ main:203 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 22:56:31  [ main:5947 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 22:56:33  [ main:7956 ] - [ INFO ]  Context refreshed
+2019-12-04 22:56:33  [ main:8019 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 22:56:33  [ main:8093 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 22:59:10  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 22:59:10  [ main:9 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 22:59:10  [ main:67 ] - [ INFO ]  Finished Spring Data repository scanning in 39ms. Found 0 repository interfaces.
+2019-12-04 22:59:11  [ main:212 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper5' and 'com.learn.mbg.mapper5.ViewMapper5' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:59:11  [ main:213 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper5]' package. Please check your configuration.
+2019-12-04 22:59:11  [ main:217 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper1' and 'com.learn.mbg.mapper1.ViewMapper1' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:59:11  [ main:217 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper1]' package. Please check your configuration.
+2019-12-04 22:59:11  [ main:220 ] - [ WARN ]  Skipping MapperFactoryBean with name 'gwMapper' and 'com.learn.mbg.mapper4.GwMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:59:11  [ main:221 ] - [ WARN ]  Skipping MapperFactoryBean with name 'kcMapper' and 'com.learn.mbg.mapper4.KcMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:59:11  [ main:221 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper4' and 'com.learn.mbg.mapper4.ViewMapper4' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:59:11  [ main:221 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper4]' package. Please check your configuration.
+2019-12-04 22:59:11  [ main:224 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 22:59:11  [ main:225 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 22:59:17  [ main:6378 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 22:59:19  [ main:8242 ] - [ INFO ]  Context refreshed
+2019-12-04 22:59:19  [ main:8298 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 22:59:19  [ main:8375 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 22:59:43  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 22:59:43  [ main:8 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 22:59:43  [ main:67 ] - [ INFO ]  Finished Spring Data repository scanning in 43ms. Found 0 repository interfaces.
+2019-12-04 22:59:43  [ main:261 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper5' and 'com.learn.mbg.mapper5.ViewMapper5' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:59:43  [ main:261 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper5]' package. Please check your configuration.
+2019-12-04 22:59:43  [ main:265 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper1' and 'com.learn.mbg.mapper1.ViewMapper1' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:59:43  [ main:266 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper1]' package. Please check your configuration.
+2019-12-04 22:59:43  [ main:270 ] - [ WARN ]  Skipping MapperFactoryBean with name 'gwMapper' and 'com.learn.mbg.mapper4.GwMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:59:43  [ main:270 ] - [ WARN ]  Skipping MapperFactoryBean with name 'kcMapper' and 'com.learn.mbg.mapper4.KcMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:59:43  [ main:270 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper4' and 'com.learn.mbg.mapper4.ViewMapper4' mapperInterface. Bean already defined with the same name!
+2019-12-04 22:59:43  [ main:271 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper4]' package. Please check your configuration.
+2019-12-04 22:59:43  [ main:274 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 22:59:43  [ main:278 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 22:59:50  [ main:7058 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 22:59:52  [ main:8970 ] - [ INFO ]  Context refreshed
+2019-12-04 22:59:52  [ main:9017 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 22:59:52  [ main:9091 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 23:01:33  [ main:1 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 23:01:33  [ main:9 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 23:01:33  [ main:65 ] - [ INFO ]  Finished Spring Data repository scanning in 39ms. Found 0 repository interfaces.
+2019-12-04 23:01:33  [ main:244 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper5' and 'com.learn.mbg.mapper5.ViewMapper5' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:01:33  [ main:244 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper5]' package. Please check your configuration.
+2019-12-04 23:01:33  [ main:248 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper1' and 'com.learn.mbg.mapper1.ViewMapper1' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:01:33  [ main:248 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper1]' package. Please check your configuration.
+2019-12-04 23:01:33  [ main:252 ] - [ WARN ]  Skipping MapperFactoryBean with name 'gwMapper' and 'com.learn.mbg.mapper4.GwMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:01:33  [ main:253 ] - [ WARN ]  Skipping MapperFactoryBean with name 'kcMapper' and 'com.learn.mbg.mapper4.KcMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:01:33  [ main:253 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper4' and 'com.learn.mbg.mapper4.ViewMapper4' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:01:33  [ main:254 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper4]' package. Please check your configuration.
+2019-12-04 23:01:33  [ main:256 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 23:01:33  [ main:258 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 23:01:39  [ main:6317 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 23:01:41  [ main:8246 ] - [ INFO ]  Context refreshed
+2019-12-04 23:01:41  [ main:8311 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 23:01:41  [ main:8404 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 23:01:43  [ main:9483 ] - [ ERROR ]  datasource.properties (系统找不到指定的文件。)
+2019-12-04 23:09:41  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 23:09:41  [ main:7 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 23:09:41  [ main:55 ] - [ INFO ]  Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
+2019-12-04 23:09:41  [ main:207 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper5' and 'com.learn.mbg.mapper5.ViewMapper5' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:09:41  [ main:209 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper5]' package. Please check your configuration.
+2019-12-04 23:09:41  [ main:213 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper1' and 'com.learn.mbg.mapper1.ViewMapper1' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:09:41  [ main:213 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper1]' package. Please check your configuration.
+2019-12-04 23:09:41  [ main:218 ] - [ WARN ]  Skipping MapperFactoryBean with name 'gwMapper' and 'com.learn.mbg.mapper4.GwMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:09:41  [ main:219 ] - [ WARN ]  Skipping MapperFactoryBean with name 'kcMapper' and 'com.learn.mbg.mapper4.KcMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:09:41  [ main:219 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper4' and 'com.learn.mbg.mapper4.ViewMapper4' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:09:41  [ main:219 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper4]' package. Please check your configuration.
+2019-12-04 23:09:41  [ main:222 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 23:09:41  [ main:224 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 23:09:48  [ main:6531 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 23:09:49  [ main:8382 ] - [ INFO ]  Context refreshed
+2019-12-04 23:09:49  [ main:8443 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 23:09:50  [ main:8523 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 23:09:50  [ main:9429 ] - [ ERROR ]  datasource.properties (系统找不到指定的文件。)
+2019-12-04 23:13:15  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 23:13:15  [ main:8 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 23:13:15  [ main:61 ] - [ INFO ]  Finished Spring Data repository scanning in 38ms. Found 0 repository interfaces.
+2019-12-04 23:13:15  [ main:201 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper5' and 'com.learn.mbg.mapper5.ViewMapper5' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:13:15  [ main:202 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper5]' package. Please check your configuration.
+2019-12-04 23:13:15  [ main:205 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper1' and 'com.learn.mbg.mapper1.ViewMapper1' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:13:15  [ main:205 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper1]' package. Please check your configuration.
+2019-12-04 23:13:15  [ main:210 ] - [ WARN ]  Skipping MapperFactoryBean with name 'gwMapper' and 'com.learn.mbg.mapper4.GwMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:13:15  [ main:210 ] - [ WARN ]  Skipping MapperFactoryBean with name 'kcMapper' and 'com.learn.mbg.mapper4.KcMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:13:15  [ main:211 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper4' and 'com.learn.mbg.mapper4.ViewMapper4' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:13:15  [ main:211 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper4]' package. Please check your configuration.
+2019-12-04 23:13:15  [ main:213 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 23:13:15  [ main:217 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 23:13:22  [ main:6690 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 23:13:23  [ main:8562 ] - [ INFO ]  Context refreshed
+2019-12-04 23:13:24  [ main:8617 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 23:13:24  [ main:8690 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 23:13:25  [ main:9740 ] - [ ERROR ]  class path resource [database.properties] cannot be opened because it does not exist
+2019-12-04 23:13:37  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 23:13:37  [ main:8 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 23:13:37  [ main:74 ] - [ INFO ]  Finished Spring Data repository scanning in 47ms. Found 0 repository interfaces.
+2019-12-04 23:13:37  [ main:252 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper5' and 'com.learn.mbg.mapper5.ViewMapper5' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:13:37  [ main:252 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper5]' package. Please check your configuration.
+2019-12-04 23:13:37  [ main:257 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper1' and 'com.learn.mbg.mapper1.ViewMapper1' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:13:37  [ main:257 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper1]' package. Please check your configuration.
+2019-12-04 23:13:37  [ main:261 ] - [ WARN ]  Skipping MapperFactoryBean with name 'gwMapper' and 'com.learn.mbg.mapper4.GwMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:13:37  [ main:261 ] - [ WARN ]  Skipping MapperFactoryBean with name 'kcMapper' and 'com.learn.mbg.mapper4.KcMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:13:37  [ main:262 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper4' and 'com.learn.mbg.mapper4.ViewMapper4' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:13:37  [ main:262 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper4]' package. Please check your configuration.
+2019-12-04 23:13:37  [ main:264 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 23:13:37  [ main:266 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 23:13:44  [ main:6732 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 23:13:45  [ main:8528 ] - [ INFO ]  Context refreshed
+2019-12-04 23:13:45  [ main:8585 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 23:13:46  [ main:8653 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 23:13:47  [ main:9650 ] - [ INFO ]  {dataSource-1} inited
+2019-12-04 23:13:47  [ Thread-3:10102 ] - [ INFO ]  {dataSource-1} closed
+2019-12-04 23:14:26  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 23:14:26  [ main:6 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 23:14:26  [ main:56 ] - [ INFO ]  Finished Spring Data repository scanning in 35ms. Found 0 repository interfaces.
+2019-12-04 23:14:26  [ main:226 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper5' and 'com.learn.mbg.mapper5.ViewMapper5' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:14:26  [ main:227 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper5]' package. Please check your configuration.
+2019-12-04 23:14:26  [ main:230 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper1' and 'com.learn.mbg.mapper1.ViewMapper1' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:14:26  [ main:230 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper1]' package. Please check your configuration.
+2019-12-04 23:14:26  [ main:235 ] - [ WARN ]  Skipping MapperFactoryBean with name 'gwMapper' and 'com.learn.mbg.mapper4.GwMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:14:26  [ main:235 ] - [ WARN ]  Skipping MapperFactoryBean with name 'kcMapper' and 'com.learn.mbg.mapper4.KcMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:14:26  [ main:236 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper4' and 'com.learn.mbg.mapper4.ViewMapper4' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:14:26  [ main:236 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper4]' package. Please check your configuration.
+2019-12-04 23:14:26  [ main:239 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 23:14:26  [ main:242 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 23:14:33  [ main:6625 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 23:14:34  [ main:8349 ] - [ INFO ]  Context refreshed
+2019-12-04 23:14:34  [ main:8406 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 23:14:35  [ main:8486 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 23:14:36  [ main:9518 ] - [ INFO ]  {dataSource-1} inited
+2019-12-04 23:14:36  [ Thread-3:10029 ] - [ INFO ]  {dataSource-1} closed
+2019-12-04 23:19:59  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 23:19:59  [ main:7 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 23:19:59  [ main:60 ] - [ INFO ]  Finished Spring Data repository scanning in 39ms. Found 0 repository interfaces.
+2019-12-04 23:19:59  [ main:204 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper5' and 'com.learn.mbg.mapper5.ViewMapper5' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:19:59  [ main:205 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper5]' package. Please check your configuration.
+2019-12-04 23:19:59  [ main:209 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper1' and 'com.learn.mbg.mapper1.ViewMapper1' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:19:59  [ main:209 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper1]' package. Please check your configuration.
+2019-12-04 23:19:59  [ main:213 ] - [ WARN ]  Skipping MapperFactoryBean with name 'gwMapper' and 'com.learn.mbg.mapper4.GwMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:19:59  [ main:214 ] - [ WARN ]  Skipping MapperFactoryBean with name 'kcMapper' and 'com.learn.mbg.mapper4.KcMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:19:59  [ main:214 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper4' and 'com.learn.mbg.mapper4.ViewMapper4' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:19:59  [ main:214 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper4]' package. Please check your configuration.
+2019-12-04 23:19:59  [ main:216 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 23:19:59  [ main:218 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 23:20:05  [ main:5949 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 23:20:07  [ main:8006 ] - [ INFO ]  Context refreshed
+2019-12-04 23:20:07  [ main:8068 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 23:20:07  [ main:8152 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 23:20:20  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 23:20:20  [ main:8 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 23:20:20  [ main:70 ] - [ INFO ]  Finished Spring Data repository scanning in 44ms. Found 0 repository interfaces.
+2019-12-04 23:20:20  [ main:315 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper5' and 'com.learn.mbg.mapper5.ViewMapper5' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:20:20  [ main:316 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper5]' package. Please check your configuration.
+2019-12-04 23:20:20  [ main:322 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper1' and 'com.learn.mbg.mapper1.ViewMapper1' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:20:20  [ main:322 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper1]' package. Please check your configuration.
+2019-12-04 23:20:20  [ main:327 ] - [ WARN ]  Skipping MapperFactoryBean with name 'gwMapper' and 'com.learn.mbg.mapper4.GwMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:20:20  [ main:328 ] - [ WARN ]  Skipping MapperFactoryBean with name 'kcMapper' and 'com.learn.mbg.mapper4.KcMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:20:20  [ main:328 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper4' and 'com.learn.mbg.mapper4.ViewMapper4' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:20:20  [ main:328 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper4]' package. Please check your configuration.
+2019-12-04 23:20:20  [ main:331 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 23:20:20  [ main:334 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 23:20:27  [ main:7230 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 23:20:29  [ main:9245 ] - [ INFO ]  Context refreshed
+2019-12-04 23:20:29  [ main:9293 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 23:20:29  [ main:9372 ] - [ INFO ]  Scanning for api listing references
+2019-12-04 23:21:51  [ main:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-04 23:21:51  [ main:7 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-04 23:21:51  [ main:60 ] - [ INFO ]  Finished Spring Data repository scanning in 37ms. Found 0 repository interfaces.
+2019-12-04 23:21:51  [ main:231 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper5' and 'com.learn.mbg.mapper5.ViewMapper5' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:21:51  [ main:232 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper5]' package. Please check your configuration.
+2019-12-04 23:21:51  [ main:236 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper1' and 'com.learn.mbg.mapper1.ViewMapper1' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:21:51  [ main:237 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper1]' package. Please check your configuration.
+2019-12-04 23:21:51  [ main:241 ] - [ WARN ]  Skipping MapperFactoryBean with name 'gwMapper' and 'com.learn.mbg.mapper4.GwMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:21:51  [ main:242 ] - [ WARN ]  Skipping MapperFactoryBean with name 'kcMapper' and 'com.learn.mbg.mapper4.KcMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:21:51  [ main:242 ] - [ WARN ]  Skipping MapperFactoryBean with name 'viewMapper4' and 'com.learn.mbg.mapper4.ViewMapper4' mapperInterface. Bean already defined with the same name!
+2019-12-04 23:21:51  [ main:243 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper4]' package. Please check your configuration.
+2019-12-04 23:21:51  [ main:245 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper2]' package. Please check your configuration.
+2019-12-04 23:21:51  [ main:249 ] - [ WARN ]  No MyBatis mapper was found in '[com.learn.mbg.mapper3]' package. Please check your configuration.
+2019-12-04 23:21:56  [ main:5664 ] - [ WARN ]  [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-04 23:21:58  [ main:7012 ] - [ INFO ]  Context refreshed
+2019-12-04 23:21:58  [ main:7060 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-04 23:21:58  [ main:7133 ] - [ INFO ]  Scanning for api listing references

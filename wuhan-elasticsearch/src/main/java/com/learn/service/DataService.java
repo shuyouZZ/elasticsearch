@@ -1,6 +1,10 @@
 package com.learn.service;
 
-import com.learn.common.ServiceResult;
+import com.learn.common.constant.ServiceResult;
+import com.learn.model.IndexSource;
+
+import java.util.List;
+import java.util.Map;
 
 /**
  * @author dshuyou
@@ -8,5 +12,9 @@ import com.learn.common.ServiceResult;
  */
 public interface DataService {
 
-    ServiceResult findOne(String table, String primaryKey, String id);
+    Map<String, Object> findOne(String database, String table, String primaryKey, String id);
+
+    List<Map<String, Object>> select(String database, String table);
+
+    List<IndexSource> selectIndex(String database, String table);
 }

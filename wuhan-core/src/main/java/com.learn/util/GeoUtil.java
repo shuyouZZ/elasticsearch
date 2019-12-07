@@ -5,8 +5,8 @@ import com.vividsolutions.jts.io.ParseException;
 import com.vividsolutions.jts.io.WKTReader;
 import com.vividsolutions.jts.io.WKTWriter;
 import org.geotools.geojson.geom.GeometryJSON;
-
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.*;
 
@@ -15,7 +15,7 @@ import java.io.*;
  * @author dshuyou
  */
 public class GeoUtil {
-	private static Logger logger = Logger.getLogger(GeoUtil.class);
+	private static final Logger logger = LoggerFactory.getLogger(GeoUtil.class);
 
 	public static Geometry geojson2Geometry(String geoJson) {
 		GeometryJSON json = new GeometryJSON();

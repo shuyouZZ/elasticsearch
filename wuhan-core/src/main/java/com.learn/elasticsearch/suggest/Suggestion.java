@@ -1,6 +1,5 @@
 package com.learn.elasticsearch.suggest;
 
-import org.apache.log4j.Logger;
 import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.RequestOptions;
@@ -9,10 +8,11 @@ import org.elasticsearch.search.builder.SearchSourceBuilder;
 import org.elasticsearch.search.suggest.Suggest;
 import org.elasticsearch.search.suggest.SuggestBuilder;
 import org.elasticsearch.search.suggest.completion.CompletionSuggestionBuilder;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.LinkedHashSet;
 import java.util.List;
 
@@ -21,7 +21,7 @@ import java.util.List;
  * @date 2019/9/24 14:47
  */
 public class Suggestion {
-	private Logger logger = Logger.getLogger(this.getClass());
+	private static final Logger logger = LoggerFactory.getLogger(Suggestion.class);
 
 	private static final String FULL_PINYIN_SUGGEST = "FULL_PINYIN";
 	private static final String PREFIX_PINYIN_SUGGEST = "PREFIX_PINYIN";
@@ -102,6 +102,6 @@ public class Suggestion {
 	}
 
 	private static boolean checkIsChinese(String keyword){
-		return keyword.getBytes().length != keyword.length();
+		return keyword.matches("[\u4e00-\u9fa5]");
 	}
 }

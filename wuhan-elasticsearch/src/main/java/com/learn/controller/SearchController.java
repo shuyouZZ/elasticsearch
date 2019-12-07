@@ -1,14 +1,12 @@
 package com.learn.controller;
 
-import com.learn.common.ServiceResult;
+import com.learn.common.constant.ServiceResult;
 import com.learn.component.HotWord;
 import com.learn.elasticsearch.query.condition.BoolCondition;
 import com.learn.elasticsearch.query.condition.FullTextCondition;
 import com.learn.elasticsearch.query.condition.GeoCondition;
 import com.learn.elasticsearch.query.condition.TermsLevelCondition;
 import com.learn.service.ElasticsearchService;
-import io.swagger.annotations.ApiImplicitParam;
-import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.locationtech.jts.geom.Envelope;
 import org.springframework.beans.factory.annotation.Autowired;

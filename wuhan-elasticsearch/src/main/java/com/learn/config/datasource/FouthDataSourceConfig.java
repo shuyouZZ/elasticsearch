@@ -22,19 +22,19 @@ import javax.sql.DataSource;
 public class FouthDataSourceConfig {
     @Bean(name = "datasource4")
     @ConfigurationProperties("spring.datasource.database4")
-    public DataSource dataSource2(){
+    public DataSource dataSource4(){
         return new DruidDataSource();
     }
 
 
     @Bean(name="tm4")
-    DataSourceTransactionManager tm2(@Qualifier("datasource4") DataSource datasource) {
+    DataSourceTransactionManager tm4(@Qualifier("datasource4") DataSource datasource) {
         DataSourceTransactionManager txm  = new DataSourceTransactionManager(datasource);
         return txm;
     }
 
     @Bean(name = "sqlsessionFactory04")
-    public SqlSessionFactory sqlSessionFactory2(@Qualifier("datasource4") DataSource dataSource)
+    public SqlSessionFactory sqlSessionFactory4(@Qualifier("datasource4") DataSource dataSource)
             throws Exception {
         SqlSessionFactoryBean sessionFactoryBean = new SqlSessionFactoryBean();
         sessionFactoryBean.setDataSource(dataSource);
@@ -46,7 +46,7 @@ public class FouthDataSourceConfig {
     }
 
     @Bean(name = "datasourceTemplate4")
-    public SqlSessionTemplate sqlSessionTemplate2(
+    public SqlSessionTemplate sqlSessionTemplate4(
             @Qualifier("sqlsessionFactory04") SqlSessionFactory sessionFactory) throws Exception {
         return new SqlSessionTemplate(sessionFactory);
     }

@@ -1,0 +1,32 @@
+{
+  "properties": {
+    "ids": {
+      "type": "integer"
+    },
+    "address": {
+      "type": "text",
+      "analyzer": "pinyin_analyzer"
+    },
+    "content": {
+      "type": "text",
+      "analyzer": "pinyin_analyzer"
+    },
+    "date": {
+      "type": "text",
+      "analyzer": "pinyin_analyzer"
+    },
+    "id": {
+      "type": "integer"
+    },
+    "liked": {
+      "type": "integer"
+    },
+    "location": {
+      "type": "geo_point"
+    },
+    "username": {
+      "type": "text",
+      "analyzer": "pinyin_analyzer"
+    }
+  }
+}

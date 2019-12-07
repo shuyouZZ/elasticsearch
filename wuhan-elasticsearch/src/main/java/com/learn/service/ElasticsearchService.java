@@ -1,6 +1,6 @@
 package com.learn.service;
 
-import com.learn.common.ServiceResult;
+import com.learn.common.constant.ServiceResult;
 import com.learn.elasticsearch.model.SourceEntity;
 import com.learn.elasticsearch.query.condition.*;
 

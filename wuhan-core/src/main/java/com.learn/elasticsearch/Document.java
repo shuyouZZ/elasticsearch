@@ -1,7 +1,6 @@
 package com.learn.elasticsearch;
 
 import com.learn.elasticsearch.model.SourceEntity;
-import org.apache.log4j.Logger;
 import org.elasticsearch.action.ActionListener;
 import org.elasticsearch.action.bulk.BackoffPolicy;
 import org.elasticsearch.action.bulk.BulkProcessor;
@@ -25,6 +24,8 @@ import org.elasticsearch.common.xcontent.XContentBuilder;
 import org.elasticsearch.common.xcontent.XContentType;
 import org.elasticsearch.rest.RestStatus;
 import org.elasticsearch.search.fetch.subphase.FetchSourceContext;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.util.*;
@@ -36,7 +37,7 @@ import java.util.concurrent.TimeUnit;
  */
 
 public class Document {
-	private Logger logger = Logger.getLogger(Document.class);
+	private static final Logger logger = LoggerFactory.getLogger(Document.class);
 	private static final int COUNT = 10000;
 	private static final int BULK_SIZE = 20;
 	private static final int FLUSH_INTERVAL = 5;
