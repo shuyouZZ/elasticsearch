@@ -9,31 +9,19 @@ server:
 
 spring:
   datasource:
-    database1:
-      url: jdbc:mysql://localhost:3306/dshuyou?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
-      username: root
-      password: 123456
-      driverClassName: com.mysql.jdbc.Driver
-    database2:
+    #    druid:
+    #      db-type: com.alibaba.druid.pool.DruidDataSource
+    #      driver-class-name: oracle.jdbc.OracleDriver
+    #      url: jdbc:oracle:thin:@172.16.4.5:1521/xz2000.nrcloud.hb
+    #      username: xz2017
+    #      password: xz2017
+    druid:
+      db-type: com.alibaba.druid.pool.DruidDataSource
+      driver-class-name: com.mysql.jdbc.Driver
       url: jdbc:mysql://localhost:3306/mall?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
       username: root
       password: 123456
-      driverClassName: com.mysql.jdbc.Driver
-    database3:
-      url: jdbc:oracle:thin:@172.16.4.130:1521/orclpdb
-      username: backend
-      password: backend
-      driverClassName: oracle.jdbc.OracleDriver
-    database4:
-      url: jdbc:oracle:thin:@172.16.10.37:1521/gtdb
-      username: chaxun
-      password: Dzzw#yzz1203_cx
-      driverClassName: oracle.jdbc.OracleDriver
-    database5:
-      url: jdbc:oracle:thin:@172.16.4.5:1521/xz2000.nrcloud.hb
-      username: xz2017
-      password: xz2017
-      driverClassName: oracle.jdbc.OracleDriver
+
   rabbitmq:
     host: localhost
     port: 5672

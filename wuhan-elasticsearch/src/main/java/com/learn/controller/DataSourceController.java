@@ -2,11 +2,8 @@ package com.learn.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import com.learn.common.constant.ServiceResult;
-import com.learn.component.DataSourceHandler;
-import com.learn.config.datasource.FirstDataSourceConfig;
+import com.learn.component.datasource.dynamic.DynamicDataSource;
 import com.learn.elasticsearch.model.SourceEntity;
-import com.learn.mbg.mapper1.ViewMapper1;
-import com.learn.mbg.mapper4.ViewMapper4;
 import com.learn.model.IndexSource;
 import com.learn.service.DataService;
 import com.learn.service.ElasticsearchService;
@@ -16,17 +13,13 @@ import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-import javax.annotation.Resource;
-import java.io.FileReader;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.Properties;
+
 
 /**
  * @author dshuyou
@@ -129,4 +122,10 @@ public class DataSourceController {
         }
     }
 
+    @ApiOperation("获取datasource")
+    @RequestMapping(value = "/getdatasource",method = RequestMethod.GET)
+    @ResponseBody
+    public ServiceResult getDatasource(){
+        return ServiceResult.success(DynamicDataSource.getDataSource());
+    }
 }
