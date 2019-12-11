@@ -57,8 +57,8 @@ spring:
     repositories:
       enabled: true
     cluster-nodes:
-      172.16.4.136:9200
-      #120.79.149.109:9200
+      #172.16.4.136:9200
+      120.79.149.109:9200
 
   thymeleaf:
     prefix: classpath:/templates/
@@ -93,10 +93,12 @@ jwt:
 elasticsearch:
   ip:
     #127.0.0.1:9200,127.0.0.2:9200,127.0.0.3:9200,127.0.0.4:9200,127.0.0.5:9200,127.0.0.6:9200
-    172.16.4.136:9200
-    #120.79.149.109:9200
+    #172.16.4.136:9200
+    120.79.149.109:9200
 
 mybatis:
   mapper-locations:
   - classpath:wuhan/*.xml
   - classpath*:wuhan/mapper3/*.xml
+databaseAndTable:
+  database1:comments;database2:ums_member

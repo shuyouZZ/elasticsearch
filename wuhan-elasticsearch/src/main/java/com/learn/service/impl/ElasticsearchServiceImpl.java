@@ -1,5 +1,6 @@
 package com.learn.service.impl;
 
+import com.learn.common.constant.RedisConstant;
 import com.learn.common.constant.ServiceResult;
 import com.learn.elasticsearch.Document;
 import com.learn.elasticsearch.Indice;
@@ -18,6 +19,7 @@ import org.elasticsearch.client.RestHighLevelClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
@@ -304,6 +306,38 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 	}
 
 	@Override
+	public ServiceResult bulkUpdate(String index, List<SourceEntity> source) {
+		ServiceResult result = isIndexExist(index);
+		if(! result.equals(ServiceResult.isExist())){
+			return result;
+		}
+		try {
+			long count = document.bulkUpdate(index, source);
+			logger.info("Bulk Update Success {}", index);
+			return ServiceResult.success(count);
+		} catch (IOException e) {
+			logger.error("Internal Server Error");
+			return ServiceResult.internalServerError();
+		}
+	}
+
+	@Override
+	public ServiceResult bulkDelete(String index, List<SourceEntity> source) {
+		ServiceResult result = isIndexExist(index);
+		if(! result.equals(ServiceResult.isExist())){
+			return result;
+		}
+		try {
+			long count = document.bulkDelete(index, source);
+			logger.info("Bulk Delete Success {}", index);
+			return ServiceResult.success(count);
+		} catch (IOException e) {
+			logger.error("Internal Server Error");
+			return ServiceResult.internalServerError();
+		}
+	}
+
+	@Override
 	public ServiceResult asycBulkIndex(String index, List<SourceEntity> source) {
 		ServiceResult result = isIndexExist(index);
 		if(! result.equals(ServiceResult.isExist())){
@@ -337,38 +371,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 	}
 
 	@Override
-	public ServiceResult bulkUpdate(String index, List<SourceEntity> source) {
-		ServiceResult result = isIndexExist(index);
-		if(! result.equals(ServiceResult.isExist())){
-			return result;
-		}
-		try {
-			long count = document.bulkUpdate(index, source);
-			logger.info("Bulk Update Success {}", index);
-			return ServiceResult.success(count);
-		} catch (IOException e) {
-			logger.error("Internal Server Error");
-			return ServiceResult.internalServerError();
-		}
-	}
-
-	@Override
-	public ServiceResult bulkDelete(String index, List<SourceEntity> source) {
-		ServiceResult result = isIndexExist(index);
-		if(! result.equals(ServiceResult.isExist())){
-			return result;
-		}
-		try {
-			long count = document.bulkDelete(index, source);
-			logger.info("Bulk Delete Success {}", index);
-			return ServiceResult.success(count);
-		} catch (IOException e) {
-			logger.error("Internal Server Error");
-			return ServiceResult.internalServerError();
-		}
-	}
-
-	@Override
+	@Cacheable(value = RedisConstant.FULLTEXT_QUERY, keyGenerator = "myKeyGenerator")
 	public ServiceResult fulltextQuery(String index, String queryType, FullTextCondition condition) {
 		ServiceResult result = isIndexExist(index.split(","));
 		if(! result.equals(ServiceResult.isExist())){
@@ -379,6 +382,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 	}
 
 	@Override
+	@Cacheable(value = RedisConstant.TERMS_QUERY, keyGenerator = "myKeyGenerator")
 	public ServiceResult termsQuery(String index, String queryType, TermsLevelCondition condition) {
 		ServiceResult result = isIndexExist(index.split(","));
 		if(! result.equals(ServiceResult.isExist())){
@@ -389,6 +393,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 	}
 
 	@Override
+	@Cacheable(value = RedisConstant.GEO_QUERY, keyGenerator = "myKeyGenerator")
 	public ServiceResult geoQuery(String index, String queryType, GeoCondition condition) {
 		ServiceResult result = isIndexExist(index.split(","));
 		if(! result.equals(ServiceResult.isExist())){
@@ -399,6 +404,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 	}
 
 	@Override
+	@Cacheable(value = RedisConstant.BOOL_QUERY, keyGenerator = "myKeyGenerator")
 	public ServiceResult boolQuery(String index, BoolCondition conditions) {
 		ServiceResult result = isIndexExist(index.split(","));
 		if(! result.equals(ServiceResult.isExist())){
@@ -409,6 +415,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 	}
 
 	@Override
+	@Cacheable(value = RedisConstant.FULLTEXT_QUERY, keyGenerator = "myKeyGenerator")
 	public ServiceResult queryString(String index, FullTextCondition condition) {
 		ServiceResult result = isIndexExist(index.split(","));
 		if(! result.equals(ServiceResult.isExist())){
@@ -419,6 +426,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 	}
 
 	@Override
+	@Cacheable(value = RedisConstant.FULLTEXT_QUERY, keyGenerator = "myKeyGenerator")
 	public ServiceResult fulltextQuery(String index, String queryType, FullTextCondition condition, int pageNum, int pageSize) {
 		ServiceResult result = isIndexExist(index.split(","));
 		if(! result.equals(ServiceResult.isExist())){
@@ -432,6 +440,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 	}
 
 	@Override
+	@Cacheable(value = RedisConstant.TERMS_QUERY, keyGenerator = "myKeyGenerator")
 	public ServiceResult termsQuery(String index, String queryType, TermsLevelCondition condition, int pageNum, int pageSize) {
 		ServiceResult result = isIndexExist(index.split(","));
 		if(! result.equals(ServiceResult.isExist())){
@@ -445,6 +454,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 	}
 
 	@Override
+	@Cacheable(value = RedisConstant.GEO_QUERY, keyGenerator = "myKeyGenerator")
 	public ServiceResult geoQuery(String index, String queryType, GeoCondition condition, int pageNum, int pageSize) {
 		ServiceResult result = isIndexExist(index.split(","));
 		if(! result.equals(ServiceResult.isExist())){
@@ -458,6 +468,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 	}
 
 	@Override
+	@Cacheable(value = RedisConstant.BOOL_QUERY, keyGenerator = "myKeyGenerator")
 	public ServiceResult boolQuery(String index, BoolCondition conditions, int pageNum, int pageSize) {
 		ServiceResult result = isIndexExist(index.split(","));
 		if(! result.equals(ServiceResult.isExist())){
@@ -490,6 +501,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 	}
 
 	@Override
+	@Cacheable(value = RedisConstant.FULLTEXT_QUERY, keyGenerator = "myKeyGenerator")
 	public ServiceResult queryString(String index, FullTextCondition condition, int pageNum, int pageSize) {
 		ServiceResult result = isIndexExist(index.split(","));
 		if(! result.equals(ServiceResult.isExist())){

@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Arrays;
 
 /**
- * Full Text Query Condition
+ * Full text query condition
  * @date 2019/8/21 10:05
  * @author dshuyou
  */

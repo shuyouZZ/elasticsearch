@@ -1,10 +1,11 @@
 package com.learn.component.advice;
 
+import com.learn.common.constant.RedisConstant;
 import com.learn.elasticsearch.query.condition.BaseCondition;
 import com.learn.elasticsearch.query.condition.BoolCondition;
 import com.learn.elasticsearch.query.condition.FullTextCondition;
 import com.learn.elasticsearch.query.condition.TermsLevelCondition;
-import com.learn.service.HotWordService;
+import com.learn.service.RedisService;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -18,9 +19,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class HotWordAspect {
 	private Logger logger = LoggerFactory.getLogger(this.getClass());
+
 	@Autowired
-	@Qualifier("hotWordServiceImpl")
-	private HotWordService hotWordService;
+	@Qualifier("RedisServiceImpl")
+	private RedisService hotWordService;
 
 	@Around("@annotation(com.learn.component.HotWord)")
 	public Object around(ProceedingJoinPoint joinPoint) throws Throwable {
@@ -37,6 +39,7 @@ public class HotWordAspect {
 			if(condition.getValue() != null){
 				logger.info("Start increment hot words score to redis:"+ "{key:"+ "hotword" + ",value:" + keyword + "}");
 				hotWordService.increment("hotword", keyword, 1);
+				hotWordService.expire(keyword, RedisConstant.EXPIRE_TIME);
 				logger.info("completed increment");
 			}
 		}else if(object instanceof FullTextCondition){
@@ -45,6 +48,7 @@ public class HotWordAspect {
 			if(condition.getValue() != null){
 				logger.info("Start increment hot words score to redis:"+ "{key:"+ "hotword" + ",value:" + keyword + "}");
 				hotWordService.increment("hotword", keyword, 1);
+				hotWordService.expire(keyword, RedisConstant.EXPIRE_TIME);
 				logger.info("completed increment");
 			}
 		}else if(object instanceof BoolCondition){
@@ -57,6 +61,7 @@ public class HotWordAspect {
 			String keyword = String.valueOf(object);
 			logger.info("Start increment hot words score to redis:"+ "{key:"+ "hotword" + ",value:" + keyword + "}");
 			hotWordService.increment("hotword", keyword, 1);
+			hotWordService.expire(keyword, RedisConstant.EXPIRE_TIME);
 			logger.info("completed increment");
 		}
 	}

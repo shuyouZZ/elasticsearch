@@ -15,7 +15,6 @@ public class ServiceResult<T> implements ResultCode {
 	private T result;
 
 	public ServiceResult(){
-
 	}
 
 	public ServiceResult(int code) {

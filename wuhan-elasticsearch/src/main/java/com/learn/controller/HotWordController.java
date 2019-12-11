@@ -2,7 +2,7 @@ package com.learn.controller;
 
 import com.learn.common.constant.ServiceResult;
 import com.learn.component.HotWord;
-import com.learn.service.HotWordService;
+import com.learn.service.RedisService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -20,8 +20,8 @@ import java.util.Set;
 @CrossOrigin
 public class HotWordController {
 	@Autowired
-	@Qualifier("hotWordServiceImpl")
-	private HotWordService hotWordService;
+	@Qualifier("RedisServiceImpl")
+	private RedisService hotWordService;
 
 	@ApiOperation("导入热词")
 	@RequestMapping(value = "/set",method = RequestMethod.GET)
@@ -29,7 +29,7 @@ public class HotWordController {
 	public ServiceResult setHotWord(@RequestParam(defaultValue = "hotword") String key,
 								   @RequestParam String value,
 								   @RequestParam(defaultValue = "1") long score){
-		Boolean result = hotWordService.set(key,value,score);
+		Boolean result = hotWordService.zset(key,value,score);
 		return result.equals(true) ?
 				ServiceResult.success(key) : new ServiceResult(200,"this hotword is exist",key);
 	}

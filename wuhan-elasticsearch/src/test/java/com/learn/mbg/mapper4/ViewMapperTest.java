@@ -97,40 +97,4 @@ public class ViewMapperTest {
         Map<String,Object> list =  viewMapper1.selectWithId(map);
         System.out.println(list);
     }
-
-    @Autowired
-    @Qualifier("sqlsessionFactory01")
-    private SqlSessionFactory sqlsessionFactory;
-    @Test
-    public void selectOne() throws Exception {
-        String table = "comments";
-        String pk = "comment_id";
-        String id = "11";
-        String database = "datasource1";
-
-        SqlSession session = sqlsessionFactory.openSession();
-
-        ViewMapper1 viewMapper1 = session.getMapper(ViewMapper1.class);
-        System.out.println(viewMapper1.findOne(table,id));
-
-
-        /*try {
-            Class c = Class.forName(getClass(database));
-            Object obj = c.newInstance();
-            DataService dataService = (DataService) DataSourceHandler.factory(obj);
-            dataService.findOne(table,pk,id);
-        } catch (IOException | ClassNotFoundException | InstantiationException | IllegalAccessException e) {
-            e.printStackTrace();
-        }*/
-    }
-
-    private static String getClass(String database) throws IOException {
-        Properties properties=new Properties();
-        InputStream stream = ViewMapperTest.class
-                .getClassLoader()
-                .getResourceAsStream("datasource.properties");
-        BufferedReader br = new BufferedReader(new InputStreamReader(stream, "UTF-8"));
-        properties.load(br);
-        return properties.getProperty(database);
-    }
 }

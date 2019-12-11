@@ -6,9 +6,11 @@ import java.util.Set;
  * @author dshuyou
  * @date 2019/10/21 16:38
  */
-public interface HotWordService {
+public interface RedisService {
 
-	Boolean set(String key, String value, double score);
+	Long set(String key, String... value);
+
+	Boolean zset(String key, String value, double score);
 
 	Boolean hasKey(String key);
 

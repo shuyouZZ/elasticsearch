@@ -52,10 +52,10 @@
             });
         }
         function Select() {
-            var data = { "pageNumber": 10, "pageIndex": 0 };
+            var data = { "database": "database1","table": "comments", "pk": "comment_id","id": "11" };
             $.ajax({
                 type: "GET",
-                url: "http://localhost:8080/elastic/query/mysql?",
+                url: "http://localhost:8080/elastic/data/selectone?",
                 contentType: "application/json",
                 data: data,
                 success: function (msg) {

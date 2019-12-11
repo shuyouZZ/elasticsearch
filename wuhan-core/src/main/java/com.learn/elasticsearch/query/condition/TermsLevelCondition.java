@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Arrays;
 
 /**
- * Terms Level Query Condition
+ * Terms level query condition
  * @date 2019/8/21 10:06
  * @author dshuyou
  */

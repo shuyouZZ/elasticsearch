@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Bool Query Condition
+ * Bool query condition
  * @author dshuyou
  * @date 2019/9/17 16:24
  */

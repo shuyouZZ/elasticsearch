@@ -1,5 +1,6 @@
 package com.learn.service.impl;
 
+import com.learn.common.constant.ServiceResult;
 import com.learn.mbg.mapper1.ViewMapper1;
 import com.learn.service.DataService;
 import org.junit.Test;
@@ -32,22 +33,11 @@ public class DataServiceImplTest {
     public void findOne() {
         String table = "comments";
         String pk = "comment_id";
-        String id = "11";
-        String database = "datasource1";
+        String id = "12";
+        String database = "database1";
 
-        Map<String,Object> res = dataService.findOne(database,table,pk,id);
-        System.out.println(res);
-    }
-
-    @Test
-    public void select() {
-        BeanDefinitionRegistry reg = new DefaultListableBeanFactory();
-        PropertiesBeanDefinitionReader reader = new PropertiesBeanDefinitionReader(reg);
-        reader.loadBeanDefinitions(new ClassPathResource("mapper.properties"));
-        BeanFactory factory = (BeanFactory)reg;
-        ViewMapper1 viewMapper1 = (ViewMapper1) factory.getBean("viewMapper1");
-        viewMapper1.select("comments");
-
+        ServiceResult res = dataService.findOne(database,table,pk,id);
+        System.out.println(res.getResult());
     }
 
     @Test

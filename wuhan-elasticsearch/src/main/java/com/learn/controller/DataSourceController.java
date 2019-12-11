@@ -7,12 +7,15 @@ import com.learn.elasticsearch.model.SourceEntity;
 import com.learn.model.IndexSource;
 import com.learn.service.DataService;
 import com.learn.service.ElasticsearchService;
+import com.learn.service.RedisService;
+import com.learn.util.MD5Utils;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -34,6 +37,8 @@ public class DataSourceController {
     private ElasticsearchService elasticsearchService;
     @Autowired
     private DataService dataService;
+    @Autowired
+    private RedisService redisService;
 
     @ApiOperation("全量索引")
     @RequestMapping(value = "/bulkindex",method = RequestMethod.GET)
@@ -45,9 +50,10 @@ public class DataSourceController {
                                    @RequestParam String index,
                                    @RequestParam String table,
                                    @RequestParam String idColumn){
-
-
         List<Map<String, Object>> list = dataService.select(database,table);
+        if(list != null){
+            redisService.set(database,table);
+        }
         if(list == null || list.isEmpty()){
             return ServiceResult.notContent();
         }
@@ -70,6 +76,9 @@ public class DataSourceController {
                                     @RequestParam String index,
                                     @RequestParam String table){
         List<IndexSource> list = dataService.selectIndex(database,table);
+        if(list != null){
+            redisService.set(database,table);
+        }
         if(list == null || list.isEmpty()){
             return ServiceResult.notContent();
         }
@@ -94,6 +103,9 @@ public class DataSourceController {
                                    @RequestParam String table,
                                    @RequestParam String idColumn){
         List<Map<String, Object>> list = dataService.select(database,table);
+        if(list != null){
+            redisService.set(database,table);
+        }
         if(list == null || list.isEmpty()){
             return ServiceResult.notContent();
         }
@@ -114,12 +126,16 @@ public class DataSourceController {
                                  @RequestParam String table,
                                  @RequestParam String pk,
                                  @RequestParam String id){
-        Map<String,Object> res = dataService.findOne(database,table,pk,id);
-        if(res == null || res.isEmpty()){
-            return ServiceResult.notContent();
-        }else {
-            return ServiceResult.success(res);
-        }
+        return dataService.findOne(database,table,pk,id);
+    }
+
+    @ApiOperation("点击查询")
+    @RequestMapping(value = "/selectone1",method = RequestMethod.GET)
+    @ResponseBody
+    public ServiceResult findOne1(@RequestParam String table,
+                                  @RequestParam String pk,
+                                  @RequestParam String id){
+        return dataService.findOne(table,pk,id);
     }
 
     @ApiOperation("获取datasource")
@@ -127,5 +143,15 @@ public class DataSourceController {
     @ResponseBody
     public ServiceResult getDatasource(){
         return ServiceResult.success(DynamicDataSource.getDataSource());
+    }
+
+    @ApiOperation("getObjectByBloom")
+    @RequestMapping(value = "/getObjectByBloom",method = RequestMethod.GET)
+    @ResponseBody
+    public ServiceResult getObjectByBloom(@RequestParam String database,
+                                          @RequestParam String table,
+                                          @RequestParam String pk,
+                                          @RequestParam String id){
+        return ServiceResult.success(dataService.getObjectByBloom(database,table,pk,id));
     }
 }

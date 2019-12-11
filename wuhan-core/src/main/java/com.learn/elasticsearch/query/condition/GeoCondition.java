@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * Geometry Query Condition
+ * Geometry query condition
  * @date 2019/8/21 10:06
  * @author dshuyou
  */
