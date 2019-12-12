@@ -1,6 +1,8 @@
 package com.learn.controller;
 
 import com.alibaba.fastjson.JSONObject;
+import com.learn.common.constant.DatabaseConstant;
+import com.learn.common.constant.RedisConstant;
 import com.learn.common.constant.ServiceResult;
 import com.learn.component.datasource.dynamic.DynamicDataSource;
 import com.learn.elasticsearch.model.SourceEntity;
@@ -43,16 +45,17 @@ public class DataSourceController {
     @ApiOperation("全量索引")
     @RequestMapping(value = "/bulkindex",method = RequestMethod.GET)
     @ResponseBody
-    @ApiImplicitParams({@ApiImplicitParam(name = "index",value = "索引名称",required = true,dataType = "String",paramType = "query"),
+    @ApiImplicitParams({@ApiImplicitParam(name = "database",value = "数据库",required = true,dataType = "String",paramType = "query"),
+            @ApiImplicitParam(name = "index",value = "索引名称",required = true,dataType = "String",paramType = "query"),
             @ApiImplicitParam(name = "table",value = "元数据表名称",required = true,dataType = "String",paramType = "query"),
-            @ApiImplicitParam(name = "idColumn",value = "主键",required = true,dataType = "String",paramType = "query")})
+            @ApiImplicitParam(name = "pk",value = "主键",required = true,dataType = "String",paramType = "query")})
     public ServiceResult bulkIndex(@RequestParam String database,
                                    @RequestParam String index,
                                    @RequestParam String table,
-                                   @RequestParam String idColumn){
+                                   @RequestParam String pk){
         List<Map<String, Object>> list = dataService.select(database,table);
         if(list != null){
-            redisService.set(database,table);
+            redisService.hashPut(RedisConstant.DATABASE_TABLE,table,database);
         }
         if(list == null || list.isEmpty()){
             return ServiceResult.notContent();
@@ -61,7 +64,7 @@ public class DataSourceController {
         for (Map<String, Object> r : list){
             SourceEntity sourceEntity = new SourceEntity();
             sourceEntity.setSource(JSONObject.toJSONString(r));
-            sourceEntity.setId(String.valueOf(r.get(idColumn)));
+            sourceEntity.setId(String.valueOf(r.get(pk)));
             bulk.add(sourceEntity);
         }
         return elasticsearchService.bulkIndex(index,bulk);
@@ -70,14 +73,15 @@ public class DataSourceController {
     @ApiOperation("全量索引1")
     @RequestMapping(value = "/bulkindex1",method = RequestMethod.GET)
     @ResponseBody
-    @ApiImplicitParams({@ApiImplicitParam(name = "index",value = "索引名称",required = true,dataType = "String",paramType = "query"),
+    @ApiImplicitParams({@ApiImplicitParam(name = "database",value = "数据库",required = true,dataType = "String",paramType = "query"),
+            @ApiImplicitParam(name = "index",value = "索引名称",required = true,dataType = "String",paramType = "query"),
             @ApiImplicitParam(name = "table",value = "元数据表名称",required = true,dataType = "String",paramType = "query")})
     public ServiceResult bulkIndex1(@RequestParam String database,
                                     @RequestParam String index,
                                     @RequestParam String table){
         List<IndexSource> list = dataService.selectIndex(database,table);
         if(list != null){
-            redisService.set(database,table);
+            redisService.hashPut(RedisConstant.DATABASE_TABLE,table,database);
         }
         if(list == null || list.isEmpty()){
             return ServiceResult.notContent();
@@ -95,16 +99,17 @@ public class DataSourceController {
     @ApiOperation("全量异步索引")
     @RequestMapping(value = "/asycindex",method = RequestMethod.GET)
     @ResponseBody
-    @ApiImplicitParams({@ApiImplicitParam(name = "index",value = "索引名称",required = true,dataType = "String",paramType = "query"),
+    @ApiImplicitParams({@ApiImplicitParam(name = "database",value = "数据库",required = true,dataType = "String",paramType = "query"),
+            @ApiImplicitParam(name = "index",value = "索引名称",required = true,dataType = "String",paramType = "query"),
             @ApiImplicitParam(name = "table",value = "元数据表名称",required = true,dataType = "String",paramType = "query"),
-            @ApiImplicitParam(name = "idColumn",value = "主键",required = true,dataType = "String",paramType = "query")})
+            @ApiImplicitParam(name = "pk",value = "主键名称",required = true,dataType = "String",paramType = "query")})
     public ServiceResult asycIndex(@RequestParam String database,
                                    @RequestParam String index,
                                    @RequestParam String table,
-                                   @RequestParam String idColumn){
+                                   @RequestParam String pk){
         List<Map<String, Object>> list = dataService.select(database,table);
         if(list != null){
-            redisService.set(database,table);
+            redisService.hashPut(RedisConstant.DATABASE_TABLE,table,database);
         }
         if(list == null || list.isEmpty()){
             return ServiceResult.notContent();
@@ -113,7 +118,7 @@ public class DataSourceController {
         for (Map<String, Object> r : list){
             SourceEntity sourceEntity = new SourceEntity();
             sourceEntity.setSource(JSONObject.toJSONString(r));
-            sourceEntity.setId(String.valueOf(r.get(idColumn)));
+            sourceEntity.setId(String.valueOf(r.get(pk)));
             bulk.add(sourceEntity);
         }
         return elasticsearchService.asycBulkIndex(index,bulk);
@@ -122,6 +127,10 @@ public class DataSourceController {
     @ApiOperation("点击查询")
     @RequestMapping(value = "/selectone",method = RequestMethod.GET)
     @ResponseBody
+    @ApiImplicitParams({@ApiImplicitParam(name = "database",value = "数据库",required = true,dataType = "String",paramType = "query"),
+            @ApiImplicitParam(name = "table",value = "数据表",required = true,dataType = "String",paramType = "query"),
+            @ApiImplicitParam(name = "pk",value = "主键名称",required = true,dataType = "String",paramType = "query"),
+            @ApiImplicitParam(name = "id",value = "主键",required = true,dataType = "String",paramType = "query")})
     public ServiceResult findOne(@RequestParam String database,
                                  @RequestParam String table,
                                  @RequestParam String pk,
@@ -129,9 +138,12 @@ public class DataSourceController {
         return dataService.findOne(database,table,pk,id);
     }
 
-    @ApiOperation("点击查询")
+    @ApiOperation("点击查询1")
     @RequestMapping(value = "/selectone1",method = RequestMethod.GET)
     @ResponseBody
+    @ApiImplicitParams({@ApiImplicitParam(name = "table",value = "数据表",required = true,dataType = "String",paramType = "query"),
+            @ApiImplicitParam(name = "pk",value = "主键名称",required = true,dataType = "String",paramType = "query"),
+            @ApiImplicitParam(name = "id",value = "主键",required = true,dataType = "String",paramType = "query")})
     public ServiceResult findOne1(@RequestParam String table,
                                   @RequestParam String pk,
                                   @RequestParam String id){
@@ -148,10 +160,26 @@ public class DataSourceController {
     @ApiOperation("getObjectByBloom")
     @RequestMapping(value = "/getObjectByBloom",method = RequestMethod.GET)
     @ResponseBody
+    @ApiImplicitParams({@ApiImplicitParam(name = "database",value = "数据库",required = true,dataType = "String",paramType = "query"),
+            @ApiImplicitParam(name = "table",value = "数据表",required = true,dataType = "String",paramType = "query"),
+            @ApiImplicitParam(name = "pk",value = "主键名称",required = true,dataType = "String",paramType = "query"),
+            @ApiImplicitParam(name = "id",value = "主键",required = true,dataType = "String",paramType = "query")})
     public ServiceResult getObjectByBloom(@RequestParam String database,
                                           @RequestParam String table,
                                           @RequestParam String pk,
                                           @RequestParam String id){
         return ServiceResult.success(dataService.getObjectByBloom(database,table,pk,id));
+    }
+
+    @ApiOperation("getObjectByBloom1")
+    @RequestMapping(value = "/getObjectByBloom1",method = RequestMethod.GET)
+    @ResponseBody
+    @ApiImplicitParams({@ApiImplicitParam(name = "table",value = "数据表",required = true,dataType = "String",paramType = "query"),
+            @ApiImplicitParam(name = "pk",value = "主键名称",required = true,dataType = "String",paramType = "query"),
+            @ApiImplicitParam(name = "id",value = "主键",required = true,dataType = "String",paramType = "query")})
+    public ServiceResult getObjectByBloom1(@RequestParam String table,
+                                           @RequestParam String pk,
+                                           @RequestParam String id){
+        return dataService.getObjectByBloom(table,pk,id);
     }
 }

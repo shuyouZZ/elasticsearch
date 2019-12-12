@@ -7,6 +7,7 @@ import java.util.Set;
  * @date 2019/10/21 16:38
  */
 public interface RedisService {
+	void hashPut(String key, String hashkey, String value);
 
 	Long set(String key, String... value);
 

@@ -19,5 +19,7 @@ public interface DataService {
 
     List<IndexSource> selectIndex(String database, String table);
 
+    ServiceResult getObjectByBloom(String table, String primaryKey, String id);
+
     List<Map<String, Object>> getObjectByBloom(String database,String table, String primaryKey, String id);
 }

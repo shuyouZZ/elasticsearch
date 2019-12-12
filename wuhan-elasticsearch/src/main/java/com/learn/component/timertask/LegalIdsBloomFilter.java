@@ -21,7 +21,7 @@ import java.util.Map;
  * @date 2019/12/11 11:50
  */
 @Configuration
-@EnableScheduling //开启定时器
+@EnableScheduling
 public class LegalIdsBloomFilter {
     private Logger logger = LoggerFactory.getLogger(LegalIdsBloomFilter.class);
     private final static int CAPACITY = 1000000;

@@ -1,0 +1,6 @@
+2019-12-12 09:51:13  [ http-nio-8080-exec-5:40389 ] - [ ERROR ]  DATABASE_TABLE has not hashKey:comments
+2019-12-12 09:57:38  [ http-nio-8080-exec-3:83793 ] - [ ERROR ]  DATABASE_TABLE has not hashKey:comments
+2019-12-12 09:57:41  [ http-nio-8080-exec-7:87625 ] - [ ERROR ]  DATABASE_TABLE has not hashKey:comments
+2019-12-12 09:57:43  [ http-nio-8080-exec-4:89329 ] - [ ERROR ]  DATABASE_TABLE has not hashKey:comments
+2019-12-12 09:57:43  [ http-nio-8080-exec-6:89663 ] - [ ERROR ]  DATABASE_TABLE has not hashKey:comments
+2019-12-12 09:57:44  [ http-nio-8080-exec-2:89872 ] - [ ERROR ]  DATABASE_TABLE has not hashKey:comments

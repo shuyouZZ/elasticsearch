@@ -56,6 +56,10 @@ public class ServiceResult<T> implements ResultCode {
 		return new ServiceResult(HttpStatus.BAD_REQUEST.value(), "Parameter Error",params);
 	}
 
+	public static <T> ServiceResult paramsError(String message, T params) {
+		return new ServiceResult(HttpStatus.BAD_REQUEST.value(), message, params);
+	}
+
 	public static ServiceResult isExist() {
 		return new ServiceResult(HttpStatus.CONFLICT.value(), "Index Is Existed");
 	}

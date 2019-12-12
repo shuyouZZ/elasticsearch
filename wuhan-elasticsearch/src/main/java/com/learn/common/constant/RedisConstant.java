@@ -10,6 +10,10 @@ public class RedisConstant {
      */
     public final static long EXPIRE_TIME = 24 * 60 * 60;
     /**
+     * Serve as a cache for data services
+     */
+    public final static String DATA_SERVICE_CACHING = "DATA_SERVICE";
+    /**
      * Save the database and data table hash mapping
      */
     public final static String DATABASE_TABLE = "DATABASE_TABLE";

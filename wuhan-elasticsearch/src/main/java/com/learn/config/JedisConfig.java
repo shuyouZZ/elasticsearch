@@ -15,8 +15,10 @@ import org.springframework.data.redis.cache.RedisCacheManager;
 import org.springframework.data.redis.cache.RedisCacheWriter;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.RedisSerializationContext;
+import org.springframework.data.redis.serializer.StringRedisSerializer;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
@@ -91,10 +93,11 @@ public class JedisConfig extends CachingConfigurerSupport{
                 // 使用注解时的序列化、反序列化
                 .serializeKeysWith(RedisSerializationContext
                         .SerializationPair
-                        .fromSerializer(new Jackson2JsonRedisSerializer<>(String.class)))
+                        .fromSerializer(new StringRedisSerializer()))
                 .serializeValuesWith(RedisSerializationContext
                         .SerializationPair
-                        .fromSerializer(new Jackson2JsonRedisSerializer<>(Object.class)));
+                        //value使用GenericJackson2JsonRedisSerializer,若使用Jackson2JsonRedisSerializer会出现class cast error
+                        .fromSerializer(new GenericJackson2JsonRedisSerializer()));
 
         return new RedisCacheManager(cacheWriter, defaultCacheConfig);
     }

@@ -18,6 +18,11 @@ public class RedisServiceImpl implements RedisService {
 	private RedisTemplate redisTemplate;
 
 	@Override
+	public void hashPut(String key, String hashkey, String value) {
+		redisTemplate.opsForHash().put(key,hashkey,value);
+	}
+
+	@Override
 	public Long set(String key, String... value) {
 		return redisTemplate.opsForSet().add(key,value);
 	}
