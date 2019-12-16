@@ -34,7 +34,7 @@ import java.util.Map;
 @RequestMapping("/elastic/data")
 @CrossOrigin
 public class DataSourceController {
-    private Logger logger = LoggerFactory.getLogger(DataSourceController.class);
+    private static final Logger logger = LoggerFactory.getLogger(DataSourceController.class);
     @Autowired
     private ElasticsearchService elasticsearchService;
     @Autowired

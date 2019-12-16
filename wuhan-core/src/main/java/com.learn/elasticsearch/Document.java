@@ -35,7 +35,6 @@ import java.util.concurrent.TimeUnit;
  * @date 2019/8/21 10:03
  * @author dshuyou
  */
-
 public class Document {
 	private static final Logger logger = LoggerFactory.getLogger(Document.class);
 	private static final int COUNT = 10000;
@@ -52,11 +51,11 @@ public class Document {
 	}
 
 	/**
-	 * @param index - 索引名称
-	 * @param id - 索引id
-	 * @param source - 索引内容
-	 * @return - 索引结果
-	 * @throws IOException - IOException
+	 * @param index	索引名称
+	 * @param id	索引id
+	 * @param source	索引内容
+	 * @return		索引结果
+	 * @throws IOException	IOException
 	 */
 	public<T> boolean index(String index, String id, T source) throws IOException {
 		Objects.requireNonNull(index, "index");
@@ -72,10 +71,10 @@ public class Document {
 	}
 
 	/**
-	 * @param index - 索引名称
-	 * @param source - 索引内容
-	 * @return - 索引结果
-	 * @throws IOException - IOException
+	 * @param index	索引名称
+	 * @param source	索引内容
+	 * @return		索引结果
+	 * @throws IOException	IOException
 	 */
 	public<T> boolean index(String index,T source) throws IOException {
 		Objects.requireNonNull(index, "index");
@@ -88,9 +87,9 @@ public class Document {
 	}
 
 	/**
-	 * @param index - 索引名称
-	 * @param id - 索引id
-	 * @param source - 索引内容
+	 * @param index	索引名称
+	 * @param id	索引id
+	 * @param source	索引内容
 	 */
 	public void insertAsync(String index, String id, String source) {
 		Objects.requireNonNull(index, "index");
@@ -114,10 +113,10 @@ public class Document {
 	}
 
 	/**
-	 * @param index - 索引名称
-	 * @param id - 索引id
-	 * @return - 删除指定索引结果
-	 * @throws IOException - IOException
+	 * @param index	索引名称
+	 * @param id	索引id
+	 * @return		删除指定索引结果
+	 * @throws IOException	IOException
 	 */
 	public boolean delete(String index, String id) throws IOException {
 		Objects.requireNonNull(index, "index");
@@ -129,9 +128,9 @@ public class Document {
 	}
 
 	/**
-	 * @param index - 索引名称
-	 * @return - 指定索引的数量
-	 * @throws IOException - IOException
+	 * @param index	索引名称
+	 * @return		指定索引的数量
+	 * @throws IOException	IOException
 	 */
 	public long count(String index) throws IOException {
 		Objects.requireNonNull(index, "index");
@@ -142,9 +141,9 @@ public class Document {
 	}
 
 	/**
-	 * @param index - 索引名称
-	 * @param id - 索引id
-	 * @return - 判定给定id的索引是否存在
+	 * @param index	索引名称
+	 * @param id	索引id
+	 * @return	判定给定id的索引是否存在
 	 */
 	public boolean isIdExists(String index,String id) {
 		Objects.requireNonNull(index, "index");
@@ -159,10 +158,10 @@ public class Document {
 	}
 
 	/**
-	 * @param index - 索引名称
-	 * @param id - 索引id
-	 * @return - 指定id的索引内容
-	 * @throws IOException - IOException
+	 * @param index 	索引名称
+	 * @param id 	索引id
+	 * @return 		指定id的索引内容
+	 * @throws IOException	IOException
 	 */
 	public String get(String index, String id) throws IOException {
 		Objects.requireNonNull(index, "index");
@@ -176,10 +175,10 @@ public class Document {
 	}
 
 	/**
-	 * @param index - 索引名称
-	 * @param fields - 索引字段集合
-	 * @return - 索引集合
-	 * @throws IOException - IOException
+	 * @param index	索引名称
+	 * @param fields 	索引字段集合
+	 * @return		索引集合
+	 * @throws IOException	IOException
 	 */
 	public List<Object> getFieldsValues(String index, String[] fields) throws IOException {
 		Objects.requireNonNull(index, "index");
@@ -198,10 +197,10 @@ public class Document {
 	}
 
 	/**
-	 * @param index - 索引名称
-	 * @param ids - 索引id集合
-	 * @return - 索引列表
-	 * @throws IOException - IOException
+	 * @param index	索引名称
+	 * @param ids		索引id集合
+	 * @return		索引列表
+	 * @throws IOException	IOException
 	 */
 	public List<Map<String,Object>> multiGet(String index, String[] ids) throws IOException {
 		Objects.requireNonNull(index, "index");
@@ -224,11 +223,11 @@ public class Document {
 	}
 
 	/**
-	 * @param index - 索引名称
-	 * @param id - 索引id
-	 * @param source - 索引内容
-	 * @return - boolean
-	 * @throws IOException - IOException
+	 * @param index	索引名称
+	 * @param id 	索引id
+	 * @param source	索引内容
+	 * @return		boolean
+	 * @throws IOException 	IOException
 	 */
 	public<T> boolean update(String index, String id, T source) throws IOException {
 		Objects.requireNonNull(index, "index");
@@ -242,19 +241,19 @@ public class Document {
 	}
 
 	/**
-	 * @param index - 索引名称
-	 * @param queries - 索引内容
-	 * @return - 索引数量
-	 * @throws IOException - IOException
+	 * @param index	索引名称
+	 * @param sources	索引内容
+	 * @return		索引数量
+	 * @throws IOException	IOException
 	 */
-	public long bulkIndex(String index, List<SourceEntity> queries) throws IOException {
+	public long bulkIndex(String index, List<SourceEntity> sources) throws IOException {
 		BulkRequest bulkRequest = new BulkRequest();
 		List<IndexRequest> requests = new ArrayList<>();
 		int count = 0;
-		for (SourceEntity query : queries) {
-			IndexRequest indexRequest = new IndexRequest(index).id(query.getId());
+		for (SourceEntity source : sources) {
+			IndexRequest indexRequest = new IndexRequest(index).id(source.getId());
 
-			setIndexRequest(indexRequest, query.getSource());
+			setIndexRequest(indexRequest, source.getSource());
 			requests.add(indexRequest);
 			if (requests.size() % COUNT == 0 ) {
 				for (IndexRequest request : requests) {
@@ -279,16 +278,16 @@ public class Document {
 	}
 
 	/**
-	 * @param index - 索引名称
-	 * @param queries - 索引更新的内容
-	 * @return - 索引数量
-	 * @throws IOException - IOException
+	 * @param index 	索引名称
+	 * @param sources	索引更新的内容
+	 * @return		索引数量
+	 * @throws IOException	IOException
 	 */
-	public long bulkUpdate(String index, List<SourceEntity> queries) throws IOException {
+	public long bulkUpdate(String index, List<SourceEntity> sources) throws IOException {
 		BulkRequest bulkRequest = new BulkRequest();
 		List<UpdateRequest> requests = new ArrayList<>();
 		int count = 0;
-		for (SourceEntity update : queries) {
+		for (SourceEntity update : sources) {
 			UpdateRequest updateRequest = new UpdateRequest(index, update.getId());
 
 			setUpdateRequest(updateRequest, update.getSource());
@@ -317,16 +316,16 @@ public class Document {
 	}
 
 	/**
-	 * @param index - 索引名称
-	 * @param queries - 索引删除的内容
-	 * @return - 索引数量
-	 * @throws IOException - IOException
+	 * @param index	索引名称
+	 * @param sources	索引删除的内容
+	 * @return		索引数量
+	 * @throws IOException	IOException
 	 */
-	public long bulkDelete(String index, List<SourceEntity> queries) throws IOException {
+	public long bulkDelete(String index, List<SourceEntity> sources) throws IOException {
 		BulkRequest bulkRequest = new BulkRequest();
 		List<DeleteRequest> requests = new ArrayList<>();
 		int count = 0;
-		for (SourceEntity delete : queries) {
+		for (SourceEntity delete : sources) {
 			DeleteRequest deleteRequest = new DeleteRequest(index).id(delete.getId());
 			requests.add(deleteRequest);
 			if (requests.size() % COUNT == 0) {

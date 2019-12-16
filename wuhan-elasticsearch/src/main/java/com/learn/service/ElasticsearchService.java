@@ -14,72 +14,78 @@ import java.util.Map;
 public interface ElasticsearchService {
 	/**
 	 * 创建默认索引
-	 * @param indexName 索引
+	 * @param index 索引
 	 * @return ServiceResult
 	 */
-	ServiceResult createIndex(String indexName);
+	ServiceResult createIndex(String index);
 
 	/**
 	 * 创建自定义索引
-	 * @param indexName 索引
+	 * @param index 索引
 	 * @param setting 设置
 	 * @param mapping 映射
 	 * @return - ServiceResult
 	 */
-	ServiceResult createIndex(String indexName, String setting, String mapping);
+	ServiceResult createIndex(String index, String setting, String mapping);
 
 	/**
 	 * 删除索引
-	 * @param indexName 索引
+	 * @param index 索引
 	 * @return ServiceResult
 	 */
-	ServiceResult deleteIndex(String indexName);
+	ServiceResult deleteIndex(String index);
 
 	/**
-	 * 更新映射
-	 * @param indexName 索引
+	 * 添加映射
+	 * @param index 索引
 	 * @param mapping 映射
 	 * @return ServiceResult
 	 */
-	ServiceResult putMapping(String indexName, String mapping);
+	ServiceResult putMapping(String index, String mapping);
 
 	/**
 	 * 获取索引的映射
-	 * @param indexName 索引
+	 * @param index 索引
 	 * @return ServiceResult
 	 */
-	ServiceResult getMapping(String indexName);
+	ServiceResult getMapping(String index);
 
 	/**
-	 * 更新设置
-	 * @param indexName 索引
-	 * @param source 索引数据
+	 * 更新配置信息
+	 * @param index 索引
+	 * @param setting 索引数据
 	 * @return ServiceResult
 	 */
-	ServiceResult updateSetting(String indexName, String source);
+	ServiceResult updateSetting(String index, String setting);
 
 	/**
 	 * 获取索引的设置
-	 * @param indexName 索引
+	 * @param index 索引
 	 * @return ServiceResult
 	 */
-	ServiceResult getSetting(String indexName);
+	ServiceResult getSetting(String index);
 
 	/**
 	 * 刷新
-	 * @param indexName 索引
+	 * @param index 索引
 	 * @return ServiceResult
 	 */
-	ServiceResult reflush(String indexName);
+	ServiceResult reflush(String index);
 
 	/**
-	 * 获取所有索引名称
+	 * 获取索引列表
 	 * @return ServiceResult
 	 */
 	ServiceResult getAllIndex();
 
 	/**
-	 * 单个索引
+	 * 创建索引模板
+	 * @return ServiceResult
+	 */
+	ServiceResult putIndexTemplate(String templateName, String source);
+
+	/**
+	 * 单条索引
 	 * @param index 索引
 	 * @param id 索引编号id
 	 * @param source 索引数据
@@ -88,7 +94,7 @@ public interface ElasticsearchService {
 	ServiceResult index(String index, String id, Map<String, Object> source);
 
 	/**
-	 * 单个索引更新
+	 * 单条索引更新
 	 * @param index 索引
 	 * @param id 索引编号id
 	 * @param source 索引数据
@@ -97,7 +103,7 @@ public interface ElasticsearchService {
 	ServiceResult update(String index, String id, Map<String, Object> source);
 
 	/**
-	 * 单个索引删除
+	 * 单条索引删除
 	 * @param index 索引
 	 * @param id 索引编号id
 	 * @return ServiceResult
@@ -107,50 +113,50 @@ public interface ElasticsearchService {
 	/**
 	 * 批量索引
 	 * @param index 索引
-	 * @param source 索引数据
+	 * @param sources 索引数据
 	 * @return ServiceResult
 	 */
-	ServiceResult bulkIndex(String index, List<SourceEntity> source);
+	ServiceResult bulkIndex(String index, List<SourceEntity> sources);
 
 	/**
 	 * 批量更新
 	 * @param index 索引
-	 * @param source 索引数据
+	 * @param sources 索引数据
 	 * @return ServiceResult
 	 */
-	ServiceResult bulkUpdate(String index, List<SourceEntity> source);
+	ServiceResult bulkUpdate(String index, List<SourceEntity> sources);
 
 	/**
 	 * 批量删除
 	 * @param index 索引
-	 * @param source 索引数据
+	 * @param sources 索引数据
 	 * @return ServiceResult
 	 */
-	ServiceResult bulkDelete(String index, List<SourceEntity> source);
+	ServiceResult bulkDelete(String index, List<SourceEntity> sources);
 
 	/**
 	 * 异步批量索引
 	 * @param index 索引
-	 * @param source 索引数据
+	 * @param sources 索引数据
 	 * @return ServiceResult
 	 */
-	ServiceResult asycBulkIndex(String index, List<SourceEntity> source);
+	ServiceResult asycBulkIndex(String index, List<SourceEntity> sources);
 
 	/**
 	 * 异步批量更新
 	 * @param index 索引
-	 * @param source 索引数据
+	 * @param sources 索引数据
 	 * @return ServiceResult
 	 */
-	ServiceResult asycBulkUpdate(String index, List<SourceEntity> source);
+	ServiceResult asycBulkUpdate(String index, List<SourceEntity> sources);
 
 	/**
 	 * 批量删除
 	 * @param index 索引
-	 * @param source 索引数据
+	 * @param sources 索引数据
 	 * @return ServiceResult
 	 */
-	ServiceResult asycBulkDelete(String index, List<SourceEntity> source);
+	ServiceResult asycBulkDelete(String index, List<SourceEntity> sources);
 
 	/**
 	 * 全文查询
@@ -238,7 +244,7 @@ public interface ElasticsearchService {
 	ServiceResult boolQuery(String index, BoolCondition conditions, int pageNum, int pageSize);
 
 	/**
-	 * 联想词
+	 * 联想词（建议词）
 	 * @param index 索引
 	 * @param keyWord 关键词
 	 * @param size 返回结果集的大小

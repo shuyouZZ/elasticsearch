@@ -1,7 +1,5 @@
 package com.learn.service.impl;
 
-import com.learn.elasticsearch.exception.DAOException;
-import com.learn.elasticsearch.exception.ExceptionEnum;
 import com.learn.elasticsearch.Document;
 import com.learn.elasticsearch.Indice;
 import com.learn.elasticsearch.model.SourceEntity;

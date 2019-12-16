@@ -1,0 +1,91 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/bg.jpg") 50% 50%;
+    background-size: cover;
+}
+.title{
+    color: white;
+    text-align: center;
+    /*margin-bottom: 105px;*/
+}
+.histogram-box{
+    position: relative;
+    height: 400px;
+    padding: 0;
+}
+.histogram{
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: 50px;
+    width: 100px;
+    max-height: 300px;
+    height: 75px;
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.vote-situation{
+    margin-top: 30px;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+.vote-situation-num{
+    font-size: 30px;
+}
+.vote-waiver{
+    margin-top: 44px;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+.percentage{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+.people-img{
+    width: 61px;
+    margin-top: -102px;
+}
+.candidate-name{
+    bottom: -20px;
+    position: absolute;
+    text-align: center;
+    font-size: 44px;
+    color: wheat;
+    width: 100%;
+    font-weight: 600;
+}
+.oneCandidate{
+    display: none;
+}
+.votes-num{
+    bottom: -98px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    color: #f5eb35;
+    font-weight: 600;
+}
+.notice{
+    color: whitesmoke;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0;
+    z-index: 8888;
+    background: rgba(0,0,0,0.7);
+    /*display: none;*/
+}

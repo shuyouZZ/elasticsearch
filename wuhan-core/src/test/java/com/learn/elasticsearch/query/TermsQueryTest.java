@@ -42,7 +42,7 @@ public class TermsQueryTest {
 	}
 
 	public void query() throws IOException {
-		TermsLevelCondition condition = new TermsLevelCondition(0,10,"ids","100","1000");
+		TermsLevelCondition condition = TermsLevelCondition.fromTerms(0,10,"ids",new String[]{"100","1000"});
 		//condition.setValue("我");
 		DataContent dataContent = termsQuery.executeQuery(condition);
 		System.out.println(dataContent);

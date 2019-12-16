@@ -1,0 +1,149 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #E5EBF2;  /* fallback for old browsers */
+}
+.user-title{
+    text-align: center;
+}
+.msg-box{
+    height: 200px;
+    margin: 100px 0;
+    color:#add8e6;
+}
+.vote-box{
+    display: none;
+}
+.vote-title{
+    background: #11998e;
+    color: #5ff4ee;
+    border-bottom: 1px solid #5ff4ee;
+    margin: 20px 0;
+    padding: 8px;
+}
+.form-container{
+    margin-top: 45px;
+}
+.oneCandidate,.twoCandidate{
+    display: none;
+}
+.vote-card{
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
+.waiver-card{
+    margin-top: 30px;
+    border: 1px solid rgba(247,76,78,0.5);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
+.student-name{
+    color: #1296db;
+}
+
+label{
+    margin:10px;
+    font-weight: 500;
+}
+.a-radio{
+    display: none;
+}
+.b-radio{
+    display: inline-block;
+    border: 1px solid #ccc;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 5px;
+    position: relative;
+}
+.b-radio:before{
+    content: '';
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background: rgb(143, 188, 238);
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -5px;
+    margin-top: -5px;
+    border-radius: 50%;
+    display: none;
+}
+.a-radio:checked~.b-radio:before{
+    display: block;
+}
+#voteBtn,.voteBtn{
+    margin:35px auto;
+    background: #b1cbfa;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    color: white;
+}
+#voteBtn:hover,.voteBtn:hover{
+    background: #8e98f5;
+}
+#firstVote{
+    display: none;
+}
+#secondVote{
+    display: none;
+}
+.second-vote-choose{
+    font-size: 30px;
+    color: #616f39;
+}
+.check-container{
+    box-shadow: 0 0 5px #ff9280;
+    margin: 5px 0;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.b-checkbox{
+    display: inline-block;
+    border: 1px solid #6cd3f8;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+    position: relative;
+    border-radius: 5px;
+}
+.b-checkbox:before{
+    content: '';
+    font-size: 0;
+    width: 13px;
+    height: 13px;
+    background: rgb(143, 188, 238);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -6.5px;
+    margin-top: -6.5px;
+    border-radius: 3px;
+    display: none;
+}
+.a-checkbox{
+    display: none;
+}
+.a-checkbox:checked~.b-checkbox:before{
+    display: block;
+}
+.checkbox-active{
+    background: #b1d1c5;
+    color: #343434;
+}

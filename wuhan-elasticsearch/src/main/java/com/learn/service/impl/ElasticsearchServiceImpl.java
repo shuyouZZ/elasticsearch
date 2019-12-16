@@ -67,7 +67,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 				return ServiceResult.success(indexName);
 			}
 		} catch (IOException e) {
-			logger.error("Internal Server Error");
+			logger.error(e.getMessage());
 			return ServiceResult.internalServerError();
 		}
 		logger.error("Exception Error");
@@ -91,7 +91,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 				return ServiceResult.success(indexName);
 			}
 		} catch (IOException e) {
-			logger.error("Internal Server Error");
+			logger.error(e.getMessage());
 			return ServiceResult.internalServerError();
 		}
 		logger.error("Exception Error");
@@ -108,7 +108,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 				return ServiceResult.notFound();
 			}
 		} catch (IOException e) {
-			logger.error("Internal Server Error");
+			logger.error(e.getMessage());
 			return ServiceResult.internalServerError();
 		}
 	}
@@ -125,7 +125,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 				return ServiceResult.success(indexName);
 			}
 		} catch (IOException e) {
-			logger.error("Internal Server Error");
+			logger.error(e.getMessage());
 			return ServiceResult.internalServerError();
 		}
 		logger.error("Exception Error");
@@ -144,7 +144,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 				return ServiceResult.success(indexName);
 			}
 		} catch (IOException e) {
-			logger.error("Internal Server Error");
+			logger.error(e.getMessage());
 			return ServiceResult.internalServerError();
 		}
 		logger.error("Internal Server Error");
@@ -163,7 +163,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 			logger.info("Get Mapping Success {}",indexName);
 			return ServiceResult.success(mapping);
 		} catch (IOException e) {
-			logger.error("Internal Server Error");
+			logger.error(e.getMessage());
 			return ServiceResult.internalServerError();
 		}
 	}
@@ -179,7 +179,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 			logger.info("Update Setting Success {}",indexName);
 			return ServiceResult.success(setting);
 		} catch (IOException e) {
-			logger.error("Internal Server Error");
+			logger.error(e.getMessage());
 			return ServiceResult.internalServerError();
 		}
 	}
@@ -195,7 +195,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 			logger.info("Get Setting Success {}",indexName);
 			return ServiceResult.success(setting);
 		} catch (IOException e) {
-			logger.error("Internal Server Error");
+			logger.error(e.getMessage());
 			return ServiceResult.internalServerError();
 		}
 	}
@@ -211,7 +211,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 			logger.info("Reflush Index Success");
 			return ServiceResult.success(indexName);
 		} catch (IOException e) {
-			logger.error("Internal Server Error");
+			logger.error(e.getMessage());
 			return ServiceResult.internalServerError();
 		}
 	}
@@ -224,7 +224,17 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 			logger.info("Get Index List Success");
 			return ServiceResult.success(indices);
 		} catch (IOException e) {
-			logger.error("Internal Server Error");
+			logger.error(e.getMessage());
+			return ServiceResult.internalServerError();
+		}
+	}
+
+	@Override
+	public ServiceResult putIndexTemplate(String templateName, String source) {
+		try {
+			return ServiceResult.success(indice.putIndexTemplate(templateName,source));
+		} catch (IOException e) {
+			logger.error(e.getMessage());
 			return ServiceResult.internalServerError();
 		}
 	}
@@ -241,7 +251,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 				return ServiceResult.success(id);
 			}
 		} catch (IOException e) {
-			logger.error("Internal Server Error");
+			logger.error(e.getMessage());
 			return ServiceResult.internalServerError();
 		}
 		logger.error("Exception Error");
@@ -260,7 +270,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 				return ServiceResult.success(id);
 			}
 		} catch (IOException e) {
-			logger.error("Internal Server Error");
+			logger.error(e.getMessage());
 			return ServiceResult.internalServerError();
 		}
 		logger.error("Exception Error");
@@ -279,7 +289,7 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 				return ServiceResult.success(id);
 			}
 		} catch (IOException e) {
-			logger.error("Internal Server Error");
+			logger.error(e.getMessage());
 			return ServiceResult.internalServerError();
 		}
 		logger.error("Exception Error");

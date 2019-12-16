@@ -8,19 +8,31 @@
   <component name="ChangeListManager">
     <list default="true" id="94f4c341-bda9-40b6-b279-2e3f6f3effca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuhan-core/wuhan-core.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/common/constant/RedisConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/common/constant/RedisConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/common/constant/ServiceResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/common/constant/ServiceResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/elasticsearch/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/elasticsearch/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/Document.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/Indice.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/Indice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/BaseQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/BaseQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/BaseCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/BaseCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/BoolCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/BoolCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/FullTextCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/FullTextCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/GeoCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/GeoCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/TermsLevelCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/TermsLevelCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/model/DataContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/model/DataContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/BoolQueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/BoolQueryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/FulltextQueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/FulltextQueryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/GeoQueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/GeoQueryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/TermsQueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/TermsQueryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/condition/BaseConditionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/condition/BaseConditionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/advice/HotWordAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/advice/HotWordAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/datasource/dynamic/DataSourceBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/datasource/dynamic/DataSourceBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/timertask/LegalIdsBloomFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/timertask/LegalIdsBloomFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/config/JedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/config/JedisConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/DataSourceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/DataSourceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/DataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/DataService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/RedisService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/DataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/DataServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/RedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/RedisServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/wuhan-elasticsearch.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/wuhan-rabbit.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuhan-redis/wuhan-redis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/ElasticsearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/ElasticsearchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/AsycServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/AsycServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/ElasticsearchServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/ElasticsearchServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/component/OrderTimeOutCancelTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/component/OrderTimeOutCancelTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/config/ReturnMsgCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/config/ReturnMsgCallBack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/elasticsearch-wuhan/target/" />
@@ -76,29 +88,30 @@
     <session id="128580132">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="89" />
-          <entry key="project.open.time.1" value="15" />
+          <entry key="project.closed" value="98" />
+          <entry key="project.open.time.1" value="17" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="22" />
+          <entry key="project.open.time.2" value="25" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="14" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="1" />
-          <entry key="project.open.time.4" value="12" />
+          <entry key="project.open.time.4" value="13" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.5" value="6" />
-          <entry key="project.open.time.6" value="5" />
+          <entry key="project.open.time.6" value="6" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.opened" value="93" />
+          <entry key="project.opened" value="101" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -123,7 +136,7 @@
           <entry key="TVIEW" value="1" />
           <entry key="albums" value="3" />
           <entry key="artists" value="1" />
-          <entry key="class" value="57" />
+          <entry key="class" value="58" />
           <entry key="cmd" value="3" />
           <entry key="cms_help" value="2" />
           <entry key="cms_subject" value="2" />
@@ -132,20 +145,20 @@
           <entry key="comments" value="14" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="3" />
-          <entry key="iml" value="7" />
-          <entry key="java" value="2235" />
+          <entry key="iml" value="8" />
+          <entry key="java" value="2508" />
           <entry key="jpg" value="4" />
           <entry key="json" value="75" />
           <entry key="log" value="74" />
           <entry key="lyrics" value="1" />
-          <entry key="mapping-server" value="5" />
+          <entry key="mapping-server" value="6" />
           <entry key="md" value="4" />
           <entry key="musics" value="1" />
           <entry key="mvnw" value="1" />
           <entry key="pom" value="1" />
           <entry key="properties" value="78" />
           <entry key="setting-server" value="6" />
-          <entry key="sql" value="42" />
+          <entry key="sql" value="43" />
           <entry key="student" value="5" />
           <entry key="tld" value="6" />
           <entry key="ums_member" value="1" />
@@ -155,19 +168,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="57" />
+          <entry key="CLASS" value="58" />
           <entry key="Database Element" value="60" />
           <entry key="HTML" value="3" />
-          <entry key="IDEA_MODULE" value="7" />
+          <entry key="IDEA_MODULE" value="8" />
           <entry key="Image" value="4" />
-          <entry key="JAVA" value="2235" />
-          <entry key="JSON" value="86" />
+          <entry key="JAVA" value="2508" />
+          <entry key="JSON" value="87" />
           <entry key="Log" value="65" />
           <entry key="Manifest" value="4" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="22" />
           <entry key="Properties" value="78" />
-          <entry key="SQL" value="26" />
+          <entry key="SQL" value="27" />
           <entry key="Scratch" value="16" />
           <entry key="XML" value="156" />
           <entry key="YAML" value="74" />
@@ -177,10 +190,10 @@
         <counts>
           <entry key="cell" value="33" />
           <entry key="dummy" value="64" />
-          <entry key="ft" value="40" />
+          <entry key="ft" value="49" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="100" />
-          <entry key="java" value="27244" />
+          <entry key="java" value="28409" />
           <entry key="json" value="369" />
           <entry key="md" value="741" />
           <entry key="properties" value="621" />
@@ -194,14 +207,14 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="100" />
-          <entry key="JAVA" value="27244" />
+          <entry key="JAVA" value="28409" />
           <entry key="JSON" value="370" />
           <entry key="Markdown" value="741" />
           <entry key="PLAIN_TEXT" value="87" />
           <entry key="Properties" value="621" />
           <entry key="SQL" value="453" />
           <entry key="Scratch" value="33" />
-          <entry key="VTL" value="40" />
+          <entry key="VTL" value="49" />
           <entry key="XML" value="560" />
           <entry key="YAML" value="593" />
         </counts>
@@ -253,37 +266,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/Document.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="37" selection-start-line="37" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/BaseCondition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/BoolCondition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/ElasticsearchWuhanApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/BoolQueryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/DocumentTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/AsycServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="28" column="88" lean-forward="true" selection-start-line="28" selection-start-column="88" selection-end-line="28" selection-end-column="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/DataSourceController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="111" column="61" selection-start-line="111" selection-start-column="61" selection-end-line="111" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/common/constant/DatabaseConstant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/ElasticUtilController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-686">
-              <caret line="41" column="60" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
+            <state relative-caret-position="425">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -291,68 +331,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/DataServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-286">
-              <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="200">
+              <caret line="53" column="49" lean-forward="true" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/common/constant/RedisConstant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/timertask/LegalIdsBloomFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2213#2214#0" expanded="true" />
-                <element signature="e#2265#2266#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/config/JedisConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1764">
-              <caret line="86" selection-start-line="86" selection-end-line="86" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE-sources.jar!/org/springframework/data/redis/serializer/Jackson2JsonRedisSerializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-50">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE-sources.jar!/org/springframework/data/redis/serializer/GenericJackson2JsonRedisSerializer.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-              <folding>
-                <element signature="e#1799#1800#0" expanded="true" />
-                <element signature="e#1825#1826#0" expanded="true" />
-              </folding>
+              <caret line="27" column="99" selection-start-line="27" selection-start-column="99" selection-end-line="27" selection-end-column="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/ElasticsearchServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="312" column="55" selection-start-line="312" selection-start-column="12" selection-end-line="312" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -382,28 +380,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/Datasource5Controller.java" />
-        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/DataSource4Controller.java" />
-        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/DataSourceHandler.java" />
-        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/mbg/BaseMapper.java" />
-        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/mbg/mapper5/ViewMapper5.java" />
-        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/mbg/mapper1/ViewMapper1.java" />
-        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/datasource.properties" />
-        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/mbg/mapper4/ViewMapper4.java" />
-        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/mapper.properties" />
-        <option value="$PROJECT_DIR$/wuhan-elasticsearch/logs/elasticsearch/error.log" />
-        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/datasource/DynamicDataSourceBuilder.java" />
-        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/datasource/DynamicDataSource.java" />
-        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/datasource/dynamic/DataSourceConfig.java" />
-        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/templates/Index.html" />
-        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/config/datasource.properties" />
-        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/config/RabbitMqConfig.java" />
-        <option value="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/BoolCondition.java" />
-        <option value="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/FullTextCondition.java" />
-        <option value="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/GeoCondition.java" />
-        <option value="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/TermsLevelCondition.java" />
-        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/test/java/com/learn/mbg/mapper4/ViewMapperTest.java" />
         <option value="$PROJECT_DIR$/wuhan-redis/pom.xml" />
         <option value="$PROJECT_DIR$/wuhan-redis/src/main/java/com/learn/component/JedisUtil.java" />
         <option value="$PROJECT_DIR$/wuhan-redis/src/main/java/com/learn/component/RedisDistributedLock.java" />
@@ -421,18 +397,40 @@
         <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/HotWordController.java" />
         <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/test/java/com/learn/service/impl/HotWordServiceImplTest.java" />
         <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/test/java/com/learn/service/impl/DataServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/advice/HotWordAspect.java" />
-        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/ElasticsearchServiceImpl.java" />
         <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/common/constant/DatabaseConstant.java" />
         <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/common/constant/ServiceResult.java" />
         <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/DataService.java" />
-        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/RedisServiceImpl.java" />
         <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/RedisService.java" />
-        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/DataSourceController.java" />
         <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/DataServiceImpl.java" />
         <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/config/JedisConfig.java" />
         <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/common/constant/RedisConstant.java" />
+        <option value="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/model/DataContent.java" />
+        <option value="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/BaseCondition.java" />
+        <option value="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/BaseQuery.java" />
+        <option value="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/config/RabbitMqConfig.java" />
+        <option value="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/suggest/Suggestion.java" />
+        <option value="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/component/OrderTimeOutCancelTask.java" />
+        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/DataSourceController.java" />
+        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/AsycServiceImpl.java" />
+        <option value="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/config/ReturnMsgCallBack.java" />
+        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/advice/HotWordAspect.java" />
+        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/datasource/dynamic/DataSourceBean.java" />
         <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/timertask/LegalIdsBloomFilter.java" />
+        <option value="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/Document.java" />
+        <option value="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/FullTextCondition.java" />
+        <option value="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/GeoCondition.java" />
+        <option value="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/GeoQueryTest.java" />
+        <option value="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/FulltextQueryTest.java" />
+        <option value="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/condition/BaseConditionTest.java" />
+        <option value="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/BoolCondition.java" />
+        <option value="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/TermsQueryTest.java" />
+        <option value="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/TermsLevelCondition.java" />
+        <option value="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/Indice.java" />
+        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/ElasticsearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/RedisServiceImpl.java" />
+        <option value="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/ElasticsearchService.java" />
+        <option value="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/BoolQueryTest.java" />
       </list>
     </option>
   </component>
@@ -462,11 +460,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-15" />
-    <option name="y" value="-15" />
-    <option name="width" value="2425" />
-    <option name="height" value="1315" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -490,6 +488,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -540,7 +541,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="elasticsearch" type="b2602c69:ProjectViewProjectNode" />
@@ -548,25 +549,15 @@
               <item name="wuhan-elasticsearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="elasticsearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="wuhan-rabbit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="elasticsearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="wuhan-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="timertask" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -578,10 +569,11 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/dong6_m7x8d85/Desktop/elasticsearch/wuhan-elasticsearch/src/test/java/com/learn/mbg/mapper4/ViewMapperTest.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576122931591" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576489694128" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/elasticsearch-wuhan/src/main/java/com" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../front" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -590,7 +582,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2862069" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -881,7 +873,14 @@
       <workItem from="1575981647524" duration="659000" />
       <workItem from="1576028053629" duration="16885000" />
       <workItem from="1576050305240" duration="8749000" />
-      <workItem from="1576113755211" duration="8848000" />
+      <workItem from="1576113755211" duration="9812000" />
+      <workItem from="1576163549663" duration="828000" />
+      <workItem from="1576199233057" duration="1278000" />
+      <workItem from="1576223755196" duration="1348000" />
+      <workItem from="1576243463722" duration="756000" />
+      <workItem from="1576330383961" duration="12383000" />
+      <workItem from="1576460083381" duration="15001000" />
+      <workItem from="1576486515525" duration="2649000" />
     </task>
     <servers />
   </component>
@@ -918,7 +917,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="417878000" />
+    <option name="totallyTimeSpent" value="453085000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -931,8 +930,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.25737265" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.27345845" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -942,7 +942,7 @@
       <window_info id="Web" order="7" sideWeight="0.5008347" side_tool="true" weight="0.2580429" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.39943343" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.398017" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.3373102" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -955,13 +955,13 @@
       <window_info anchor="bottom" id="Database Changes" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.31586403" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.19121814" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.60764873" />
       <window_info anchor="bottom" id="Statistic" order="16" weight="0.8909348" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.18766756" />
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" weight="0.308311" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.21715818" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.24865952" />
       <window_info anchor="right" id="Database" order="6" weight="0.3941019" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -992,47 +992,253 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar!/org/springframework/util/DigestUtils.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.1.1/elasticsearch-7.1.1-sources.jar!/org/elasticsearch/common/geo/builders/EnvelopeBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="73" column="26" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+        <state relative-caret-position="-125">
+          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE-sources.jar!/org/springframework/util/DigestUtils.java">
+    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="86" column="61" lean-forward="true" selection-start-line="86" selection-start-column="61" selection-end-line="86" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.1.1/elasticsearch-7.1.1-sources.jar!/org/elasticsearch/common/geo/GeoPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/condition/BaseConditionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="33" column="70" lean-forward="true" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/FulltextQueryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/HotWordController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="138" column="37" selection-start-line="138" selection-start-column="37" selection-end-line="138" selection-end-column="37" />
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE-sources.jar!/org/springframework/data/redis/core/ListOperations.java">
+    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/advice/HotWordAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="186" column="29" selection-start-line="186" selection-start-column="29" selection-end-line="186" selection-end-column="29" />
+        <state relative-caret-position="500">
+          <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/test/java/com/learn/service/impl/HotWordServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/GeoQueryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="217">
+          <caret line="120" column="73" selection-start-line="120" selection-start-column="73" selection-end-line="120" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/test/java/com/learn/service/impl/DataServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/TermsQueryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+        <state relative-caret-position="328">
+          <caret line="44" column="65" lean-forward="true" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/suggest/suggestionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/EsClientInitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/IndiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="120" column="35" lean-forward="true" selection-start-line="120" selection-start-column="35" selection-end-line="120" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/ElasticUtilController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/BaseQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="78" column="28" lean-forward="true" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.1.1/elasticsearch-7.1.1-sources.jar!/org/elasticsearch/index/query/QueryStringQueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="51" column="49" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/TermsLevelCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/FullTextCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/GeoCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/model/DataContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/FulltextQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/TermsQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/BoolQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/GeoQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1367">
+          <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/suggest/Suggestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-972">
+          <caret line="34" column="55" lean-forward="true" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/util/GeoUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.1.1/elasticsearch-rest-high-level-client-7.1.1-sources.jar!/org/elasticsearch/client/indices/PutIndexTemplateRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="772">
+          <caret line="86" column="49" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/Indice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="355" column="19" selection-start-line="355" selection-start-column="19" selection-end-line="355" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/HotWordService1Impl.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE-sources.jar!/org/springframework/data/redis/core/ZSetOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="325" column="17" lean-forward="true" selection-start-line="325" selection-start-column="17" selection-end-line="325" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/RedisServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/ElasticsearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="256" column="20" lean-forward="true" selection-start-line="256" selection-start-column="7" selection-end-line="256" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/DataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="15" column="85" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/AsycService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="34" column="79" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/DataSourceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="135" column="56" selection-start-line="135" selection-start-column="56" selection-end-line="135" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/common/ResultCode.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1041,343 +1247,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.13/swagger-annotations-1.5.13-sources.jar!/io/swagger/annotations/ApiImplicitParam.java">
+    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/common/constant/DatabaseConstant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/model/IndexSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding>
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/advice/HotWordAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-511">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/config/ElasticSearchConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/HotWordController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/AsycService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/ElasticsearchService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/util/DataUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/util/DateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/util/MD5Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="20" selection-start-line="20" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/HotWordService1Impl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE-sources.jar!/org/springframework/data/redis/core/SetOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/RedisService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/RedisServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/ElasticsearchServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1221">
-          <caret line="300" column="37" selection-start-line="300" selection-start-column="37" selection-end-line="300" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE-sources.jar!/org/springframework/data/redis/core/ValueOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE-sources.jar!/org/springframework/data/redis/core/HashOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="136" column="94" lean-forward="true" selection-start-line="136" selection-start-column="7" selection-end-line="136" selection-end-column="94" />
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/common/constant/ServiceResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="59" column="74" selection-start-line="59" selection-start-column="74" selection-end-line="59" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="1241" column="46" selection-start-line="1241" selection-start-column="46" selection-end-line="1241" selection-end-column="46" />
-          <folding>
-            <element signature="e#38570#38571#0" expanded="true" />
-            <element signature="e#38617#38618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://79057fd1-ffe1-403f-9820-542ca6536d01/schema/dshuyou/table/comments">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://79057fd1-ffe1-403f-9820-542ca6536d01/schema/dshuyou/table/albums">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/79057fd1-ffe1-403f-9820-542ca6536d01/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/ElasticsearchWuhanApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/SearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-500">
-          <caret line="30" selection-start-line="30" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/DataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/DataSourceHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/DynamicRoutingDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/HotWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE-sources.jar!/org/springframework/data/redis/serializer/RedisSerializerToSerializationPairAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE-sources.jar!/org/springframework/data/redis/serializer/RedisSerializationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="185" column="51" lean-forward="true" selection-start-line="185" selection-start-column="51" selection-end-line="185" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.9/jackson-databind-2.9.9-sources.jar!/com/fasterxml/jackson/databind/Module.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.9/jackson-databind-2.9.9-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="719" column="42" selection-start-line="719" selection-start-column="42" selection-end-line="719" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE-sources.jar!/org/springframework/data/redis/serializer/GenericJackson2JsonRedisSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-          <folding>
-            <element signature="e#1799#1800#0" expanded="true" />
-            <element signature="e#1825#1826#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE-sources.jar!/org/springframework/data/redis/serializer/Jackson2JsonRedisSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/DataServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
-          <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/AsycServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="28" column="88" lean-forward="true" selection-start-line="28" selection-start-column="88" selection-end-line="28" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/ElasticUtilController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-686">
-          <caret line="41" column="60" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/common/constant/DatabaseConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="200">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/common/constant/RedisConstant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        <state relative-caret-position="53">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/model/IndexSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="37" selection-start-line="37" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/BaseCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/BoolCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/BoolQueryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/DocumentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/ElasticsearchWuhanApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/AsycServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/ElasticsearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="312" column="55" selection-start-line="312" selection-start-column="12" selection-end-line="312" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/DataServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="53" column="49" lean-forward="true" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/timertask/LegalIdsBloomFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2213#2214#0" expanded="true" />
-            <element signature="e#2265#2266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/config/JedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1764">
-          <caret line="86" selection-start-line="86" selection-end-line="86" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/DataSourceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="111" column="61" selection-start-line="111" selection-start-column="61" selection-end-line="111" selection-end-column="61" />
+        <state relative-caret-position="225">
+          <caret line="27" column="99" selection-start-line="27" selection-start-column="99" selection-end-line="27" selection-end-column="99" />
         </state>
       </provider>
     </entry>

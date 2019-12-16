@@ -18,7 +18,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 @Component
 public class HotWordAspect {
-	private Logger logger = LoggerFactory.getLogger(this.getClass());
+	private static final Logger logger = LoggerFactory.getLogger(HotWordAspect.class);
 
 	@Autowired
 	@Qualifier("RedisServiceImpl")
@@ -37,7 +37,7 @@ public class HotWordAspect {
 			TermsLevelCondition condition = (TermsLevelCondition)object;
 			String keyword = condition.getValue();
 			if(condition.getValue() != null){
-				logger.info("Start increment hot words score to redis:"+ "{key:"+ "hotword" + ",value:" + keyword + "}");
+				logger.info("Start increment hot words score to redis: {key: hotword, value: {}}",keyword);
 				hotWordService.increment("hotword", keyword, 1);
 				hotWordService.expire(keyword, RedisConstant.EXPIRE_TIME);
 				logger.info("completed increment");
@@ -46,7 +46,7 @@ public class HotWordAspect {
 			FullTextCondition condition = (FullTextCondition)object;
 			String keyword = condition.getValue();
 			if(condition.getValue() != null){
-				logger.info("Start increment hot words score to redis:"+ "{key:"+ "hotword" + ",value:" + keyword + "}");
+				logger.info("Start increment hot words score to redis: {key: hotword, value: {}}",keyword);
 				hotWordService.increment("hotword", keyword, 1);
 				hotWordService.expire(keyword, RedisConstant.EXPIRE_TIME);
 				logger.info("completed increment");
@@ -59,7 +59,7 @@ public class HotWordAspect {
 			}
 		}else {
 			String keyword = String.valueOf(object);
-			logger.info("Start increment hot words score to redis:"+ "{key:"+ "hotword" + ",value:" + keyword + "}");
+			logger.info("Start increment hot words score to redis: {key: hotword, value: {}}",keyword);
 			hotWordService.increment("hotword", keyword, 1);
 			hotWordService.expire(keyword, RedisConstant.EXPIRE_TIME);
 			logger.info("completed increment");

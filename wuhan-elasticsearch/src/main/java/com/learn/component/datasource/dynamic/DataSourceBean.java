@@ -6,7 +6,7 @@ package com.learn.component.datasource.dynamic;
  * @description This class is used to encapsulate the data source properties
  */
 public class DataSourceBean {
-    private final String beanName;		//注册在spring中bean名字
+    private final String beanName;
     private final String driverClassName;
     private final String url;
     private final String username;
@@ -124,27 +124,35 @@ public class DataSourceBean {
         public String getBeanName() {
             return beanName;
         }
+
         public String getDriverClassName() {
             return driverClassName;
         }
+
         public String getDatabaseIP() {
             return databaseIP;
         }
+
         public String getDatabasePort() {
             return databasePort;
         }
+
         public String getDatabaseName() {
             return databaseName;
         }
+
         public String getUsername() {
             return username;
         }
+
         public String getPassword() {
             return password;
         }
+
         public String getValidationQuery() {
             return validationQuery;
         }
+
         public Boolean getTestOnBorrow() {
             return testOnBorrow;
         }

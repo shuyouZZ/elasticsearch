@@ -2,12 +2,14 @@ package com.learn.elasticsearch.query.condition;
 
 import org.elasticsearch.common.geo.GeoPoint;
 import org.locationtech.jts.geom.Coordinate;
+import org.locationtech.jts.geom.Envelope;
 
 import java.io.Serializable;
 import java.util.List;
 
 /**
  * Geometry query condition
+ *
  * @date 2019/8/21 10:06
  * @author dshuyou
  */
@@ -34,22 +36,34 @@ public class GeoCondition extends BaseCondition implements Serializable {
 		super(from, size);
 	}
 
-	public void setBox(double leftLatitude, double leftLongitude, double rightLatitude, double rightLongitude){
+	public static GeoCondition setBox(double leftLatitude, double leftLongitude, double rightLatitude, double rightLongitude){
+		return new GeoCondition(leftLatitude,leftLongitude,rightLatitude,rightLongitude);
+	}
+
+	public static GeoCondition setPoint(double latitude,double longitude){
+		return new GeoCondition(latitude,longitude);
+	}
+
+	public static GeoCondition setCoordinate(double latitude,double longitude){
+		return new GeoCondition(latitude,longitude);
+	}
+
+	public static GeoCondition setBoxfromCoord(double leftLatitude,double leftLongitude,double rightLatitude,double rightLongitude){
+		return new GeoCondition(leftLatitude,leftLongitude,rightLatitude,rightLongitude);
+	}
+
+	private GeoCondition(double leftLatitude, double leftLongitude, double rightLatitude, double rightLongitude){
+		super();
 		this.topLeft = new GeoPoint(leftLatitude,leftLongitude);
 		this.bottomRight = new GeoPoint(rightLatitude,rightLongitude);
-	}
-
-	public void setPoint(double latitude,double longitude){
-		this.point = new GeoPoint(latitude,longitude);
-	}
-
-	public void setCoordinate(double latitude,double longitude){
-		this.coordinate = new Coordinate(longitude,latitude);
-	}
-
-	public void setBoxfromCoord(double leftLatitude,double leftLongitude,double rightLatitude,double rightLongitude){
 		this.tlCoordinate = new Coordinate(leftLongitude,leftLatitude);
 		this.brCoordinate = new Coordinate(rightLongitude,rightLatitude);
+	}
+
+	private GeoCondition(double latitude,double longitude){
+		super();
+		this.point = new GeoPoint(latitude,longitude);
+		this.coordinate = new Coordinate(latitude,longitude);
 	}
 
 	public String getField() {

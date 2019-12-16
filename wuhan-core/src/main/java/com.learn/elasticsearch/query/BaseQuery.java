@@ -24,6 +24,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * This class is the abstract class for query action.
+ *
  * @date 2019/8/21 10:43
  * @author dshuyou
  * @see BoolQuery

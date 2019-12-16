@@ -42,7 +42,7 @@ public class FulltextQueryTest {
 	}
 
 	public void query() throws IOException {
-		FullTextCondition condition = new FullTextCondition("content","zg");
+		FullTextCondition condition = FullTextCondition.match("content","zg");
 		condition.setFrom(10);
 		condition.setSize(10);
 		condition.setSortField("id");

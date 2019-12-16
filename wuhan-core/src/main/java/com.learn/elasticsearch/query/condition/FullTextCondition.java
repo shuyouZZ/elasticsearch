@@ -5,6 +5,7 @@ import java.util.Arrays;
 
 /**
  * Full text query condition
+ *
  * @date 2019/8/21 10:05
  * @author dshuyou
  */
@@ -14,27 +15,44 @@ public class FullTextCondition extends BaseCondition implements Serializable {
 	private String value;
 
 	public FullTextCondition(){
+		super();
 	}
 
-	public FullTextCondition(String field, String value){
+	public static FullTextCondition match(String field, String value){
+		return new FullTextCondition(field,value);
+	}
+
+	public static FullTextCondition queryString(String[] fields, String value){
+		return new FullTextCondition(fields,value);
+	}
+
+	public static FullTextCondition match(int from, int size, String field, String value){
+		return new FullTextCondition(from,size,field,value);
+	}
+
+	public static FullTextCondition queryString(int from, int size, String[] fields, String value){
+		return new FullTextCondition(from,size,fields,value);
+	}
+
+	private FullTextCondition(String field, String value){
 		super();
 		this.field = field;
 		this.value = value;
 	}
 
-	public FullTextCondition(String[] fields, String value){
+	private FullTextCondition(String[] fields, String value){
 		super();
 		this.fields = fields;
 		this.value = value;
 	}
 
-	public FullTextCondition(int from, int size, String field, String value){
+	private FullTextCondition(int from, int size, String field, String value){
 		super(from, size);
 		this.field = field;
 		this.value = value;
 	}
 
-	public FullTextCondition(int from, int size, String[] fields, String value){
+	private FullTextCondition(int from, int size, String[] fields, String value){
 		super(from, size);
 		this.fields = fields;
 		this.value = value;

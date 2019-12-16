@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 /**
  * Abstract class of query condition.
+ *
  * @date 2019/8/21 10:06
  * @author dshuyou
  * @see BoolCondition

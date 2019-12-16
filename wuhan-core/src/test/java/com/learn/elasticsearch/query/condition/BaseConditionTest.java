@@ -31,7 +31,7 @@ public class BaseConditionTest {
 
 	@Test
 	public void textEquals(){
-		FullTextCondition fullTextCondition = new FullTextCondition("","");
+		FullTextCondition fullTextCondition = FullTextCondition.match("","");
 		GeoCondition geoCondition = new GeoCondition();
 		TermsLevelCondition termsLevelCondition = new TermsLevelCondition();
 		System.out.println(fullTextCondition instanceof BaseCondition);
@@ -43,7 +43,7 @@ public class BaseConditionTest {
 	@Test
 	public void testGetClass1(){
 		Map<String, BaseCondition> map = new HashMap<>();
-		map.put("match",new FullTextCondition("",""));
+		map.put("match",FullTextCondition.match("",""));
 		for (Map.Entry<String, BaseCondition> entry : map.entrySet()) {
 			String type = entry.getKey();
 			if (entry.getValue() instanceof FullTextCondition) {
@@ -57,7 +57,7 @@ public class BaseConditionTest {
 	@Test
 	public void testGetClass(){
 		Map<String, BaseCondition> map = new HashMap<>();
-		map.put("match",new FullTextCondition("",""));
+		map.put("match",FullTextCondition.match("",""));
 		for (Map.Entry<String, BaseCondition> entry : map.entrySet()) {
 			String type = entry.getKey();
 			if (entry.getValue().getClass() ==  FullTextCondition.class) {

@@ -18,7 +18,7 @@ import java.util.Map;
  */
 @Component
 public class OrderTimeOutCancelTask {
-	private Logger logger = LoggerFactory.getLogger(OrderTimeOutCancelTask.class);
+	private static final Logger logger = LoggerFactory.getLogger(OrderTimeOutCancelTask.class);
 	private static final long DELAY_TIME = 20 * 1000;
 	@Autowired
 	private DataSender dataSender;

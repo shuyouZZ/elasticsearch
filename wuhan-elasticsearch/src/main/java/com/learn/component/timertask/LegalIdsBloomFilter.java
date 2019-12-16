@@ -23,7 +23,7 @@ import java.util.Map;
 @Configuration
 @EnableScheduling
 public class LegalIdsBloomFilter {
-    private Logger logger = LoggerFactory.getLogger(LegalIdsBloomFilter.class);
+    private static final Logger logger = LoggerFactory.getLogger(LegalIdsBloomFilter.class);
     private final static int CAPACITY = 1000000;
     private static final BloomFilter<String> BLOOM_FILTER = BloomFilter.create(Funnels.stringFunnel(Charsets.UTF_8), CAPACITY);
 

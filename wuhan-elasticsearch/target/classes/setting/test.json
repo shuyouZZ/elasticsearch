@@ -1,0 +1,84 @@
+
+{
+  "properties": {
+  "矿山名称": {
+    "type": "text",
+    "fields": {
+      "fullpinyin":{
+        "type":"completion",
+        "analyzer":"full_pinyin_analyzer"
+      },
+      "prefixpinyin":{
+        "type":"completion",
+        "analyzer":"prefix_pinyin_analyzer"
+      },
+      "text":{
+        "type":"completion",
+        "analyzer":"ik_smart"
+      },
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      }
+    },
+    "analyzer": "full_pinyin_analyzer"
+  },
+  "申请人": {
+    "type": "text",
+    "fields": {
+      "fullpinyin":{
+        "type":"completion",
+        "analyzer":"full_pinyin_analyzer"
+      },
+      "prefixpinyin":{
+        "type":"completion",
+        "analyzer":"prefix_pinyin_analyzer"
+      },
+      "text":{
+        "type":"completion",
+        "analyzer":"ik_smart"
+      },
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      }
+    },
+    "analyzer": "full_pinyin_analyzer"
+  },
+  "项目名称": {
+    "type": "text",
+    "fields": {
+      "fullpinyin":{
+        "type":"completion",
+        "analyzer":"full_pinyin_analyzer"
+      },
+      "prefixpinyin":{
+        "type":"completion",
+        "analyzer":"prefix_pinyin_analyzer"
+      },
+      "text":{
+        "type":"completion",
+        "analyzer":"ik_smart"
+      },
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      }
+    },
+    "analyzer": "full_pinyin_analyzer"
+  }
+}
+}
+
+
+{
+  "settings" : {
+    "index.refresh_interval":"30s"
+  }
+}

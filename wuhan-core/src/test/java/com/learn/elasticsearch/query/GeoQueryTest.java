@@ -33,9 +33,8 @@ public class GeoQueryTest {
 
 	@Test
 	public void distance() throws IOException {
-		GeoCondition condition = new GeoCondition();
+		GeoCondition condition = GeoCondition.setPoint(50,30);
 		condition.setField("address");
-		condition.setPoint(50,30);
 		condition.setDistance(String.valueOf(10000));
 		DataContent dataContent = geoQuery.executeQuery(condition);
 		System.out.println(dataContent);
@@ -107,24 +106,22 @@ public class GeoQueryTest {
 
 	@Test
 	public void boundingbox() throws IOException {
-		GeoCondition condition = new GeoCondition();
+		GeoCondition condition = GeoCondition.setBox(80,-180,-80,180);
 		condition.setField("address");
-		condition.setBox(80,-180,-80,180);
 		DataContent dataContent = geoQuery.executeQuery(condition);
 		System.out.println(dataContent);
 	}
 
 	@Test
 	public void envelop() throws IOException {
-		GeoCondition condition = new GeoCondition();
-		condition.setShapeType("ENVELOPE");
-		condition.setField("point");
 		double leftLatitude = 80.0;
 		double leftLongitude = -180.0;
 		double rightLatitude = -80.0;
 		double rightLongitude = 180.0;
+		GeoCondition condition = GeoCondition.setBoxfromCoord(leftLatitude,leftLongitude,rightLatitude,rightLongitude);
+		condition.setShapeType("ENVELOPE");
+		condition.setField("point");
 
-		condition.setBoxfromCoord(leftLatitude,leftLongitude,rightLatitude,rightLongitude);
 		System.out.println(condition.getTlCoordinate().toString());
 		System.out.println(condition.getBrCoordinate().toString());
 
@@ -150,11 +147,10 @@ public class GeoQueryTest {
 
 	@Test
 	public void point() throws IOException {
-		GeoCondition condition = new GeoCondition();
+		GeoCondition condition = GeoCondition.setCoordinate(80,-180);
 		condition.setField("point");
 		condition.setShapeType("POINT");
 
-		condition.setCoordinate(80,-180);
 		DataContent dataContent = geoQuery.executeQuery(condition);
 		System.out.println(dataContent);
 	}
@@ -162,11 +158,10 @@ public class GeoQueryTest {
 	@Test
 	@Deprecated
 	public void circle() throws IOException {
-		GeoCondition condition = new GeoCondition();
+		GeoCondition condition = GeoCondition.setCoordinate(80,-180);
 		condition.setField("point");
 		condition.setShapeType("CIRCLE");
 
-		condition.setCoordinate(80,-180);
 		condition.setDistance(String.valueOf(1000000));
 		DataContent dataContent = geoQuery.executeQuery(condition);
 		System.out.println(dataContent);

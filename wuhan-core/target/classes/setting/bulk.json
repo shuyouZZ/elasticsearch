@@ -1,0 +1,40 @@
+{}
+
+/*POST _bulk?refresh=true
+{ "index" : { "_index" : "dshuyou8"} }
+{ "full_pinyin": "北京天安门广场"}
+{ "index" : { "_index" : "dshuyou8"} }
+{ "full_pinyin": "天安门广场"}
+{ "index" : { "_index" : "dshuyou8"} }
+{ "full_pinyin": "中国天安门广场"}
+{ "index" : { "_index" : "dshuyou8"} }
+{ "full_pinyin": "北京的一个广场"}
+{ "index" : { "_index" : "dshuyou8"} }
+{ "full_pinyin": "天坛广场"}
+{ "index" : { "_index" : "dshuyou8"} }
+{  "full_pinyin": "郑州广场"}*/
+
+/*
+POST dshuyou8/_search?pretty
+{ "size": 0,
+"suggest": {
+"blog-suggest": {
+"prefix": "e",
+"completion": {
+"field": "prefix_pinyin"
+}
+}
+}
+}*/
+
+/*POST active-logs/_bulk
+{ "index" : { "_index" : "active-logs-1"} }
+{ "text": "Some log message", "@timestamp": "2016-07-01T01:00:00Z" }
+{ "index" : { "_index" : "active-logs-1"} }
+{ "text": "Some log message", "@timestamp": "2016-07-02T01:00:00Z" }
+{ "index" : { "_index" : "active-logs-1"} }
+{ "text": "Some log message", "@timestamp": "2016-07-03T01:00:00Z" }
+{ "index" : { "_index" : "active-logs-1"} }
+{ "text": "Some log message", "@timestamp": "2016-07-04T01:00:00Z" }
+{ "index" : { "_index" : "active-logs-1"} }
+{ "text": "Some log message", "@timestamp": "2016-07-05T01:00:00Z" }*/

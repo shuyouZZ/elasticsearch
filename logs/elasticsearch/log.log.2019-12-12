@@ -1,0 +1,608 @@
+2019-12-12 09:50:32  [ restartedMain:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-12 09:50:32  [ restartedMain:4 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 09:50:32  [ restartedMain:45 ] - [ INFO ]  Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+2019-12-12 09:50:36  [ restartedMain:3678 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-12 09:50:36  [ restartedMain:4100 ] - [ INFO ]  Starting without optional epoll library
+2019-12-12 09:50:36  [ restartedMain:4101 ] - [ INFO ]  Starting without optional kqueue library
+2019-12-12 09:50:37  [ restartedMain:5048 ] - [ INFO ]  Context refreshed
+2019-12-12 09:50:37  [ restartedMain:5068 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-12 09:50:37  [ restartedMain:5102 ] - [ INFO ]  Scanning for api listing references
+2019-12-12 09:50:40  [ pool-3-thread-1:7275 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:50:40  [ pool-3-thread-1:7532 ] - [ INFO ]  {dataSource-1} inited
+2019-12-12 09:50:40  [ pool-3-thread-1:8044 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:50:40  [ pool-3-thread-1:8066 ] - [ INFO ]  {dataSource-2} inited
+2019-12-12 09:50:40  [ pool-3-thread-1:8091 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:50:50  [ pool-3-thread-1:17276 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:50:50  [ pool-3-thread-1:17342 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:50:50  [ pool-3-thread-1:17348 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:51:00  [ pool-3-thread-1:27286 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:51:00  [ pool-3-thread-1:27353 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:51:00  [ pool-3-thread-1:27362 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:51:10  [ pool-3-thread-1:37275 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:51:10  [ pool-3-thread-1:37328 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:51:10  [ pool-3-thread-1:37334 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:51:13  [ http-nio-8080-exec-5:40389 ] - [ ERROR ]  DATABASE_TABLE has not hashKey:comments
+2019-12-12 09:51:20  [ pool-3-thread-1:47276 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:51:20  [ pool-3-thread-1:47343 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:51:20  [ pool-3-thread-1:47349 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:51:30  [ pool-3-thread-1:57276 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:51:30  [ pool-3-thread-1:57339 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:51:30  [ pool-3-thread-1:57347 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:51:40  [ pool-3-thread-1:67276 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:51:40  [ pool-3-thread-1:67335 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:51:40  [ pool-3-thread-1:67342 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:51:50  [ pool-3-thread-1:77275 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:51:50  [ pool-3-thread-1:77348 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:51:50  [ pool-3-thread-1:77357 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:52:00  [ pool-3-thread-1:87277 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:52:00  [ pool-3-thread-1:87366 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:52:00  [ pool-3-thread-1:87371 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:52:10  [ pool-3-thread-1:97275 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:52:10  [ pool-3-thread-1:97329 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:52:10  [ pool-3-thread-1:97335 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:52:20  [ pool-3-thread-1:107276 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:52:20  [ pool-3-thread-1:107329 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:52:20  [ pool-3-thread-1:107334 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:52:30  [ pool-3-thread-1:117276 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:52:30  [ pool-3-thread-1:117334 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:52:30  [ pool-3-thread-1:117338 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:52:40  [ pool-3-thread-1:127275 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:52:40  [ pool-3-thread-1:127329 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:52:40  [ pool-3-thread-1:127335 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:52:50  [ pool-3-thread-1:137275 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:52:50  [ pool-3-thread-1:137328 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:52:50  [ pool-3-thread-1:137333 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:53:00  [ pool-3-thread-1:147278 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:53:00  [ pool-3-thread-1:147344 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:53:00  [ pool-3-thread-1:147350 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:56:14  [ restartedMain:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-12 09:56:14  [ restartedMain:4 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 09:56:14  [ restartedMain:36 ] - [ INFO ]  Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+2019-12-12 09:56:17  [ restartedMain:3107 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-12 09:56:17  [ restartedMain:3551 ] - [ INFO ]  Starting without optional epoll library
+2019-12-12 09:56:17  [ restartedMain:3553 ] - [ INFO ]  Starting without optional kqueue library
+2019-12-12 09:56:18  [ restartedMain:4432 ] - [ INFO ]  Context refreshed
+2019-12-12 09:56:18  [ restartedMain:4448 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-12 09:56:18  [ restartedMain:4483 ] - [ INFO ]  Scanning for api listing references
+2019-12-12 09:56:20  [ pool-3-thread-1:5774 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:56:20  [ pool-3-thread-1:5926 ] - [ INFO ]  {dataSource-1} inited
+2019-12-12 09:56:20  [ pool-3-thread-1:6363 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:56:20  [ pool-3-thread-1:6394 ] - [ INFO ]  {dataSource-2} inited
+2019-12-12 09:56:20  [ pool-3-thread-1:6416 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:56:30  [ pool-3-thread-1:15774 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:56:30  [ pool-3-thread-1:15842 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:56:30  [ pool-3-thread-1:15849 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:56:30  [ http-nio-8080-exec-6:15882 ] - [ INFO ]  Create Index Success wuhan-test
+2019-12-12 09:56:40  [ pool-3-thread-1:25774 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:56:40  [ pool-3-thread-1:25830 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:56:40  [ pool-3-thread-1:25836 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:56:50  [ pool-3-thread-1:35774 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:56:50  [ pool-3-thread-1:35832 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:56:50  [ pool-3-thread-1:35839 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:57:00  [ pool-3-thread-1:45784 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:57:00  [ pool-3-thread-1:45844 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:57:00  [ pool-3-thread-1:45851 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:57:03  [ http-nio-8080-exec-2:49117 ] - [ INFO ]  Bulk Index Success wuhan-test
+2019-12-12 09:57:10  [ pool-3-thread-1:55774 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:57:10  [ pool-3-thread-1:55853 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:57:10  [ pool-3-thread-1:55861 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:57:20  [ pool-3-thread-1:65774 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:57:20  [ pool-3-thread-1:65829 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:57:20  [ pool-3-thread-1:65835 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:57:30  [ pool-3-thread-1:75774 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:57:30  [ pool-3-thread-1:75827 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:57:30  [ pool-3-thread-1:75832 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:57:38  [ http-nio-8080-exec-3:83790 ] - [ INFO ]  from DB
+2019-12-12 09:57:38  [ http-nio-8080-exec-3:83793 ] - [ ERROR ]  DATABASE_TABLE has not hashKey:comments
+2019-12-12 09:57:40  [ pool-3-thread-1:85774 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:57:40  [ pool-3-thread-1:85832 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:57:40  [ pool-3-thread-1:85837 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:57:41  [ http-nio-8080-exec-7:87623 ] - [ INFO ]  from DB
+2019-12-12 09:57:41  [ http-nio-8080-exec-7:87625 ] - [ ERROR ]  DATABASE_TABLE has not hashKey:comments
+2019-12-12 09:57:43  [ http-nio-8080-exec-4:89327 ] - [ INFO ]  from DB
+2019-12-12 09:57:43  [ http-nio-8080-exec-4:89329 ] - [ ERROR ]  DATABASE_TABLE has not hashKey:comments
+2019-12-12 09:57:43  [ http-nio-8080-exec-6:89662 ] - [ INFO ]  from DB
+2019-12-12 09:57:43  [ http-nio-8080-exec-6:89663 ] - [ ERROR ]  DATABASE_TABLE has not hashKey:comments
+2019-12-12 09:57:44  [ http-nio-8080-exec-2:89870 ] - [ INFO ]  from DB
+2019-12-12 09:57:44  [ http-nio-8080-exec-2:89872 ] - [ ERROR ]  DATABASE_TABLE has not hashKey:comments
+2019-12-12 09:57:50  [ pool-3-thread-1:95775 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:57:50  [ pool-3-thread-1:95836 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:57:50  [ pool-3-thread-1:95843 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:58:00  [ pool-3-thread-1:105777 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:58:00  [ pool-3-thread-1:105836 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:58:00  [ pool-3-thread-1:105841 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:58:10  [ pool-3-thread-1:115774 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:58:10  [ pool-3-thread-1:115824 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:58:10  [ pool-3-thread-1:115830 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:58:20  [ pool-3-thread-1:125775 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:58:20  [ pool-3-thread-1:125886 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:58:20  [ pool-3-thread-1:125896 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:58:30  [ pool-3-thread-1:135774 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:58:30  [ pool-3-thread-1:135826 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:58:30  [ pool-3-thread-1:135831 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:58:40  [ pool-3-thread-1:145775 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:58:40  [ pool-3-thread-1:145829 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:58:40  [ pool-3-thread-1:145834 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:58:50  [ pool-3-thread-1:155775 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:58:50  [ pool-3-thread-1:155828 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:58:50  [ pool-3-thread-1:155833 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:59:00  [ pool-3-thread-1:165777 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:59:00  [ pool-3-thread-1:165862 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:59:00  [ pool-3-thread-1:165871 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:59:10  [ pool-3-thread-1:175774 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:59:10  [ pool-3-thread-1:175832 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:59:10  [ pool-3-thread-1:175838 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:59:20  [ pool-3-thread-1:185774 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:59:20  [ pool-3-thread-1:185829 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:59:20  [ pool-3-thread-1:185835 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:59:30  [ pool-3-thread-1:195775 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:59:30  [ pool-3-thread-1:195834 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:59:30  [ pool-3-thread-1:195840 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:59:40  [ pool-3-thread-1:205774 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:59:40  [ pool-3-thread-1:205835 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:59:40  [ pool-3-thread-1:205841 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 09:59:50  [ pool-3-thread-1:215773 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 09:59:50  [ pool-3-thread-1:215830 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 09:59:50  [ pool-3-thread-1:215836 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:00:00  [ pool-3-thread-1:225774 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:00:00  [ pool-3-thread-1:225881 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:00:00  [ pool-3-thread-1:225892 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:06:40  [ restartedMain:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-12 10:06:40  [ restartedMain:5 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 10:06:40  [ restartedMain:36 ] - [ INFO ]  Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-12-12 10:06:43  [ restartedMain:2967 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-12 10:06:44  [ restartedMain:3305 ] - [ INFO ]  Starting without optional epoll library
+2019-12-12 10:06:44  [ restartedMain:3306 ] - [ INFO ]  Starting without optional kqueue library
+2019-12-12 10:06:45  [ restartedMain:4150 ] - [ INFO ]  Context refreshed
+2019-12-12 10:06:45  [ restartedMain:4166 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-12 10:06:45  [ restartedMain:4198 ] - [ INFO ]  Scanning for api listing references
+2019-12-12 10:06:50  [ pool-3-thread-1:9063 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:06:50  [ pool-3-thread-1:9282 ] - [ INFO ]  {dataSource-1} inited
+2019-12-12 10:06:50  [ pool-3-thread-1:9549 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:06:50  [ pool-3-thread-1:9568 ] - [ INFO ]  {dataSource-2} inited
+2019-12-12 10:06:50  [ pool-3-thread-1:9587 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:07:00  [ pool-3-thread-1:19064 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:07:00  [ pool-3-thread-1:19138 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:07:00  [ pool-3-thread-1:19148 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:07:10  [ pool-3-thread-1:29063 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:07:10  [ pool-3-thread-1:29139 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:07:10  [ pool-3-thread-1:29146 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:07:20  [ pool-3-thread-1:39062 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:07:20  [ pool-3-thread-1:39123 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:07:20  [ pool-3-thread-1:39129 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:07:30  [ pool-3-thread-1:49063 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:07:30  [ pool-3-thread-1:49122 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:07:30  [ pool-3-thread-1:49129 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:07:32  [ http-nio-8080-exec-1:51920 ] - [ INFO ]  Bulk Index Success wuhan-test
+2019-12-12 10:07:37  [ http-nio-8080-exec-2:56765 ] - [ INFO ]  from DB
+2019-12-12 10:07:39  [ http-nio-8080-exec-3:59033 ] - [ INFO ]  from Redis
+2019-12-12 10:07:40  [ pool-3-thread-1:59064 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:07:40  [ pool-3-thread-1:59126 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:07:40  [ pool-3-thread-1:59132 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:07:40  [ http-nio-8080-exec-4:59458 ] - [ INFO ]  from Redis
+2019-12-12 10:07:40  [ http-nio-8080-exec-5:59640 ] - [ INFO ]  from Redis
+2019-12-12 10:07:40  [ http-nio-8080-exec-6:59817 ] - [ INFO ]  from Redis
+2019-12-12 10:07:40  [ http-nio-8080-exec-7:59999 ] - [ INFO ]  from Redis
+2019-12-12 10:07:41  [ http-nio-8080-exec-8:60144 ] - [ INFO ]  from Redis
+2019-12-12 10:07:50  [ pool-3-thread-1:69064 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:07:50  [ pool-3-thread-1:69119 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:07:50  [ pool-3-thread-1:69125 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:08:00  [ pool-3-thread-1:79062 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:08:00  [ pool-3-thread-1:79136 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:08:00  [ pool-3-thread-1:79143 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:08:10  [ pool-3-thread-1:89064 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:08:10  [ pool-3-thread-1:89124 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:08:10  [ pool-3-thread-1:89131 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:08:20  [ pool-3-thread-1:99063 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:08:20  [ pool-3-thread-1:99129 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:08:20  [ pool-3-thread-1:99136 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:08:29  [ http-nio-8080-exec-9:109008 ] - [ INFO ]  from Redis
+2019-12-12 10:08:30  [ pool-3-thread-1:109064 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:08:30  [ pool-3-thread-1:109131 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:08:30  [ pool-3-thread-1:109138 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:08:36  [ http-nio-8080-exec-10:115952 ] - [ INFO ]  from Redis
+2019-12-12 10:08:37  [ http-nio-8080-exec-1:116224 ] - [ INFO ]  from Redis
+2019-12-12 10:08:37  [ http-nio-8080-exec-2:116503 ] - [ INFO ]  from Redis
+2019-12-12 10:08:37  [ http-nio-8080-exec-3:116687 ] - [ INFO ]  from Redis
+2019-12-12 10:08:40  [ pool-3-thread-1:119063 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:08:40  [ pool-3-thread-1:119135 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:08:40  [ pool-3-thread-1:119143 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:08:44  [ http-nio-8080-exec-4:123752 ] - [ INFO ]  from Redis
+2019-12-12 10:08:45  [ http-nio-8080-exec-5:124159 ] - [ INFO ]  from Redis
+2019-12-12 10:08:45  [ http-nio-8080-exec-6:124326 ] - [ INFO ]  from Redis
+2019-12-12 10:08:50  [ pool-3-thread-1:129064 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:08:50  [ pool-3-thread-1:129120 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:08:50  [ pool-3-thread-1:129125 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:46:22  [ restartedMain:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-12 10:46:22  [ restartedMain:5 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 10:46:23  [ restartedMain:36 ] - [ INFO ]  Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+2019-12-12 10:46:25  [ restartedMain:3000 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-12 10:46:26  [ restartedMain:3368 ] - [ INFO ]  Starting without optional epoll library
+2019-12-12 10:46:26  [ restartedMain:3370 ] - [ INFO ]  Starting without optional kqueue library
+2019-12-12 10:46:27  [ restartedMain:4165 ] - [ INFO ]  Context refreshed
+2019-12-12 10:46:27  [ restartedMain:4180 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-12 10:46:27  [ restartedMain:4211 ] - [ INFO ]  Scanning for api listing references
+2019-12-12 10:46:30  [ pool-3-thread-1:7019 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:46:30  [ pool-3-thread-1:7256 ] - [ INFO ]  {dataSource-1} inited
+2019-12-12 10:46:30  [ pool-3-thread-1:7539 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:46:30  [ pool-3-thread-1:7559 ] - [ INFO ]  {dataSource-2} inited
+2019-12-12 10:46:30  [ pool-3-thread-1:7580 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:46:40  [ pool-3-thread-1:17019 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:46:40  [ pool-3-thread-1:17087 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:46:40  [ pool-3-thread-1:17095 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:46:40  [ http-nio-8080-exec-1:17685 ] - [ INFO ]  from DB
+2019-12-12 10:46:50  [ pool-3-thread-1:27018 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:46:50  [ pool-3-thread-1:27076 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:46:50  [ pool-3-thread-1:27082 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:47:00  [ pool-3-thread-1:37025 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:47:00  [ pool-3-thread-1:37097 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:47:00  [ pool-3-thread-1:37105 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:47:10  [ pool-3-thread-1:47018 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:47:10  [ pool-3-thread-1:47073 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:47:10  [ pool-3-thread-1:47080 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:47:20  [ pool-3-thread-1:57018 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:47:20  [ pool-3-thread-1:57080 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:47:20  [ pool-3-thread-1:57088 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:47:30  [ pool-3-thread-1:67019 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:47:30  [ pool-3-thread-1:67084 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:47:30  [ pool-3-thread-1:67090 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:47:32  [ http-nio-8080-exec-2:69683 ] - [ INFO ]  from DB
+2019-12-12 10:47:40  [ pool-3-thread-1:77017 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:47:40  [ pool-3-thread-1:77093 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:47:40  [ pool-3-thread-1:77103 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:47:50  [ pool-3-thread-1:87019 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:47:50  [ pool-3-thread-1:87118 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:47:50  [ pool-3-thread-1:87129 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:47:52  [ http-nio-8080-exec-4:89526 ] - [ INFO ]  from Redis
+2019-12-12 10:47:52  [ http-nio-8080-exec-6:89883 ] - [ INFO ]  from Redis
+2019-12-12 10:47:53  [ http-nio-8080-exec-7:90067 ] - [ INFO ]  from Redis
+2019-12-12 10:48:00  [ pool-3-thread-1:97021 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:48:00  [ pool-3-thread-1:97101 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:48:00  [ pool-3-thread-1:97109 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:48:10  [ pool-3-thread-1:107018 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:48:10  [ pool-3-thread-1:107157 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:48:10  [ pool-3-thread-1:107163 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:48:15  [ http-nio-8080-exec-3:112460 ] - [ INFO ]  from DB
+2019-12-12 10:48:20  [ pool-3-thread-1:117020 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:48:20  [ pool-3-thread-1:117076 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:48:20  [ pool-3-thread-1:117082 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:48:20  [ http-nio-8080-exec-10:117379 ] - [ INFO ]  from Redis
+2019-12-12 10:48:30  [ pool-3-thread-1:127018 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:48:30  [ pool-3-thread-1:127072 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:48:30  [ pool-3-thread-1:127078 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:48:40  [ pool-3-thread-1:137018 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:48:40  [ pool-3-thread-1:137072 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:48:40  [ pool-3-thread-1:137077 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:48:50  [ pool-3-thread-1:147017 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:48:50  [ pool-3-thread-1:147076 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:48:50  [ pool-3-thread-1:147082 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:49:00  [ pool-3-thread-1:157018 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:49:00  [ pool-3-thread-1:157093 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:49:00  [ pool-3-thread-1:157100 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:49:10  [ pool-3-thread-1:167018 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:49:10  [ pool-3-thread-1:167071 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:49:10  [ pool-3-thread-1:167076 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:52:04  [ restartedMain:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-12 10:52:04  [ restartedMain:4 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 10:52:04  [ restartedMain:42 ] - [ INFO ]  Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
+2019-12-12 10:52:07  [ restartedMain:3242 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-12 10:52:07  [ restartedMain:3579 ] - [ INFO ]  Starting without optional epoll library
+2019-12-12 10:52:07  [ restartedMain:3581 ] - [ INFO ]  Starting without optional kqueue library
+2019-12-12 10:52:08  [ restartedMain:4475 ] - [ INFO ]  Context refreshed
+2019-12-12 10:52:08  [ restartedMain:4490 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-12 10:52:08  [ restartedMain:4519 ] - [ INFO ]  Scanning for api listing references
+2019-12-12 10:52:10  [ pool-3-thread-1:5641 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:52:10  [ pool-3-thread-1:5910 ] - [ INFO ]  {dataSource-1} inited
+2019-12-12 10:52:10  [ pool-3-thread-1:6396 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:52:10  [ pool-3-thread-1:6428 ] - [ INFO ]  {dataSource-2} inited
+2019-12-12 10:52:10  [ pool-3-thread-1:6454 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:52:20  [ pool-3-thread-1:15640 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:52:20  [ pool-3-thread-1:15703 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:52:20  [ pool-3-thread-1:15713 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:52:27  [ http-nio-8080-exec-1:23046 ] - [ INFO ]  from DB
+2019-12-12 10:52:30  [ pool-3-thread-1:25640 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:52:30  [ pool-3-thread-1:25700 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:52:30  [ pool-3-thread-1:25707 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:52:40  [ pool-3-thread-1:35641 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:52:40  [ pool-3-thread-1:35747 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:52:40  [ pool-3-thread-1:35753 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:52:50  [ pool-3-thread-1:45641 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:52:50  [ pool-3-thread-1:45704 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:52:50  [ pool-3-thread-1:45710 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:53:00  [ pool-3-thread-1:55640 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:53:00  [ pool-3-thread-1:55714 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:53:00  [ pool-3-thread-1:55723 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 10:53:10  [ pool-3-thread-1:65641 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 10:53:10  [ pool-3-thread-1:65703 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 10:53:10  [ pool-3-thread-1:65710 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:01:33  [ restartedMain:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-12 11:01:33  [ restartedMain:6 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 11:01:33  [ restartedMain:38 ] - [ INFO ]  Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2019-12-12 11:01:36  [ restartedMain:3398 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-12 11:01:37  [ restartedMain:3768 ] - [ INFO ]  Starting without optional epoll library
+2019-12-12 11:01:37  [ restartedMain:3770 ] - [ INFO ]  Starting without optional kqueue library
+2019-12-12 11:01:38  [ restartedMain:4665 ] - [ INFO ]  Context refreshed
+2019-12-12 11:01:38  [ restartedMain:4681 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-12 11:01:38  [ restartedMain:4711 ] - [ INFO ]  Scanning for api listing references
+2019-12-12 11:01:40  [ pool-3-thread-1:6426 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:01:40  [ pool-3-thread-1:6669 ] - [ INFO ]  {dataSource-1} inited
+2019-12-12 11:01:40  [ pool-3-thread-1:6957 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:01:40  [ pool-3-thread-1:6982 ] - [ INFO ]  {dataSource-2} inited
+2019-12-12 11:01:40  [ pool-3-thread-1:7006 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:01:45  [ http-nio-8080-exec-1:11502 ] - [ INFO ]  from DB
+2019-12-12 11:01:46  [ http-nio-8080-exec-2:13365 ] - [ INFO ]  from Redis
+2019-12-12 11:01:47  [ http-nio-8080-exec-3:13860 ] - [ INFO ]  from Redis
+2019-12-12 11:01:47  [ http-nio-8080-exec-5:14051 ] - [ INFO ]  from Redis
+2019-12-12 11:01:47  [ http-nio-8080-exec-4:14251 ] - [ INFO ]  from Redis
+2019-12-12 11:01:48  [ http-nio-8080-exec-6:14443 ] - [ INFO ]  from Redis
+2019-12-12 11:01:48  [ http-nio-8080-exec-7:14618 ] - [ INFO ]  from Redis
+2019-12-12 11:01:48  [ http-nio-8080-exec-8:14818 ] - [ INFO ]  from Redis
+2019-12-12 11:01:48  [ http-nio-8080-exec-9:14995 ] - [ INFO ]  from Redis
+2019-12-12 11:01:48  [ http-nio-8080-exec-10:15179 ] - [ INFO ]  from Redis
+2019-12-12 11:01:48  [ http-nio-8080-exec-1:15355 ] - [ INFO ]  from Redis
+2019-12-12 11:01:49  [ http-nio-8080-exec-2:15531 ] - [ INFO ]  from Redis
+2019-12-12 11:01:49  [ http-nio-8080-exec-3:15692 ] - [ INFO ]  from Redis
+2019-12-12 11:01:49  [ http-nio-8080-exec-5:15844 ] - [ INFO ]  from Redis
+2019-12-12 11:01:50  [ pool-3-thread-1:16427 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:01:50  [ pool-3-thread-1:16496 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:01:50  [ pool-3-thread-1:16503 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:02:17  [ restartedMain:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-12 11:02:17  [ restartedMain:7 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 11:02:17  [ restartedMain:64 ] - [ INFO ]  Finished Spring Data repository scanning in 41ms. Found 0 repository interfaces.
+2019-12-12 11:05:48  [ restartedMain:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-12 11:05:48  [ restartedMain:4 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 11:05:48  [ restartedMain:43 ] - [ INFO ]  Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+2019-12-12 11:05:51  [ restartedMain:3486 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-12 11:05:52  [ restartedMain:3967 ] - [ INFO ]  Starting without optional epoll library
+2019-12-12 11:05:52  [ restartedMain:3968 ] - [ INFO ]  Starting without optional kqueue library
+2019-12-12 11:05:53  [ restartedMain:4925 ] - [ INFO ]  Context refreshed
+2019-12-12 11:05:53  [ restartedMain:4943 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-12 11:05:53  [ restartedMain:4979 ] - [ INFO ]  Scanning for api listing references
+2019-12-12 11:05:57  [ http-nio-8080-exec-1:8722 ] - [ INFO ]  {dataSource-1} inited
+2019-12-12 11:06:00  [ pool-3-thread-1:11714 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:06:00  [ pool-3-thread-1:11856 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:06:00  [ pool-3-thread-1:11877 ] - [ INFO ]  {dataSource-2} inited
+2019-12-12 11:06:00  [ pool-3-thread-1:11897 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:06:10  [ pool-3-thread-1:21711 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:06:10  [ pool-3-thread-1:21796 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:06:10  [ pool-3-thread-1:21804 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:06:20  [ pool-3-thread-1:31712 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:06:20  [ pool-3-thread-1:31773 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:06:20  [ pool-3-thread-1:31780 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:06:30  [ pool-3-thread-1:41712 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:06:30  [ pool-3-thread-1:41780 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:06:30  [ pool-3-thread-1:41786 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:14:12  [ restartedMain:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-12 11:14:12  [ restartedMain:4 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 11:14:12  [ restartedMain:41 ] - [ INFO ]  Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+2019-12-12 11:14:17  [ restartedMain:4721 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-12 11:14:18  [ restartedMain:5296 ] - [ INFO ]  Starting without optional epoll library
+2019-12-12 11:14:18  [ restartedMain:5298 ] - [ INFO ]  Starting without optional kqueue library
+2019-12-12 11:14:19  [ restartedMain:6418 ] - [ INFO ]  Context refreshed
+2019-12-12 11:14:19  [ restartedMain:6438 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-12 11:14:19  [ restartedMain:6481 ] - [ INFO ]  Scanning for api listing references
+2019-12-12 11:14:21  [ http-nio-8080-exec-1:8263 ] - [ INFO ]  {dataSource-1} inited
+2019-12-12 11:14:30  [ pool-3-thread-1:17098 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:14:30  [ pool-3-thread-1:17215 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:14:30  [ pool-3-thread-1:17234 ] - [ INFO ]  {dataSource-2} inited
+2019-12-12 11:14:30  [ pool-3-thread-1:17255 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:14:40  [ pool-3-thread-1:27098 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:14:40  [ pool-3-thread-1:27164 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:14:40  [ pool-3-thread-1:27171 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:14:41  [ http-nio-8080-exec-8:28961 ] - [ INFO ]  from DB
+2019-12-12 11:14:50  [ pool-3-thread-1:37097 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:14:50  [ pool-3-thread-1:37165 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:14:50  [ pool-3-thread-1:37172 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:15:00  [ pool-3-thread-1:47097 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:15:00  [ pool-3-thread-1:47176 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:15:00  [ pool-3-thread-1:47184 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:15:10  [ pool-3-thread-1:57096 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:15:10  [ pool-3-thread-1:57163 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:15:10  [ pool-3-thread-1:57170 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:15:10  [ http-nio-8080-exec-5:57691 ] - [ INFO ]  from DB
+2019-12-12 11:15:12  [ http-nio-8080-exec-6:59162 ] - [ INFO ]  from Redis
+2019-12-12 11:15:12  [ http-nio-8080-exec-7:59330 ] - [ INFO ]  from Redis
+2019-12-12 11:15:20  [ pool-3-thread-1:67097 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:15:20  [ pool-3-thread-1:67167 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:15:20  [ pool-3-thread-1:67176 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:15:30  [ pool-3-thread-1:77098 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:15:30  [ pool-3-thread-1:77163 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:15:30  [ pool-3-thread-1:77170 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:15:40  [ pool-3-thread-1:87098 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:15:40  [ pool-3-thread-1:87166 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:15:40  [ pool-3-thread-1:87172 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:15:50  [ pool-3-thread-1:97098 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:15:50  [ pool-3-thread-1:97157 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:15:50  [ pool-3-thread-1:97165 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:16:00  [ pool-3-thread-1:107099 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:16:00  [ pool-3-thread-1:107190 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:16:00  [ pool-3-thread-1:107198 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:16:10  [ pool-3-thread-1:117097 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:16:10  [ pool-3-thread-1:117179 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:16:10  [ pool-3-thread-1:117188 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:16:20  [ pool-3-thread-1:127097 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:16:20  [ pool-3-thread-1:127164 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:16:20  [ pool-3-thread-1:127171 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:16:30  [ pool-3-thread-1:137098 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:16:30  [ pool-3-thread-1:137163 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:16:30  [ pool-3-thread-1:137169 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:16:40  [ pool-3-thread-1:147097 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:16:40  [ pool-3-thread-1:147156 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:16:40  [ pool-3-thread-1:147161 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:16:50  [ pool-3-thread-1:157098 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:16:50  [ pool-3-thread-1:157158 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:16:50  [ pool-3-thread-1:157163 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:17:00  [ pool-3-thread-1:167100 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:17:00  [ pool-3-thread-1:167188 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:17:00  [ pool-3-thread-1:167196 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:21:27  [ restartedMain:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-12 11:21:27  [ restartedMain:4 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 11:21:28  [ restartedMain:48 ] - [ INFO ]  Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2019-12-12 11:21:31  [ restartedMain:3641 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-12 11:21:31  [ restartedMain:4008 ] - [ INFO ]  Starting without optional epoll library
+2019-12-12 11:21:31  [ restartedMain:4010 ] - [ INFO ]  Starting without optional kqueue library
+2019-12-12 11:21:32  [ restartedMain:4922 ] - [ INFO ]  Context refreshed
+2019-12-12 11:21:32  [ restartedMain:4937 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-12 11:21:32  [ restartedMain:4968 ] - [ INFO ]  Scanning for api listing references
+2019-12-12 11:21:40  [ pool-3-thread-1:12038 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:21:40  [ pool-3-thread-1:12135 ] - [ INFO ]  {dataSource-1} inited
+2019-12-12 11:21:40  [ pool-3-thread-1:12462 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:21:40  [ pool-3-thread-1:12483 ] - [ INFO ]  {dataSource-2} inited
+2019-12-12 11:21:40  [ pool-3-thread-1:12504 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:22:07  [ restartedMain:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-12 11:22:07  [ restartedMain:4 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 11:22:07  [ restartedMain:43 ] - [ INFO ]  Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-12-12 11:22:11  [ restartedMain:3367 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-12 11:22:11  [ restartedMain:4133 ] - [ INFO ]  Starting without optional epoll library
+2019-12-12 11:22:11  [ restartedMain:4136 ] - [ INFO ]  Starting without optional kqueue library
+2019-12-12 11:22:12  [ restartedMain:5204 ] - [ INFO ]  Context refreshed
+2019-12-12 11:22:12  [ restartedMain:5220 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-12 11:22:12  [ restartedMain:5253 ] - [ INFO ]  Scanning for api listing references
+2019-12-12 11:22:20  [ pool-3-thread-1:12308 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:22:20  [ pool-3-thread-1:12395 ] - [ INFO ]  {dataSource-1} inited
+2019-12-12 11:22:20  [ pool-3-thread-1:12803 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:22:20  [ pool-3-thread-1:12828 ] - [ INFO ]  {dataSource-2} inited
+2019-12-12 11:22:20  [ pool-3-thread-1:12852 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:22:30  [ pool-3-thread-1:22309 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:22:30  [ pool-3-thread-1:22370 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:22:30  [ pool-3-thread-1:22378 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:22:40  [ pool-3-thread-1:32309 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:22:40  [ pool-3-thread-1:32370 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:22:40  [ pool-3-thread-1:32376 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:22:50  [ pool-3-thread-1:42308 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:22:50  [ pool-3-thread-1:42385 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:22:50  [ pool-3-thread-1:42393 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:23:00  [ pool-3-thread-1:52308 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:23:00  [ pool-3-thread-1:52384 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:23:00  [ pool-3-thread-1:52391 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:23:10  [ pool-3-thread-1:62308 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:23:10  [ pool-3-thread-1:62382 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:23:10  [ pool-3-thread-1:62392 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:23:20  [ pool-3-thread-1:72309 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:23:20  [ pool-3-thread-1:72392 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:23:20  [ pool-3-thread-1:72397 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:23:30  [ pool-3-thread-1:82309 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:23:30  [ pool-3-thread-1:82367 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:23:30  [ pool-3-thread-1:82375 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:23:51  [ restartedMain:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-12 11:23:51  [ restartedMain:4 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 11:23:51  [ restartedMain:65 ] - [ INFO ]  Finished Spring Data repository scanning in 50ms. Found 0 repository interfaces.
+2019-12-12 11:23:54  [ restartedMain:3429 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-12 11:23:55  [ restartedMain:3810 ] - [ INFO ]  Starting without optional epoll library
+2019-12-12 11:23:55  [ restartedMain:3811 ] - [ INFO ]  Starting without optional kqueue library
+2019-12-12 11:23:55  [ restartedMain:4723 ] - [ INFO ]  Context refreshed
+2019-12-12 11:23:55  [ restartedMain:4740 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-12 11:23:56  [ restartedMain:4772 ] - [ INFO ]  Scanning for api listing references
+2019-12-12 11:24:00  [ pool-3-thread-1:8745 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:24:00  [ pool-3-thread-1:9002 ] - [ INFO ]  {dataSource-1} inited
+2019-12-12 11:24:00  [ pool-3-thread-1:9359 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:24:00  [ pool-3-thread-1:9390 ] - [ INFO ]  {dataSource-2} inited
+2019-12-12 11:24:00  [ pool-3-thread-1:9410 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:26:01  [ restartedMain:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-12 11:26:01  [ restartedMain:4 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 11:26:01  [ restartedMain:38 ] - [ INFO ]  Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2019-12-12 11:26:05  [ restartedMain:3145 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-12 11:26:05  [ restartedMain:3504 ] - [ INFO ]  Starting without optional epoll library
+2019-12-12 11:26:05  [ restartedMain:3505 ] - [ INFO ]  Starting without optional kqueue library
+2019-12-12 11:26:06  [ restartedMain:4401 ] - [ INFO ]  Context refreshed
+2019-12-12 11:26:06  [ restartedMain:4443 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-12 11:26:06  [ restartedMain:4487 ] - [ INFO ]  Scanning for api listing references
+2019-12-12 11:26:10  [ pool-3-thread-1:8056 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:26:10  [ pool-3-thread-1:8294 ] - [ INFO ]  {dataSource-1} inited
+2019-12-12 11:26:10  [ pool-3-thread-1:8577 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:26:10  [ pool-3-thread-1:8598 ] - [ INFO ]  {dataSource-2} inited
+2019-12-12 11:26:10  [ pool-3-thread-1:8622 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:26:20  [ pool-3-thread-1:18056 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:26:20  [ pool-3-thread-1:18121 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:26:20  [ pool-3-thread-1:18128 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:26:30  [ pool-3-thread-1:28056 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:26:30  [ pool-3-thread-1:28120 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:26:30  [ pool-3-thread-1:28127 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:26:40  [ pool-3-thread-1:38055 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:26:40  [ pool-3-thread-1:38117 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:26:40  [ pool-3-thread-1:38124 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:26:50  [ pool-3-thread-1:48056 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:26:50  [ pool-3-thread-1:48126 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:26:50  [ pool-3-thread-1:48132 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:27:00  [ pool-3-thread-1:58064 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:27:00  [ pool-3-thread-1:58140 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:27:00  [ pool-3-thread-1:58147 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:27:10  [ pool-3-thread-1:68056 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:27:10  [ pool-3-thread-1:68129 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:27:10  [ pool-3-thread-1:68136 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:37:28  [ restartedMain:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-12 11:37:28  [ restartedMain:5 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 11:37:28  [ restartedMain:44 ] - [ INFO ]  Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-12-12 11:37:31  [ restartedMain:3178 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-12 11:37:31  [ restartedMain:3687 ] - [ INFO ]  Starting without optional epoll library
+2019-12-12 11:37:31  [ restartedMain:3689 ] - [ INFO ]  Starting without optional kqueue library
+2019-12-12 11:37:32  [ restartedMain:4581 ] - [ INFO ]  Context refreshed
+2019-12-12 11:37:32  [ restartedMain:4601 ] - [ INFO ]  Found 1 custom documentation plugin(s)
+2019-12-12 11:37:32  [ restartedMain:4641 ] - [ INFO ]  Scanning for api listing references
+2019-12-12 11:37:40  [ pool-3-thread-1:11824 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:37:40  [ pool-3-thread-1:12070 ] - [ INFO ]  {dataSource-1} inited
+2019-12-12 11:37:40  [ pool-3-thread-1:12379 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:37:40  [ pool-3-thread-1:12399 ] - [ INFO ]  {dataSource-2} inited
+2019-12-12 11:37:40  [ pool-3-thread-1:12419 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:37:50  [ pool-3-thread-1:21824 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:37:50  [ pool-3-thread-1:21895 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:37:50  [ pool-3-thread-1:21901 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:38:00  [ pool-3-thread-1:31824 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:38:00  [ pool-3-thread-1:31903 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:38:00  [ pool-3-thread-1:31912 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:38:10  [ pool-3-thread-1:41825 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:38:10  [ pool-3-thread-1:41904 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:38:10  [ pool-3-thread-1:41910 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:38:20  [ pool-3-thread-1:51825 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:38:20  [ pool-3-thread-1:51892 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:38:20  [ pool-3-thread-1:51898 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:38:23  [ http-nio-8080-exec-6:54831 ] - [ INFO ]  from DB
+2019-12-12 11:38:30  [ pool-3-thread-1:61825 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:38:30  [ pool-3-thread-1:61916 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:38:30  [ pool-3-thread-1:61924 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:38:40  [ pool-3-thread-1:71824 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:38:40  [ pool-3-thread-1:71887 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:38:40  [ pool-3-thread-1:71896 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:38:50  [ pool-3-thread-1:81824 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:38:50  [ pool-3-thread-1:81900 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:38:50  [ pool-3-thread-1:81907 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:39:00  [ pool-3-thread-1:91824 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:39:00  [ pool-3-thread-1:91907 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:39:00  [ pool-3-thread-1:91918 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:39:10  [ pool-3-thread-1:101825 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:39:10  [ pool-3-thread-1:101886 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:39:10  [ pool-3-thread-1:101895 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:39:20  [ pool-3-thread-1:111824 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:39:20  [ pool-3-thread-1:111890 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:39:20  [ pool-3-thread-1:111897 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:39:30  [ pool-3-thread-1:121824 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:39:30  [ pool-3-thread-1:121889 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:39:30  [ pool-3-thread-1:121897 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:39:40  [ pool-3-thread-1:131824 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:39:40  [ pool-3-thread-1:131888 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:39:40  [ pool-3-thread-1:131894 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:39:42  [ http-nio-8080-exec-1:134444 ] - [ INFO ]  from DB
+2019-12-12 11:39:50  [ pool-3-thread-1:141825 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:39:50  [ pool-3-thread-1:141885 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:39:50  [ pool-3-thread-1:141891 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:40:00  [ pool-3-thread-1:151827 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:40:00  [ pool-3-thread-1:151895 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:40:00  [ pool-3-thread-1:151902 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:40:10  [ pool-3-thread-1:161824 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:40:10  [ pool-3-thread-1:161884 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:40:10  [ pool-3-thread-1:161890 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:40:20  [ pool-3-thread-1:171824 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:40:20  [ pool-3-thread-1:171903 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:40:20  [ pool-3-thread-1:171910 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:40:30  [ pool-3-thread-1:181824 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:40:30  [ pool-3-thread-1:181906 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:40:30  [ pool-3-thread-1:181913 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:40:40  [ pool-3-thread-1:191827 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:40:40  [ pool-3-thread-1:191891 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:40:40  [ pool-3-thread-1:191897 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:40:50  [ pool-3-thread-1:201824 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:40:50  [ pool-3-thread-1:201893 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:40:50  [ pool-3-thread-1:201899 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8
+2019-12-12 11:41:00  [ pool-3-thread-1:211826 ] - [ INFO ]  ................定时调度任务-配置布隆过滤器...............
+2019-12-12 11:41:00  [ pool-3-thread-1:211901 ] - [ INFO ]  数据库:database1,数据表:comments,数据量:5187
+2019-12-12 11:41:00  [ pool-3-thread-1:211908 ] - [ INFO ]  数据库:database2,数据表:ums_member,数据量:8

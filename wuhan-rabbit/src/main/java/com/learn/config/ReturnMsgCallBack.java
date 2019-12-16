@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class ReturnMsgCallBack implements RabbitTemplate.ReturnCallback {
 
-    Logger logger = LoggerFactory.getLogger(this.getClass());
+    private static final Logger logger = LoggerFactory.getLogger(ReturnMsgCallBack.class);
 
     @Override
     public void returnedMessage(Message message, int replyCode,

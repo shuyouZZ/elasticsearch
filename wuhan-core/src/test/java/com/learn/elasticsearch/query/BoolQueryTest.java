@@ -44,8 +44,8 @@ public class BoolQueryTest {
 	public void executeBoolQuery() throws IOException {
 		BoolQuery boolQuery = new BoolQuery(index,client);
 		Map<String, BaseCondition> map = new HashMap<>();
-		map.put("matchPhraseQuery",new FullTextCondition(0,10,"content","wo"));
-		TermsLevelCondition condition = new TermsLevelCondition("username","as");
+		map.put("matchPhraseQuery",FullTextCondition.match(0,10,"content","wo"));
+		TermsLevelCondition condition = TermsLevelCondition.fromTerm("username","as");
 		map.put("termQuery",condition);
 		long start = System.currentTimeMillis();
 		/*List<String> list = boolQuery.executeQuery(map);
