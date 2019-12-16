@@ -1,9 +1,0 @@
-2019-12-13 09:27:42  [ restartedMain:0 ] - [ INFO ]  Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-12-13 09:27:42  [ restartedMain:6 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-12-13 09:27:42  [ restartedMain:46 ] - [ INFO ]  Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
-2019-12-13 09:27:45  [ restartedMain:3172 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
-2019-12-13 09:27:45  [ restartedMain:3559 ] - [ INFO ]  Starting without optional epoll library
-2019-12-13 09:27:45  [ restartedMain:3560 ] - [ INFO ]  Starting without optional kqueue library
-2019-12-13 09:27:46  [ restartedMain:4411 ] - [ INFO ]  Context refreshed
-2019-12-13 09:27:46  [ restartedMain:4427 ] - [ INFO ]  Found 1 custom documentation plugin(s)
-2019-12-13 09:27:46  [ restartedMain:4459 ] - [ INFO ]  Scanning for api listing references
