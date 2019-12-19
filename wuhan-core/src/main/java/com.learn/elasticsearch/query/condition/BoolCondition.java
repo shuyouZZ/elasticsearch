@@ -27,7 +27,6 @@ public class BoolCondition extends BaseCondition implements Serializable {
 		super();
 		this.queryType = queryType;
 		this.conditions = conditions;
-
 	}
 
 	private BoolCondition(int from, int size, String[] queryType, BaseCondition[] conditions){
@@ -50,13 +49,5 @@ public class BoolCondition extends BaseCondition implements Serializable {
 
 	public BaseCondition[] getConditions() {
 		return conditions;
-	}
-
-	@Override
-	public String toString() {
-		return "BoolCondition{" +
-				"queryType=" + Arrays.toString(queryType) +
-				", conditions=" + Arrays.toString(conditions) +
-				'}';
 	}
 }

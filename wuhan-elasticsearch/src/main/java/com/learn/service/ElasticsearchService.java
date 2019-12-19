@@ -159,6 +159,13 @@ public interface ElasticsearchService {
 	ServiceResult asycBulkDelete(String index, List<SourceEntity> sources);
 
 	/**
+	 * 删除索引中所有数据
+	 * @param index 索引
+	 * @return ServiceResut
+	 */
+	ServiceResult deleteData(String index);
+
+	/**
 	 * 全文查询
 	 * @param index 索引
 	 * @param queryType 全文查询类型

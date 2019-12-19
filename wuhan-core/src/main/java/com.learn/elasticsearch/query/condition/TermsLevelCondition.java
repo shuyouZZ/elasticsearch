@@ -95,10 +95,6 @@ public class TermsLevelCondition extends BaseCondition implements Serializable {
 		return ids;
 	}
 
-	public void setIds(String[] ids) {
-		this.ids = ids;
-	}
-
 	public String getGte() {
 		return gte;
 	}
@@ -113,22 +109,6 @@ public class TermsLevelCondition extends BaseCondition implements Serializable {
 
 	public String[] getValues() {
 		return values;
-	}
-
-	public void setValues(String[] values) {
-		this.values = values;
-	}
-
-	@Override
-	public String toString() {
-		return "TermsLevelCondition{" +
-				"field='" + field + '\'' +
-				", value='" + value + '\'' +
-				", values=" + Arrays.toString(values) +
-				", ids=" + Arrays.toString(ids) +
-				", gte='" + gte + '\'' +
-				", lte='" + lte + '\'' +
-				'}';
 	}
 }
 

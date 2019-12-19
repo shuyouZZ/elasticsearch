@@ -32,10 +32,6 @@ public class GeoCondition extends BaseCondition implements Serializable {
 		super();
 	}
 
-	public GeoCondition(int from, int size){
-		super(from, size);
-	}
-
 	public static GeoCondition setBox(double leftLatitude, double leftLongitude, double rightLatitude, double rightLongitude){
 		return new GeoCondition(leftLatitude,leftLongitude,rightLatitude,rightLongitude);
 	}
@@ -102,48 +98,24 @@ public class GeoCondition extends BaseCondition implements Serializable {
 		return topLeft;
 	}
 
-	public void setTopLeft(GeoPoint topLeft) {
-		this.topLeft = topLeft;
-	}
-
 	public GeoPoint getBottomRight() {
 		return bottomRight;
-	}
-
-	public void setBottomRight(GeoPoint bottomRight) {
-		this.bottomRight = bottomRight;
 	}
 
 	public GeoPoint getPoint() {
 		return point;
 	}
 
-	public void setPoint(GeoPoint point) {
-		this.point = point;
-	}
-
 	public Coordinate getTlCoordinate() {
 		return tlCoordinate;
-	}
-
-	public void setTlCoordinate(Coordinate tlCoordinate) {
-		this.tlCoordinate = tlCoordinate;
 	}
 
 	public Coordinate getBrCoordinate() {
 		return brCoordinate;
 	}
 
-	public void setBrCoordinate(Coordinate brCoordinate) {
-		this.brCoordinate = brCoordinate;
-	}
-
 	public Coordinate getCoordinate() {
 		return coordinate;
-	}
-
-	public void setCoordinate(Coordinate coordinate) {
-		this.coordinate = coordinate;
 	}
 
 	public List<GeoPoint> getPoints() {

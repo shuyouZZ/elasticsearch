@@ -2,10 +2,7 @@ package com.learn.elasticsearch;
 
 import com.learn.elasticsearch.model.SourceEntity;
 import org.elasticsearch.action.ActionListener;
-import org.elasticsearch.action.bulk.BackoffPolicy;
-import org.elasticsearch.action.bulk.BulkProcessor;
-import org.elasticsearch.action.bulk.BulkRequest;
-import org.elasticsearch.action.bulk.BulkResponse;
+import org.elasticsearch.action.bulk.*;
 import org.elasticsearch.action.delete.DeleteRequest;
 import org.elasticsearch.action.delete.DeleteResponse;
 import org.elasticsearch.action.get.*;
@@ -22,6 +19,9 @@ import org.elasticsearch.common.unit.ByteSizeValue;
 import org.elasticsearch.common.unit.TimeValue;
 import org.elasticsearch.common.xcontent.XContentBuilder;
 import org.elasticsearch.common.xcontent.XContentType;
+import org.elasticsearch.index.query.MatchAllQueryBuilder;
+import org.elasticsearch.index.reindex.BulkByScrollResponse;
+import org.elasticsearch.index.reindex.DeleteByQueryRequest;
 import org.elasticsearch.rest.RestStatus;
 import org.elasticsearch.search.fetch.subphase.FetchSourceContext;
 import org.slf4j.Logger;
@@ -54,8 +54,8 @@ public class Document {
 	 * @param index	索引名称
 	 * @param id	索引id
 	 * @param source	索引内容
-	 * @return		索引结果
-	 * @throws IOException	IOException
+	 * @return	索引结果
+	 * @throws IOException	io异常
 	 */
 	public<T> boolean index(String index, String id, T source) throws IOException {
 		Objects.requireNonNull(index, "index");
@@ -73,8 +73,8 @@ public class Document {
 	/**
 	 * @param index	索引名称
 	 * @param source	索引内容
-	 * @return		索引结果
-	 * @throws IOException	IOException
+	 * @return	索引结果
+	 * @throws IOException	io异常
 	 */
 	public<T> boolean index(String index,T source) throws IOException {
 		Objects.requireNonNull(index, "index");
@@ -115,8 +115,8 @@ public class Document {
 	/**
 	 * @param index	索引名称
 	 * @param id	索引id
-	 * @return		删除指定索引结果
-	 * @throws IOException	IOException
+	 * @return	删除指定索引结果
+	 * @throws IOException	io异常
 	 */
 	public boolean delete(String index, String id) throws IOException {
 		Objects.requireNonNull(index, "index");
@@ -129,8 +129,8 @@ public class Document {
 
 	/**
 	 * @param index	索引名称
-	 * @return		指定索引的数量
-	 * @throws IOException	IOException
+	 * @return	指定索引的数量
+	 * @throws IOException	io异常
 	 */
 	public long count(String index) throws IOException {
 		Objects.requireNonNull(index, "index");
@@ -160,8 +160,8 @@ public class Document {
 	/**
 	 * @param index 	索引名称
 	 * @param id 	索引id
-	 * @return 		指定id的索引内容
-	 * @throws IOException	IOException
+	 * @return 	指定id的索引内容
+	 * @throws IOException	io异常
 	 */
 	public String get(String index, String id) throws IOException {
 		Objects.requireNonNull(index, "index");
@@ -177,8 +177,8 @@ public class Document {
 	/**
 	 * @param index	索引名称
 	 * @param fields 	索引字段集合
-	 * @return		索引集合
-	 * @throws IOException	IOException
+	 * @return	索引集合
+	 * @throws IOException	io异常
 	 */
 	public List<Object> getFieldsValues(String index, String[] fields) throws IOException {
 		Objects.requireNonNull(index, "index");
@@ -198,9 +198,9 @@ public class Document {
 
 	/**
 	 * @param index	索引名称
-	 * @param ids		索引id集合
-	 * @return		索引列表
-	 * @throws IOException	IOException
+	 * @param ids	索引id集合
+	 * @return	索引列表
+	 * @throws IOException	io异常
 	 */
 	public List<Map<String,Object>> multiGet(String index, String[] ids) throws IOException {
 		Objects.requireNonNull(index, "index");
@@ -226,8 +226,8 @@ public class Document {
 	 * @param index	索引名称
 	 * @param id 	索引id
 	 * @param source	索引内容
-	 * @return		boolean
-	 * @throws IOException 	IOException
+	 * @return	boolean
+	 * @throws IOException 	io异常
 	 */
 	public<T> boolean update(String index, String id, T source) throws IOException {
 		Objects.requireNonNull(index, "index");
@@ -243,8 +243,8 @@ public class Document {
 	/**
 	 * @param index	索引名称
 	 * @param sources	索引内容
-	 * @return		索引数量
-	 * @throws IOException	IOException
+	 * @return	索引数量
+	 * @throws IOException	io异常
 	 */
 	public long bulkIndex(String index, List<SourceEntity> sources) throws IOException {
 		BulkRequest bulkRequest = new BulkRequest();
@@ -280,8 +280,8 @@ public class Document {
 	/**
 	 * @param index 	索引名称
 	 * @param sources	索引更新的内容
-	 * @return		索引数量
-	 * @throws IOException	IOException
+	 * @return	更新数量
+	 * @throws IOException	io异常
 	 */
 	public long bulkUpdate(String index, List<SourceEntity> sources) throws IOException {
 		BulkRequest bulkRequest = new BulkRequest();
@@ -318,8 +318,8 @@ public class Document {
 	/**
 	 * @param index	索引名称
 	 * @param sources	索引删除的内容
-	 * @return		索引数量
-	 * @throws IOException	IOException
+	 * @return	删除数量
+	 * @throws IOException	io异常
 	 */
 	public long bulkDelete(String index, List<SourceEntity> sources) throws IOException {
 		BulkRequest bulkRequest = new BulkRequest();
@@ -453,6 +453,23 @@ public class Document {
 				.setBackoffPolicy(
 						BackoffPolicy.exponentialBackoff(TimeValue.timeValueMillis(100), 3))
 				.build();
+	}
+
+	public void deleteData(String index){
+		DeleteByQueryRequest request = new DeleteByQueryRequest(index).setQuery(new MatchAllQueryBuilder());
+		client.deleteByQueryAsync(request, RequestOptions.DEFAULT, new ActionListener<BulkByScrollResponse>() {
+			@Override
+			public void onResponse(BulkByScrollResponse bulkByScrollResponse) {
+				long total = bulkByScrollResponse.getTotal();
+				List<BulkItemResponse.Failure> bulkFailures = bulkByScrollResponse.getBulkFailures();
+				long searchRetries = bulkByScrollResponse.getSearchRetries();
+				logger.debug("delete total: {},bulkFailures: {},searchRetries: {}",total,bulkFailures,searchRetries);
+			}
+			@Override
+			public void onFailure(Exception e) {
+				logger.error("Failed to delete data :" + e.getMessage());
+			}
+		});
 	}
 
 }

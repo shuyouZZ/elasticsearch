@@ -381,6 +381,17 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 	}
 
 	@Override
+	public ServiceResult deleteData(String index) {
+		ServiceResult result = isIndexExist(index);
+		if(! result.equals(ServiceResult.isExist())){
+			return result;
+		}
+		document.deleteData(index);
+		logger.info("Regist Detete All Data Service Success {}",index);
+		return ServiceResult.success();
+	}
+
+	@Override
 	@Cacheable(value = RedisConstant.FULLTEXT_QUERY, keyGenerator = "myKeyGenerator")
 	public ServiceResult fulltextQuery(String index, String queryType, FullTextCondition condition) {
 		ServiceResult result = isIndexExist(index.split(","));

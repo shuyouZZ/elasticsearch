@@ -53,7 +53,7 @@ public class Indice {
 
 	/**
 	 * @param index 	索引
-	 * @return  	创建索引结果
+	 * @return  创建索引结果
 	 * @throws IOException io异常
 	 */
 	public boolean create(String index) throws IOException {
@@ -94,8 +94,8 @@ public class Indice {
 	/**
 	 * @param index	索引
 	 * @param mapping	映射
-	 * @return		更新索引映射结果
-	 * @throws IOException - io异常
+	 * @return	更新索引映射结果
+	 * @throws IOException io异常
 	 */
 	@SuppressWarnings("unchecked")
 	public<T> boolean putMapping(String index, T mapping) throws IOException {
@@ -115,7 +115,7 @@ public class Indice {
 
 	/**
 	 * @param index	索引
-	 * @return 		更新索引设置结果
+	 * @return 	更新索引设置结果
 	 * @throws IOException  io异常
 	 */
 	public boolean updateSetting(String index) throws IOException {
@@ -144,7 +144,7 @@ public class Indice {
 
 	/**
 	 * @param index 	索引
-	 * @return 		索引中的设置
+	 * @return 	索引中的设置
 	 * @throws IOException	io异常
 	 */
 	public String getSetting(String index) throws IOException {
@@ -155,7 +155,7 @@ public class Indice {
 
 	/**
 	 * @param index	索引
-	 * @return		索引中的映射
+	 * @return	索引中的映射
 	 * @throws IOException	io异常
 	 */
 	public Map<String, Object> getMapping(String index) throws IOException {
@@ -171,7 +171,7 @@ public class Indice {
 
 	/**
 	 * @param index	索引
-	 * @return		 删除索引结果
+	 * @return	删除索引结果
 	 * @throws IOException	io异常
 	 */
 	public boolean deleteIndex(String... index) throws IOException {
@@ -184,7 +184,8 @@ public class Indice {
 
 	/**
 	 * @param index	索引
-	 * @return		给定索引是否存在
+	 * @return	索引是否存在
+	 * @throws IOException io异常
 	 */
 	public boolean isExists(String... index) throws IOException {
 		Objects.requireNonNull(index, "index");
@@ -240,7 +241,7 @@ public class Indice {
 	/**
 	 * @param index	索引
 	 * @param aliasname	别名
-	 * @return 		添加别名结果
+	 * @return 	添加别名结果
 	 * @throws IOException	io异常
 	 */
 	public Boolean addAlias(String index,String aliasname) throws IOException {
@@ -353,6 +354,13 @@ public class Indice {
 		return es;
 	}
 
+
+	/**
+	 * @param templateName 索引模板
+	 * @param source	模板资源
+	 * @return	boolean
+	 * @throws IOException io异常
+	 */
 	public boolean putIndexTemplate(String templateName, String source) throws IOException {
 		PutIndexTemplateRequest request = new PutIndexTemplateRequest(templateName);
 		request.source(source,XContentType.JSON);
