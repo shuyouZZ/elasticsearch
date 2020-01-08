@@ -18,7 +18,6 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.Resource;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
@@ -30,20 +29,18 @@ import java.util.concurrent.TimeUnit;
 @Service
 public class DataServiceImpl implements DataService {
     private static final Logger logger = LoggerFactory.getLogger(DataServiceImpl.class);
-    @Resource
+    @Autowired
     private BaseMapper baseMapper;
-    @Resource
+    @Autowired
     private RedisTemplate redisTemplate;
 
     @Override
     @Cacheable(value = RedisConstant.DATA_SERVICE_CACHING, keyGenerator = "myKeyGenerator")
     public ServiceResult findOne(String table, String primaryKey, String id) {
-        System.out.println("查询数据库。。。。。。。。");
-
         Object database = redisTemplate.opsForHash().get(RedisConstant.DATABASE_TABLE,table);
         if(database == null){
             logger.error("{} has not hashKey:{}",RedisConstant.DATABASE_TABLE,table);
-            return ServiceResult.paramsError(table);
+            return ServiceResult.paramsError("Can't match database",null);
         }
 
         DynamicDataSource.setDataSource(ObjectUtils.toString(database));
@@ -60,9 +57,7 @@ public class DataServiceImpl implements DataService {
 
     @Override
     @Cacheable(value = RedisConstant.DATA_SERVICE_CACHING, keyGenerator = "myKeyGenerator")
-    public ServiceResult findOne(String database,String table, String primaryKey, String id) {
-        System.out.println("查询数据库。。。。。。。。");
-
+    public ServiceResult findOne(String database, String table, String primaryKey, String id) {
         DynamicDataSource.setDataSource(database);
         Map<String,Object> params = new HashMap<>();
         params.put(DatabaseConstant.TABLE, table);
@@ -93,12 +88,12 @@ public class DataServiceImpl implements DataService {
 
     @Override
     @Cacheable(value = RedisConstant.DATA_SERVICE_CACHING, keyGenerator = "myKeyGenerator")
-    public ServiceResult getObjectByBloom(String table, String primaryKey, String id) {
+    public ServiceResult getObject(String table, String primaryKey, String id) {
         List<Map<String, Object>> orderList = new ArrayList<>();
         //判断是否为合法id
         if (!LegalIdsBloomFilter.checkLegalId(id)) {
             //不合法id,直接返回为null
-            logger.info("return by bloomFilter");
+            logger.info("Illegal parameter id:{}",id);
             return ServiceResult.paramsError("Illegal parameter id",id);
         } else {
             //从缓存中获取
@@ -113,7 +108,7 @@ public class DataServiceImpl implements DataService {
                 Object database = redisTemplate.opsForHash().get(RedisConstant.DATABASE_TABLE,table);
                 if(database == null){
                     logger.error("{} has not hashKey:{}",RedisConstant.DATABASE_TABLE,table);
-                    return ServiceResult.paramsError("this database could not be found",table);
+                    return ServiceResult.paramsError("Can't match database",table);
                 }
 
                 DynamicDataSource.setDataSource(ObjectUtils.toString(database));
@@ -136,20 +131,20 @@ public class DataServiceImpl implements DataService {
 
     @Override
     @Cacheable(value = RedisConstant.DATA_SERVICE_CACHING, keyGenerator = "myKeyGenerator")
-    public List<Map<String, Object>> getObjectByBloom(String database,String table, String primaryKey, String id) {
-        List<Map<String, Object>> orderList = new ArrayList<>();
+    public ServiceResult getObject(String database, String table, String primaryKey, String id) {
+        List<Map<String, Object>> res = new ArrayList<>();
         //判断是否为合法id
         if (!LegalIdsBloomFilter.checkLegalId(id)) {
             //不合法id,直接返回为null
-            logger.info("return by bloomFilter");
-            return null;
+            logger.info("Illegal parameter id:{}",id);
+            return ServiceResult.paramsError("Illegal parameter id",id);
         } else {
             //从缓存中获取
             Object redisValue = redisTemplate.opsForValue().get(id);
             //判断object是否为空（***注意***）
             if (StringUtils.isNotBlank(ObjectUtils.toString(redisValue))) {
                 logger.info("from Redis");
-                orderList.add((Map<String, Object>) redisValue);
+                res.add((Map<String, Object>) redisValue);
             } else {
                 //查询数据库
                 logger.info("from DB");
@@ -159,7 +154,7 @@ public class DataServiceImpl implements DataService {
                 params.put(DatabaseConstant.PRIMARY_KEY, primaryKey);
                 params.put(DatabaseConstant.ID, id);
                 Map<String, Object> order = baseMapper.selectWithId(params);
-                orderList.add(order);
+                res.add(order);
                 DynamicDataSource.clear();
                 //存入redis
                 //redisTemplate.opsForValue().set(id, order, 3L, TimeUnit.MINUTES);
@@ -167,6 +162,7 @@ public class DataServiceImpl implements DataService {
                 redisTemplate.expire(RedisConstant.SELECT_WITH_ID,3L,TimeUnit.MINUTES);
             }
         }
-        return orderList;
+        if(res.isEmpty()){return ServiceResult.notContent();}
+        return ServiceResult.success(res);
     }
 }

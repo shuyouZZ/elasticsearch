@@ -16,7 +16,7 @@ import java.util.Objects;
 public class EsClientInit {
 
 	private static final String[] IP_ADDRESS = new String[]{
-			"120.79.149.109:9200"
+			""
 	};
 
 	private static final int ADDRESS_LENGTH = 2;

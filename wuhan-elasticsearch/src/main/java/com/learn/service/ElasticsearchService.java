@@ -80,9 +80,18 @@ public interface ElasticsearchService {
 
 	/**
 	 * 创建索引模板
+	 * @param templateName 模板名称
+	 * @param source 模板内容
 	 * @return ServiceResult
 	 */
 	ServiceResult putIndexTemplate(String templateName, String source);
+
+	/**
+	 * 删除索引模板
+	 * @param templateName 模板名称
+	 * @return ServiceResult
+	 */
+	ServiceResult deleteIndexTemplate(String templateName);
 
 	/**
 	 * 单条索引

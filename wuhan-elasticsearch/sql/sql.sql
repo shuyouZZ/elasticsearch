@@ -77,3 +77,8 @@ set character_set_connection=utf8;
 set character_set_database=utf8;
 set character_set_results=utf8;
 select * FROM comment_copy where (id = 10378);
+
+SELECT count(*) from comment_copy;
+SELECT * from comment_copy limit 0,50000;
+SELECT * from comment_copy limit 50000,50000;
+SELECT * from comment_copy limit 100000,50000;

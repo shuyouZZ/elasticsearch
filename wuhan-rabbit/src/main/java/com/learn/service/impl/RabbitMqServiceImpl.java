@@ -13,10 +13,9 @@ import java.util.Map;
  * @date 2019/11/1 9:52
  */
 public class RabbitMqServiceImpl implements RabbitMqService {
-
+    private final long delayTime = 5 * 60;
     @Autowired
     private DataSender dataSender;
-    final long delayTime = 5 * 60;
 
     @Override
     public void dataTransport(List object) {

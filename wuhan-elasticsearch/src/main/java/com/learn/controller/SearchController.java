@@ -80,20 +80,19 @@ public class SearchController {
     }
 
     @ApiOperation("地理空间信息检索")
-    @RequestMapping(value = "/boundingBox",method = RequestMethod.POST)
+    @RequestMapping(value = "/boundingbox",method = RequestMethod.POST)
     @ResponseBody
     public ServiceResult geoQuery(@RequestParam String index,
                                   @RequestParam String queryType,
                                   @RequestBody Envelope envelope,
                                   @RequestParam(defaultValue = "0") int pn,
                                   @RequestParam(defaultValue = "10") int rn){
-        GeoCondition condition = new GeoCondition();
-        condition.setBox(envelope.getMaxY(),envelope.getMinX(),envelope.getMinY(),envelope.getMaxX());
+        GeoCondition condition = GeoCondition.setBox(envelope.getMaxY(),envelope.getMinX(),envelope.getMinY(),envelope.getMaxX());
         return elasticsearchService.geoQuery(index,queryType,condition,pn,rn);
     }
 
     @ApiOperation("检索联想词")
-    @RequestMapping(value = "/extendWord",method = RequestMethod.GET)
+    @RequestMapping(value = "/extendword",method = RequestMethod.GET)
     @ResponseBody
     @HotWord
     public ServiceResult extendWord(@RequestParam(required = false,defaultValue = "") String index,

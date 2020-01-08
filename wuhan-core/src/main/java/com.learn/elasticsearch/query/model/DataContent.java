@@ -1,7 +1,6 @@
 package com.learn.elasticsearch.query.model;
 
 import java.io.Serializable;
-import java.util.List;
 
 /**
  * Used to facilitate the return of query data

@@ -16,6 +16,7 @@ import com.learn.service.AsycService;
 import com.learn.service.ElasticsearchService;
 import com.learn.util.DataUtil;
 import org.elasticsearch.client.RestHighLevelClient;
+import org.elasticsearch.common.settings.Settings;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -240,6 +241,17 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 	}
 
 	@Override
+	public ServiceResult deleteIndexTemplate(String templateName) {
+		try {
+			return ServiceResult.success(indice.deleteIndexTemplate(templateName));
+		} catch (IOException e) {
+			logger.error(e.getMessage());
+			return ServiceResult.internalServerError();
+		}
+	}
+
+
+	@Override
 	public ServiceResult index(String index, String id, Map<String, Object> source) {
 		ServiceResult result = isIndexExist(index);
 		if(! result.equals(ServiceResult.isExist())){
@@ -304,9 +316,19 @@ public class ElasticsearchServiceImpl implements ElasticsearchService {
 		}
 		try {
 			//索引数据前调整副本和刷新时间，完成后再更改回来，以提升索引效率和稳定性
-			indice.updateSetting(index,INIT_REPLICAS,String.valueOf(INIT_REFLUSH_INTERVAL));
+			//indice.updateSetting(index,INIT_REPLICAS,String.valueOf(INIT_REFLUSH_INTERVAL));
+			indice.updateSetting(index,new Indice.Setting()
+					.setReplicas(INIT_REPLICAS)
+					.setRefresh(String.valueOf(INIT_REFLUSH_INTERVAL))
+					.setTranslog(true));
+
 			long count = document.bulkIndex(index,source);
-			indice.updateSetting(index,REPLICAS,String.valueOf(REFRESH_INTERVAL)+"s");
+
+			indice.updateSetting(index,new Indice.Setting()
+					.setReplicas(REPLICAS)
+					.setRefresh(REFRESH_INTERVAL)
+					.setTranslog(false));
+
 			logger.info("Bulk Index Success {}", index);
 			return ServiceResult.success(count);
 		} catch (IOException e) {

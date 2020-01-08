@@ -9,7 +9,6 @@ import org.elasticsearch.index.query.*;
 
 import java.io.IOException;
 import java.util.Collections;
-import java.util.List;
 
 /**
  * @date 2019/8/21 10:05

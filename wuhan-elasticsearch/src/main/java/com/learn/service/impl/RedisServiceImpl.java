@@ -5,6 +5,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
+import java.util.Map;
+import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -35,6 +37,21 @@ public class RedisServiceImpl implements RedisService {
 	@Override
 	public Boolean hasKey(String key) {
 		return redisTemplate.hasKey(key);
+	}
+
+	@Override
+	public Boolean hasHashKey(String key, String hashKey) {
+		return redisTemplate.opsForHash().hasKey(key,hashKey);
+	}
+
+	@Override
+	public String getHashValue(String key, String hashKey) {
+		return (String) redisTemplate.opsForHash().get(key,hashKey);
+	}
+
+	@Override
+	public Map getHashEntries(String key) {
+		return redisTemplate.opsForHash().entries(key);
 	}
 
 	@Override

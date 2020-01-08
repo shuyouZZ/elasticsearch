@@ -21,7 +21,7 @@ public interface ViewMapper1 extends BaseMapper {
     Map<String,Object> findOne(@Param(value = "table") String table, @Param(value = "pk") String pk);
 
     @Select("SELECT count(#{pk}) from ${table}")
-    int count(@Param(value = "table") String table,@Param(value = "pk") String pk);
+    int count1(@Param(value = "table") String table,@Param(value = "pk") String pk);
 
     @Select("SELECT * from ${table}")
     @Options(fetchSize = Integer.MIN_VALUE)

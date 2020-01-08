@@ -25,4 +25,10 @@ public interface BaseMapper<T> extends MySqlMapper<T>, ConditionMapper<T> {
 
     @Select("SELECT * from ${table}")
     List<IndexSource> selectIndex(@Param("table") String table);
+
+    @Select("SELECT count(*) from ${table}")
+    long count(@Param("table") String table);
+
+    @Select("SELECT * from ${table} limit #{start}, #{size}")
+    List<IndexSource> selectByPage(@Param("table") String table,@Param("start") long start,@Param("size") long size );
 }

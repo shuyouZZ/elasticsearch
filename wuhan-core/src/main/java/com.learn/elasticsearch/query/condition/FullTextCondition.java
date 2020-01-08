@@ -1,7 +1,6 @@
 package com.learn.elasticsearch.query.condition;
 
 import java.io.Serializable;
-import java.util.Arrays;
 
 /**
  * Full text query condition
@@ -68,14 +67,5 @@ public class FullTextCondition extends BaseCondition implements Serializable {
 
 	public String[] getFields() {
 		return fields;
-	}
-
-	@Override
-	public String toString() {
-		if(this.field == null || this.field.isEmpty()){
-			return "fields:" + Arrays.toString(fields) + ",value:" + value + ",from:" + from + ",size:" + size;
-		}else {
-			return "field:" + field + ",value:" + value + ",from:" + from + ",size:" + size;
-		}
 	}
 }

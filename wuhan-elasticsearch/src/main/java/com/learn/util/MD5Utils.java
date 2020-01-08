@@ -1,7 +1,6 @@
 package com.learn.util;
 
 import org.springframework.util.DigestUtils;
-import sun.security.provider.MD5;
 
 import java.util.Arrays;
 

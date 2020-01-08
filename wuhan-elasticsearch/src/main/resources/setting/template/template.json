@@ -31,11 +31,11 @@
       "analyzer": {
         "full_pinyin_analyzer": {
           "filter": ["lowercase", "full_pinyin"],
-          "tokenizer": "ik_smart"
+          "tokenizer": "ik_max_word"
         },
         "prefix_pinyin_analyzer": {
           "filter": ["lowercase", "prefix_pinyin"],
-          "tokenizer": "ik_smart"
+          "tokenizer": "ik_max_word"
         }
       }
     }
@@ -65,13 +65,13 @@
             },
             "text":{
               "type":"completion",
-              "analyzer":"ik_smart"
+              "analyzer":"ik_max_word"
             },
             "key":{
               "type":"keyword"
             }
           },
-          "analyzer":"prefix_pinyin_analyzer"
+          "analyzer":"full_pinyin_analyzer"
         },
         "TITLE": {
           "type": "text",
@@ -86,13 +86,13 @@
             },
             "text":{
               "type":"completion",
-              "analyzer":"ik_smart"
+              "analyzer":"ik_max_word"
             },
             "key":{
               "type":"keyword"
             }
           },
-          "analyzer":"prefix_pinyin_analyzer"
+          "analyzer":"full_pinyin_analyzer"
         },
         "CONTENT": {
           "type": "text",
@@ -107,13 +107,13 @@
             },
             "text":{
               "type":"completion",
-              "analyzer":"ik_smart"
+              "analyzer":"ik_max_word"
             },
             "key":{
               "type":"keyword"
             }
           },
-          "analyzer":"prefix_pinyin_analyzer"
+          "analyzer":"full_pinyin_analyzer"
         }
       }
     }

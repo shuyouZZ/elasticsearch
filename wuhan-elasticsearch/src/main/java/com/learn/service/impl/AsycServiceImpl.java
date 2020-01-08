@@ -27,14 +27,23 @@ public class AsycServiceImpl implements AsycService {
     public void bulkIndex(Document document, Indice indice, String index, List<SourceEntity> source) {
         try {
             //索引数据前调整副本和刷新时间，完成后再更改回来，以提升索引效率和稳定性
-            indice.updateSetting(index,INIT_REPLICAS,String.valueOf(INIT_REFLUSH_INTERVAL));
+            //indice.updateSetting(index,INIT_REPLICAS,String.valueOf(INIT_REFLUSH_INTERVAL));
+            indice.updateSetting(index,new Indice.Setting()
+                    .setReplicas(INIT_REPLICAS)
+                    .setRefresh(String.valueOf(INIT_REFLUSH_INTERVAL))
+                    .setTranslog(true));
+
             logger.info("Start asyc bulk index to {}" , index);
             document.asycBulkIndex(index, source);
         }  catch (InterruptedException | IOException e) {
             logger.error("Asyc bulk index failed {}" ,e.getMessage());
         } finally {
             try {
-                indice.updateSetting(index,REPLICAS,String.valueOf(REFRESH_INTERVAL)+"s");
+                //indice.updateSetting(index,REPLICAS,String.valueOf(REFRESH_INTERVAL)+"s");
+                indice.updateSetting(index,new Indice.Setting()
+                        .setReplicas(REPLICAS)
+                        .setRefresh(REFRESH_INTERVAL)
+                        .setTranslog(false));
             } catch (IOException e) {
                 logger.error("UpdateSetting failed {}" , e.getMessage());
             }

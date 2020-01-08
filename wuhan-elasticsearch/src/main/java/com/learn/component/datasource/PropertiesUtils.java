@@ -20,8 +20,6 @@ import java.util.Properties;
  * @date 2019/12/5 12:55
  */
 public class PropertiesUtils {
-    private static final Logger logger = LoggerFactory.getLogger(PropertiesUtils.class);
-
     private static final String DB_DATABASE = ".database";
     private static final String DB_URL = ".url";
     private static final String DB_USERNAME = ".username";
@@ -36,10 +34,13 @@ public class PropertiesUtils {
         druidDataSource.setUsername(dataSourceBean.getUsername());
         druidDataSource.setPassword(dataSourceBean.getPassword());
         druidDataSource.setDriverClassName(dataSourceBean.getDriverClassName());
+        druidDataSource.setMaxActive(20);
+        druidDataSource.setInitialSize(5);
+        //druidDataSource.setTimeBetweenEvictionRunsMillis(60000);
         return druidDataSource;
     }
 
-    public static void setDatasource(DataSourceBean dataSource){
+   /* public static void setDatasource(DataSourceBean dataSource){
         DruidDataSource druidDataSource = new DruidDataSource();
         druidDataSource.setUrl(dataSource.getUrl());
         druidDataSource.setUsername(dataSource.getUsername());
@@ -65,7 +66,7 @@ public class PropertiesUtils {
             e.printStackTrace();
         }
         return null;
-    }
+    }*/
 
     public static DataSourceBean praseProperties(String dataSource){
         InputStream is = PropertiesUtils.class.getClassLoader().getResourceAsStream("config/datasource.properties");

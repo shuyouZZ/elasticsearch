@@ -417,7 +417,7 @@ public class Document {
 	/**
 	 * buld a custom asyc bulk processor
 	 */
-	private BulkProcessor  buldBulkProcessor(){
+	private BulkProcessor buldBulkProcessor(){
 		BulkProcessor.Listener listener = new BulkProcessor.Listener() {
 			@Override
 			public void beforeBulk(long executionId, BulkRequest request) {
@@ -440,7 +440,8 @@ public class Document {
 			@Override
 			public void afterBulk(long executionId, BulkRequest request,
 								  Throwable failure) {
-				logger.error("Failed to execute bulk :" + executionId);
+				logger.error("Failed to execute bulk executionId :{} , bulkRequest failure Num: {}, failureInfo: {}",
+						executionId, request.numberOfActions(),failure.getCause());
 			}
 		};
 		return BulkProcessor.builder(
@@ -449,12 +450,15 @@ public class Document {
 				.setBulkActions(COUNT)
 				.setBulkSize(new ByteSizeValue(BULK_SIZE, ByteSizeUnit.MB))
 				.setFlushInterval(TimeValue.timeValueSeconds(FLUSH_INTERVAL))
-				.setConcurrentRequests(4)
+				.setConcurrentRequests(12)// threadpool.index.size: 12 (max = (core cpu * 3) /2 + 1)
 				.setBackoffPolicy(
 						BackoffPolicy.exponentialBackoff(TimeValue.timeValueMillis(100), 3))
 				.build();
 	}
 
+	/**
+	 * Deletes all data in the index
+	 */
 	public void deleteData(String index){
 		DeleteByQueryRequest request = new DeleteByQueryRequest(index).setQuery(new MatchAllQueryBuilder());
 		client.deleteByQueryAsync(request, RequestOptions.DEFAULT, new ActionListener<BulkByScrollResponse>() {

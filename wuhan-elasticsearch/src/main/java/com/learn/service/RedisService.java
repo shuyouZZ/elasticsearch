@@ -1,5 +1,6 @@
 package com.learn.service;
 
+import java.util.Map;
 import java.util.Set;
 
 /**
@@ -14,6 +15,12 @@ public interface RedisService {
 	Boolean zset(String key, String value, double score);
 
 	Boolean hasKey(String key);
+
+	Boolean hasHashKey(String key, String hashKey);
+
+	String getHashValue(String key, String hashKey);
+
+	Map getHashEntries(String key);
 
 	Set<String> getHotWord(String key,long start, long end);
 

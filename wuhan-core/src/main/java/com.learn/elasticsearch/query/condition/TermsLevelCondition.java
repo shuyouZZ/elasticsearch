@@ -1,7 +1,6 @@
 package com.learn.elasticsearch.query.condition;
 
 import java.io.Serializable;
-import java.util.Arrays;
 
 /**
  * Terms level query condition

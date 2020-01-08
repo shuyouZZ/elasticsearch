@@ -8,7 +8,7 @@ public class RedisConstant {
     /**
      * Redis Key-Value expiration time
      */
-    public final static long EXPIRE_TIME = 24 * 60 * 60;
+    public final static long EXPIRE_TIME = 24 * 60 * 60L;
     /**
      * Serve as a cache for data services
      */

@@ -1,7 +1,6 @@
 package com.learn.elasticsearch.query.condition;
 
 import java.io.Serializable;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -15,11 +14,11 @@ public class BoolCondition extends BaseCondition implements Serializable {
 	private String[] queryType;
 	private BaseCondition[] conditions;
 
-	public BoolCondition setConditions(String[] queryType, BaseCondition[] conditions){
+	public static BoolCondition setConditions(String[] queryType, BaseCondition[] conditions){
 		return new BoolCondition(queryType,conditions);
 	}
 
-	public BoolCondition setConditions(int from, int size, String[] queryType, BaseCondition[] conditions){
+	public static BoolCondition setConditions(int from, int size, String[] queryType, BaseCondition[] conditions){
 		return new BoolCondition(from,size,queryType,conditions);
 	}
 

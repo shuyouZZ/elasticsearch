@@ -55,7 +55,7 @@ public class ViewMapperTest {
         int size = 10000;
 
         long start = System.currentTimeMillis();
-        int count = viewMapper1.count(table,pk);
+        int count = viewMapper1.count1(table,pk);
         int t = count/size;
         int sum = 0;
         for (int i = 0;i < t; i++){

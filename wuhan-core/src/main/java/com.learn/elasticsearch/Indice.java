@@ -7,6 +7,7 @@ import org.elasticsearch.action.admin.indices.delete.DeleteIndexRequest;
 import org.elasticsearch.action.admin.indices.flush.FlushRequest;
 import org.elasticsearch.action.admin.indices.settings.get.GetSettingsRequest;
 import org.elasticsearch.action.admin.indices.settings.put.UpdateSettingsRequest;
+import org.elasticsearch.action.admin.indices.template.delete.DeleteIndexTemplateRequest;
 import org.elasticsearch.action.support.ActiveShardCount;
 import org.elasticsearch.action.support.IndicesOptions;
 import org.elasticsearch.client.RequestOptions;
@@ -24,7 +25,6 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import java.util.*;
 
-import static org.elasticsearch.client.Requests.getRequest;
 import static org.elasticsearch.client.Requests.refreshRequest;
 import static org.elasticsearch.common.xcontent.XContentFactory.jsonBuilder;
 
@@ -34,12 +34,12 @@ import static org.elasticsearch.common.xcontent.XContentFactory.jsonBuilder;
  */
 public class Indice {
 	private static final int SHARDS = 2;
-	public static final int INIT_REPLICAS = 0;
-	public static final int REPLICAS = 1;
 	private static final int TIMEOUT = 2;
 	private static final int MASTER_TIMEOUT = 1;
+	public static final int REPLICAS = 1;
+	public static final int INIT_REPLICAS = 0;
 	public static final int INIT_REFLUSH_INTERVAL = -1;
-	public static final int REFRESH_INTERVAL = 30;
+	public static final String REFRESH_INTERVAL = "30s";
 
 	private RestHighLevelClient client;
 
@@ -63,7 +63,9 @@ public class Indice {
 		request.settings(Settings.builder()
 				.put("index.number_of_shards", SHARDS)
 				.put("index.number_of_replicas", INIT_REPLICAS)
-				.put("index.refresh_interval", TimeValue.timeValueSeconds(INIT_REFLUSH_INTERVAL)));
+				.put("index.refresh_interval", TimeValue.timeValueSeconds(INIT_REFLUSH_INTERVAL))
+				.put("index.translog.durability", "async")
+				.put("index.merge.scheduler.max_thread_count", 1));
 		request.setTimeout(TimeValue.timeValueMinutes(TIMEOUT));
 		request.setMasterTimeout(TimeValue.timeValueMinutes(MASTER_TIMEOUT));
 		request.waitForActiveShards(ActiveShardCount.DEFAULT);
@@ -115,36 +117,25 @@ public class Indice {
 
 	/**
 	 * @param index	索引
+	 * @param  setting 索引配置
 	 * @return 	更新索引设置结果
 	 * @throws IOException  io异常
 	 */
-	public boolean updateSetting(String index) throws IOException {
-		UpdateSettingsRequest request = new UpdateSettingsRequest(index);
-		request.settings(Settings.builder()
-				.put("index.number_of_replicas",REPLICAS)
-				.put("index.refresh_interval",REFRESH_INTERVAL)
-		);
-		return client.indices().putSettings(request, RequestOptions.DEFAULT).isAcknowledged();
-	}
-
-	public boolean updateSetting(String index,int replicas,String refresh) throws IOException {
-		UpdateSettingsRequest request = new UpdateSettingsRequest(index);
-		request.settings(Settings.builder()
-				.put("index.number_of_replicas",replicas)
-				.put("index.refresh_interval",refresh)
-		);
-		return client.indices().putSettings(request, RequestOptions.DEFAULT).isAcknowledged();
-	}
-
 	public boolean updateSetting(String index, String setting) throws IOException {
 		UpdateSettingsRequest request = new UpdateSettingsRequest(index);
 		request.settings(setting,XContentType.JSON);
 		return client.indices().putSettings(request, RequestOptions.DEFAULT).isAcknowledged();
 	}
 
+	public boolean updateSetting(String index, Setting setting) throws IOException {
+		UpdateSettingsRequest request = new UpdateSettingsRequest(index);
+		request.settings(setting.builder);
+		return client.indices().putSettings(request, RequestOptions.DEFAULT).isAcknowledged();
+	}
+
 	/**
 	 * @param index 	索引
-	 * @return 	索引中的设置
+	 * @return 	索引中的配置信息
 	 * @throws IOException	io异常
 	 */
 	public String getSetting(String index) throws IOException {
@@ -155,7 +146,7 @@ public class Indice {
 
 	/**
 	 * @param index	索引
-	 * @return	索引中的映射
+	 * @return	索引中的映射信息
 	 * @throws IOException	io异常
 	 */
 	public Map<String, Object> getMapping(String index) throws IOException {
@@ -313,7 +304,7 @@ public class Indice {
 
 	/**
 	 * 获取对象所有自定义的属性
-	 * @param object -具体的对象
+	 * @param object 具体的对象
 	 */
 	private List<Field> getFields(Object object) {
 		List<Field> fieldList = new ArrayList<>();
@@ -327,7 +318,7 @@ public class Indice {
 
 	/**
 	 * java类型与ElasticSearch类型映射
-	 * @param varType -数据类型
+	 * @param varType 数据类型
 	 */
 	private String getElasticSearchMappingType(String varType) {
 		String es;
@@ -365,6 +356,49 @@ public class Indice {
 		PutIndexTemplateRequest request = new PutIndexTemplateRequest(templateName);
 		request.source(source,XContentType.JSON);
 		return client.indices().putTemplate(request,RequestOptions.DEFAULT).isAcknowledged();
+	}
+
+	/**
+	 * @param templateName 索引模板
+	 * @return boolean
+	 * @throws IOException io异常
+	 */
+	public boolean deleteIndexTemplate(String templateName) throws IOException {
+		DeleteIndexTemplateRequest request = new DeleteIndexTemplateRequest(templateName);
+		return client.indices().deleteTemplate(request,RequestOptions.DEFAULT).isAcknowledged();
+	}
+
+	/**
+	 * ES索引配置静态内部类
+	 **/
+	public static class Setting{
+		private Settings.Builder builder;
+
+		public Setting(){
+			builder = Settings.builder();
+		}
+
+		public Setting setReplicas(int replicas){
+			builder.put("index.number_of_replicas",String.valueOf(replicas));
+			return this;
+		}
+
+		public Setting setRefresh(String refresh){
+			builder.put("index.refresh_interval",refresh);
+			return this;
+		}
+
+		public Setting setTranslog(boolean increase){
+			if (increase) {
+				builder.put("index.translog.durability", "async").
+						put("index.translog.flush_threshold_size", "1024mb");
+			} else {
+				builder.put("index.translog.durability", "request").
+						put("index.translog.flush_threshold_size", "512mb");
+			}
+
+			return this;
+		}
 	}
 }
 

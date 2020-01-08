@@ -1,8 +1,8 @@
 package com.learn.mbg;
 
+import com.learn.common.constant.DatabaseConstant;
 import org.apache.ibatis.jdbc.SQL;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Pattern;
 
@@ -13,16 +13,16 @@ import java.util.regex.Pattern;
 public class CreateSql {
 
     public String selectWithParamSql(Map<String, Object> params) {
-        String table = String.valueOf(params.get("table"));
+        String table = String.valueOf(params.get(DatabaseConstant.TABLE));
         if(Pattern.matches(".*;.*--.*",table)){
             return null;
         }
         return new SQL() {
             {
                 SELECT("*");
-                FROM(String.valueOf(params.get("table")));
-                if (params.get("pk")!=null) {
-                    String pk = String.valueOf(params.get("pk"));
+                FROM(table);
+                if (params.get(DatabaseConstant.PRIMARY_KEY)!=null) {
+                    String pk = String.valueOf(params.get(DatabaseConstant.PRIMARY_KEY));
                     WHERE(pk.concat("= #{id}"));
                 }
             }
