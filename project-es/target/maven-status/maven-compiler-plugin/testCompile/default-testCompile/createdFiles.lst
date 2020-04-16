@@ -1,0 +1,12 @@
+com\learn\elasticsearch\EsClientInitTest.class
+com\learn\elasticsearch\IndiceTest$Earthquake.class
+com\learn\elasticsearch\IndiceTest.class
+com\learn\elasticsearch\query\condition\BaseConditionTest.class
+com\learn\elasticsearch\query\GeoQueryTest.class
+com\learn\elasticsearch\query\TermsQueryTest.class
+com\learn\util\GeoUtilTest.class
+com\learn\elasticsearch\query\BoolQueryTest.class
+com\learn\elasticsearch\suggest\suggestionTest.class
+com\learn\elasticsearch\IndiceTest$Comment.class
+com\learn\elasticsearch\query\FulltextQueryTest.class
+com\learn\elasticsearch\DocumentTest.class

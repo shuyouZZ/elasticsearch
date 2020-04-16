@@ -1,0 +1,124 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #11998e;  /* fallback for old browsers */
+}
+.login-title{
+    text-align: center;
+    margin: 30px 0 40px 0;
+    color: #35013f;
+}
+.login-box{
+    margin-top: 40px;
+    border: 7px double #b1cbfa;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: whitesmoke;
+}
+input[type="text"]{
+    background: url("../images/user.png") no-repeat;
+    background-position: 5px 10px;
+    background-size: 30px;
+}
+input[type="password"]{
+    background: url("../images/password.png") no-repeat;
+    background-position: 5px 10px;
+    background-size: 30px;
+}
+.form-btn{
+    background: rgba(0,0,0,0);
+    width: 100%;
+    outline: none;
+    border: none;
+    margin: 20px 0;
+    border-bottom: 1px solid #dfe2fe;
+    height: 50px;
+    font-size: 17px;
+    padding-left: 40px;
+    color: #1296db;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.form-btn:focus{
+    border-bottom: 1px solid #7874f2;
+}
+.form-control{
+    border-radius: 0;
+    margin: 20px 0;
+}
+#loginBtn{
+    margin:45px auto;
+    background: #b1cbfa;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    color: white;
+}
+#loginBtn:hover{
+    background: #8e98f5;
+}
+.footer{
+    font-size: 13px;
+    padding: 10px 15px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+label{
+    margin:10px;
+    font-weight: 500;
+}
+.a-radio{
+    display: none;
+}
+.b-radio{
+    display: inline-block;
+    border:1px solid #ccc;
+    width:16px;
+    height: 16px;
+    border-radius:2px;
+    vertical-align: middle;
+    margin-right: 5px;
+    position: relative;
+}
+
+.b-radio:before{
+    content: '';
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background: rgb(143, 188, 238);
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -5px;
+    margin-top: -5px;
+    border-radius: 2px;
+    display: none;
+}
+.a-radio:checked~.b-radio:before{
+    display: block;
+}
+/*手机*/
+@media screen and (max-width: 768px){
+    .login-title{
+        font-size: 25px;
+    }
+}
+/*平板*/
+@media screen and (max-width: 991px) and (min-width: 769px){
+    .login-title{
+        font-size: 32px;
+    }
+}
+/*电脑*/
+@media screen and (min-width: 992px){
+
+}

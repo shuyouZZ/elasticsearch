@@ -8,20 +8,20 @@
         <version>2.1.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>wuhan</groupId>
-    <artifactId>wuhan</artifactId>
+    <groupId>project</groupId>
+    <artifactId>project</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>wuhan</name>
+    <name>project</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
     <modules>
-        <module>wuhan-core</module>
-        <module>wuhan-elasticsearch</module>
-        <module>wuhan-rabbit</module>
-        <module>wuhan-redis</module>
+        <module>project-redis</module>
+        <module>project-core</module>
+        <module>project-es</module>
+        <module>project-rabbit</module>
     </modules>
 
     <dependencies>

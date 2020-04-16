@@ -1,0 +1,50 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.stats-msg-box{
+    margin: 10px 0;
+    font-size: 20px;
+}
+.stats-msg-box b{
+    font-weight: 600;
+}
+#secondNotice{
+    display: none;
+    color: red;
+}
+.layui-body{
+    /*background: rgb(239,243,246);*/
+}
+.padding-15{
+    padding: 15px;
+}
+.margin-15{
+    margin: 15px;
+}
+.lang-label label{
+    width: 120px;
+}
+.confirm-style{
+    background: #3C3B3F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 50px;
+    line-height: 22px;
+    color: #fff; font-weight: 300;
+}
+.confirm-style .layui-input-block{
+    line-height: 36px;
+}
+.layui-card{
+    box-shadow: 0 0 25px 1px rgba(0,0,0,0.15);
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.candidate-input{
+    margin-top: 20px;
+}

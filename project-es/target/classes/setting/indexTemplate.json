@@ -1,0 +1,13 @@
+{
+  "template": "active-logs-*",
+  "settings": {
+    "number_of_shards":   5,
+    "number_of_replicas": 1,
+    "routing.allocation.include.box_type": "hot",
+    "routing.allocation.total_shards_per_node": 2
+  },
+  "aliases": {
+    "active-logs":  {},
+    "search-logs": {}
+  }
+}

@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d100a59-f193-44b6-a05a-c76b813283a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/ElasticsearchWuhanApplication.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/ElasticsearchWuhanApplicationTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/WuhanRabbitApplication.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/WuhanRabbitApplicationTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/WuhanRedisApplication.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/WuhanRedisApplicationTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/common/ResultCode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/common/constant/DatabaseConstant.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/common/constant/RedisConstant.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/common/constant/ServiceResult.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/common/constant/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/common/constant/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/common/constant/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/common/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/common/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/common/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/DataReceiver.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/DataSender.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/DataSourceHandler.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/DynamicRoutingDataSource.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/HotWord.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/JedisUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/OrderTimeOutCancelTask.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/RedisDistributedLock.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/advice/HotWordAspect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/advice/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/advice/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/advice/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/datasource/PropertiesUtils.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/datasource/dynamic/DataSourceBean.DataSourceBeanBuilder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/datasource/dynamic/DataSourceBean.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/datasource/dynamic/DataSourceConfig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/datasource/dynamic/DynamicDataSource.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/datasource/dynamic/SpringUtils.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/datasource/dynamic/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/datasource/dynamic/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/datasource/dynamic/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/datasource/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/datasource/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/datasource/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/timertask/LegalIdsBloomFilter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/timertask/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/timertask/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/component/timertask/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/config/ElasticSearchConfig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/config/JedisConfig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/config/RabbitMqConfig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/config/ReturnMsgCallBack.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/config/SpringTaskConfig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/config/Swagger2Config.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/config/ThreadPoolConfig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/config/datasource/FirstDataSourceConfig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/config/datasource/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/config/datasource/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/config/datasource/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/config/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/config/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/config/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/controller/DataSourceController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/controller/ElasticUtilController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/controller/HotWordController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/controller/IndexController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/controller/SearchController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/controller/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/controller/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/controller/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/dto/QueueEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/dto/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/dto/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/dto/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/Document.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/DocumentTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/EsClientInit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/EsClientInitTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/Indice.Setting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/Indice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/IndiceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/Setting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/SettingTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/aggregate/Aggregation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/aggregate/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/aggregate/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/aggregate/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/exception/DAOException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/exception/ExceptionEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/exception/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/exception/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/exception/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/model/IndexEnity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/model/SourceEntity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/model/SuggestEnity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/model/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/model/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/model/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/BaseQuery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/BoolQuery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/BoolQueryTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/FulltextQuery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/FulltextQueryTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/GeoQuery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/GeoQueryTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/TermsQuery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/TermsQueryTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/condition/BaseCondition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/condition/BaseConditionTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/condition/BoolCondition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/condition/FullTextCondition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/condition/GeoCondition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/condition/TermsLevelCondition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/condition/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/condition/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/condition/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/model/DataContent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/model/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/model/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/model/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/query_enum/FulltextEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/query_enum/GeoEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/query_enum/TermsEnum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/query_enum/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/query_enum/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/query/query_enum/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/suggest/Suggestion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/suggest/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/suggest/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/suggest/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/elasticsearch/suggest/suggestionTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mapper/CommentsMapper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mapper/StudentMapper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mapper/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mapper/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mapper/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/BaseMapper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/CreateSql.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/mapper1/MapperTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/mapper1/MapperTestTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/mapper1/ViewMapper1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/mapper1/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/mapper1/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/mapper1/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/mapper2/MapperTest1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/mapper2/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/mapper2/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/mapper2/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/mapper4/GwMapper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/mapper4/KcMapper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/mapper4/ViewMapper4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/mapper4/ViewMapperTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/mapper4/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/mapper4/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/mapper4/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/mapper5/ViewMapper5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/mapper5/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/mapper5/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/mapper5/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/mbg/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/model/Comment_copy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/model/IndexSource.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/model/Student.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/model/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/model/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/model/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/service/AsycService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/service/Concurrent2EsService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/service/Concurrent2EsServiceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/service/DataService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/service/ElasticsearchService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/service/RabbitMqService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/service/RedisService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/service/impl/AsycServiceImpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/service/impl/DataServiceImpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/service/impl/DataServiceImplTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/service/impl/ElasticsearchServiceImpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/service/impl/HotWordServiceImplTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/service/impl/RabbitMqServiceImpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/service/impl/RedisServiceImpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/service/impl/RedisServiceImplTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/service/impl/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/service/impl/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/service/impl/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/service/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/service/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/service/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/util/DataUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/util/DateUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/util/GeoUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/util/GeoUtilTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/util/JSONUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/util/MD5Utils.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/util/concurrent/BatchImportExecutor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/util/concurrent/BatchImportFileExecutor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/util/concurrent/BatchSelectExecutor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/util/concurrent/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/util/concurrent/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/util/concurrent/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/util/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/util/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/learn/util/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-21.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-23.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/overview-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/overview-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/serialized-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/Document.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/EsClientInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/EsClientInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/Indice.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/Indice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/aggregate/Aggregation.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/aggregate/Aggregation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/exception/DAOException.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/exception/DAOException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/exception/ExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/exception/ExceptionEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/model/IndexEnity.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/model/IndexEnity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/model/SourceEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/model/SourceEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/model/SuggestEnity.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/model/SuggestEnity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/BaseQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/query/BaseQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/BoolQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/query/BoolQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/FulltextQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/query/FulltextQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/GeoQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/query/GeoQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/TermsQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/query/TermsQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/BaseCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/query/condition/BaseCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/BoolCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/query/condition/BoolCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/FullTextCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/query/condition/FullTextCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/GeoCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/query/condition/GeoCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/condition/TermsLevelCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/query/condition/TermsLevelCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/model/DataContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/query/model/DataContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/query_enum/FulltextEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/query/query_enum/FulltextEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/query_enum/GeoEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/query/query_enum/GeoEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/query/query_enum/TermsEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/query/query_enum/TermsEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/elasticsearch/suggest/Suggestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/elasticsearch/suggest/Suggestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/util/GeoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/util/GeoUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/java/com.learn/util/JSONUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/java/com.learn/util/JSONUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/resources/setting/bulk.json" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/resources/setting/bulk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/resources/setting/indexTemplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/resources/setting/indexTemplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/resources/setting/mappings.json" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/resources/setting/mappings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/resources/setting/mappings1.json" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/resources/setting/mappings1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/resources/setting/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/resources/setting/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/resources/setting/settings1.json" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/resources/setting/settings1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/main/resources/setting/suggest.json" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/main/resources/setting/suggest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/DocumentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/test/java/com/learn/elasticsearch/DocumentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/EsClientInitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/test/java/com/learn/elasticsearch/EsClientInitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/IndiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/test/java/com/learn/elasticsearch/IndiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/BoolQueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/test/java/com/learn/elasticsearch/query/BoolQueryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/FulltextQueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/test/java/com/learn/elasticsearch/query/FulltextQueryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/GeoQueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/test/java/com/learn/elasticsearch/query/GeoQueryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/TermsQueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/test/java/com/learn/elasticsearch/query/TermsQueryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/query/condition/BaseConditionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/test/java/com/learn/elasticsearch/query/condition/BaseConditionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/elasticsearch/suggest/suggestionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/test/java/com/learn/elasticsearch/suggest/suggestionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/src/test/java/com/learn/util/GeoUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-es/src/test/java/com/learn/util/GeoUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-core/wuhan-core.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/sql/oracle.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/sql/sql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/sql/sql1.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/ElasticsearchWuhanApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/ElasticsearchApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/common/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/common/ResultCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/common/constant/DatabaseConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/common/constant/DatabaseConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/common/constant/RedisConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/common/constant/RedisConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/common/constant/ServiceResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/common/constant/ServiceResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/DynamicRoutingDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/component/DynamicRoutingDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/HotWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/component/HotWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/advice/HotWordAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/component/advice/HotWordAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/datasource/PropertiesUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/component/datasource/PropertiesUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/datasource/dynamic/DataSourceBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/component/datasource/dynamic/DataSourceBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/datasource/dynamic/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/component/datasource/dynamic/DataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/datasource/dynamic/DynamicDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/component/datasource/dynamic/DynamicDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/datasource/dynamic/SpringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/component/datasource/dynamic/SpringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/component/timertask/LegalIdsBloomFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/component/timertask/LegalIdsBloomFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/config/ElasticSearchConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/config/ElasticSearchConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/config/JedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/config/JedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/config/Swagger2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/config/ThreadPoolConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/config/ThreadPoolConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/DataSourceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/controller/DataSourceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/ElasticUtilController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/controller/ElasticUtilController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/HotWordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/controller/HotWordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/controller/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/mbg/BaseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/mbg/BaseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/mbg/CreateSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/mbg/CreateSql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/mbg/mapper1/MapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/mbg/mapper1/MapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/mbg/mapper1/ViewMapper1.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/mbg/mapper1/ViewMapper1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/mbg/mapper2/MapperTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/mbg/mapper2/MapperTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/mbg/mapper4/GwMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/mbg/mapper4/GwMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/mbg/mapper4/KcMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/mbg/mapper4/KcMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/mbg/mapper4/ViewMapper4.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/mbg/mapper4/ViewMapper4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/mbg/mapper5/ViewMapper5.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/mbg/mapper5/ViewMapper5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/model/IndexSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/model/IndexSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/AsycService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/service/AsycService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/Concurrent2EsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/service/Concurrent2EsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/DataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/service/DataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/ElasticsearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/service/ElasticsearchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/service/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/AsycServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/service/impl/AsycServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/DataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/service/impl/DataServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/ElasticsearchServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/service/impl/ElasticsearchServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/HotWordService1Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/service/impl/HotWordService1Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/service/impl/RedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/service/impl/RedisServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/util/DataUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/util/DataUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/util/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/util/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/util/MD5Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/util/MD5Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/util/concurrent/BatchImportExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/util/concurrent/BatchImportExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/util/concurrent/BatchImportFileExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/util/concurrent/BatchImportFileExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/java/com/learn/util/concurrent/BatchSelectExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/java/com/learn/util/concurrent/BatchSelectExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/config/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/config/datasource.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/ehchche.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/ehchche.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/logback.tld" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/logback.tld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/setting/set/mapping-test.json" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/setting/set/mapping-test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/setting/set/mappings.json" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/setting/set/mappings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/setting/set/settings-test.json" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/setting/set/settings-test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/setting/set/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/setting/set/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/setting/template/template.json" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/setting/template/template.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/static/css/admin/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/static/css/admin/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/static/css/admin/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/static/css/admin/user.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/static/css/first-current.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/static/css/first-current.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/static/css/first-final.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/static/css/first-final.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/static/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/static/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/static/css/jquery-confirm.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/static/css/jquery-confirm.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/static/css/second-final.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/static/css/second-final.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/static/js/echarts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/static/js/echarts.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/static/js/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/static/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/static/js/jquery.serializejson.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/static/js/jquery.serializejson.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/main/resources/templates/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/main/resources/templates/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/test/java/com/learn/ElasticsearchWuhanApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/test/java/com/learn/ElasticsearchWuhanApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/test/java/com/learn/mbg/mapper1/MapperTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/test/java/com/learn/mbg/mapper1/MapperTestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/test/java/com/learn/mbg/mapper4/ViewMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/test/java/com/learn/mbg/mapper4/ViewMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/test/java/com/learn/service/Concurrent2EsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/test/java/com/learn/service/Concurrent2EsServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/test/java/com/learn/service/impl/DataServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/test/java/com/learn/service/impl/DataServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/test/java/com/learn/service/impl/HotWordServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/test/java/com/learn/service/impl/HotWordServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/src/test/java/com/learn/service/impl/RedisServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/src/test/java/com/learn/service/impl/RedisServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-elasticsearch/wuhan-elasticsearch.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project-rabbit/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/WuhanRabbitApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/WuhanRabbitApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/component/DataReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/component/DataReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/component/DataSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/component/DataSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/component/OrderTimeOutCancelTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/component/OrderTimeOutCancelTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/config/RabbitMqConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/config/RabbitMqConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/config/ReturnMsgCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/config/ReturnMsgCallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/config/SpringTaskConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/config/SpringTaskConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/config/datasource/FirstDataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/config/datasource/FirstDataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/dto/QueueEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/dto/QueueEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/mapper/CommentsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/mapper/CommentsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/mapper/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/model/Comment_copy.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/model/Comment_copy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/service/RabbitMqService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/service/RabbitMqService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/src/main/java/com/learn/service/impl/RabbitMqServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/service/impl/RabbitMqServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project-rabbit/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project-rabbit/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/src/test/java/com/learn/WuhanRabbitApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-rabbit/src/test/java/com/learn/WuhanRabbitApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-rabbit/wuhan-rabbit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project-core/project-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project-redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-redis/src/main/java/com/learn/WuhanRedisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-redis/src/main/java/com/learn/WuhanRedisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-redis/src/main/java/com/learn/component/JedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-redis/src/main/java/com/learn/component/JedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-redis/src/main/java/com/learn/component/RedisDistributedLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-redis/src/main/java/com/learn/component/RedisDistributedLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-redis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project-redis/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-redis/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project-redis/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-redis/src/test/java/com/learn/WuhanRedisApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-redis/src/test/java/com/learn/WuhanRedisApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuhan-redis/wuhan-redis.iml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/wuhan-rabbit/target/" />
+    <ignored path="$PROJECT_DIR$/wuhan-core/target/" />
+    <ignored path="$PROJECT_DIR$/wuhan-elasticsearch/target/" />
+    <ignored path="$PROJECT_DIR$/wuhan-redis/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project-redis/target/" />
+    <ignored path="$PROJECT_DIR$/project-core/target/" />
+    <ignored path="$PROJECT_DIR$/project-es/target/" />
+    <ignored path="$PROJECT_DIR$/project-rabbit/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="117205244">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="3" />
+          <entry key="java" value="15" />
+          <entry key="md" value="1" />
+          <entry key="sql" value="3" />
+          <entry key="xml" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="15" />
+          <entry key="Markdown" value="1" />
+          <entry key="SQL" value="3" />
+          <entry key="XML" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="3" />
+          <entry key="md" value="2" />
+          <entry key="xml" value="45" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3" />
+          <entry key="Markdown" value="2" />
+          <entry key="XML" value="45" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-redis/src/main/java/com/learn/component/RedisDistributedLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-redis/src/main/java/com/learn/component/JedisUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-redis/src/main/java/com/learn/WuhanRedisApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/component/DataReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-core/src/main/java/com/learn/controller/SearchController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="89" column="44" selection-start-line="89" selection-start-column="44" selection-end-line="89" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/component/DataSender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="14" selection-start-line="14" selection-end-line="15" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/component/OrderTimeOutCancelTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="16" column="18" selection-start-line="15" selection-start-column="3" selection-end-line="16" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/config/datasource/FirstDataSourceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/config/ReturnMsgCallBack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/config/RabbitMqConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../bboss-elasticsearch" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../db-elasticsearch-tool" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/project-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/project-core/src/main/java/com/learn/ElasticsearchWuhanApplication.java" />
+        <option value="$PROJECT_DIR$/project-es/pom.xml" />
+        <option value="$PROJECT_DIR$/project-core/pom.xml" />
+        <option value="$PROJECT_DIR$/project-rabbit/pom.xml" />
+        <option value="$PROJECT_DIR$/project-redis/src/main/java/com/learn/component/RedisDistributedLock.java" />
+        <option value="$PROJECT_DIR$/project-redis/src/main/java/com/learn/component/JedisUtil.java" />
+        <option value="$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/config/datasource/FirstDataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/component/OrderTimeOutCancelTask.java" />
+        <option value="$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/component/DataSender.java" />
+        <option value="$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/component/DataReceiver.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="365" />
+    <option name="y" value="35" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="project-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="project-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="project-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="project-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="project-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="project-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="project-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="project-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="project-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587044709238" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/wuhan-core/wuhan-core/0.0.1-SNAPSHOT/wuhan-core-0.0.1-SNAPSHOT.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ElasticsearchApplication">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="project-rabbit" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="project-rabbit" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticsearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="project-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.ElasticsearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticsearchWuhanApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="project-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.ElasticsearchWuhanApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ElasticsearchWuhanApplication" />
+      <item itemvalue="Spring Boot.ElasticsearchApplication" />
+    </list>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d100a59-f193-44b6-a05a-c76b813283a1" name="Default Changelist" comment="" />
+      <created>1587043376660</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587043376660</updated>
+      <workItem from="1587043378892" duration="612000" />
+      <workItem from="1587044022929" duration="976000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1588000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Alibaba Cloud Explorer" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32152975" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39235127" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="15" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Alibaba Function Compute" order="2" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Alibaba Log Console" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="9" visible="true" weight="0.3163539" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/project-elasticsearch/sql/sql1.sql" />
+    <entry file="file://$PROJECT_DIR$/project-elasticsearch/sql/oracle.sql" />
+    <entry file="file://$PROJECT_DIR$/project-elasticsearch/sql/sql.sql" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-core/src/main/java/com/learn/ElasticsearchApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/wuhan-core/wuhan-core/0.0.1-SNAPSHOT/wuhan-core-0.0.1-SNAPSHOT.jar!/com/learn/elasticsearch/query/condition/GeoCondition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="33" column="109" selection-start-line="33" selection-start-column="109" selection-end-line="33" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-core/src/main/java/com/learn/service/impl/ElasticsearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-core/src/main/java/com/learn/config/Swagger2Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-core/src/main/java/com/learn/service/impl/AsycServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/wuhan-core/wuhan-core/0.0.1-SNAPSHOT/wuhan-core-0.0.1-SNAPSHOT.jar!/com/learn/elasticsearch/Indice.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5723">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#13261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-675">
+          <caret line="156" column="21" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-es/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2014">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-rabbit/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-redis/src/main/java/com/learn/component/RedisDistributedLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-redis/src/main/java/com/learn/component/JedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-redis/src/main/java/com/learn/WuhanRedisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/config/RabbitMqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/component/OrderTimeOutCancelTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="18" selection-start-line="15" selection-start-column="3" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/component/DataSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="14" selection-start-line="14" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-core/src/main/java/com/learn/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="89" column="44" selection-start-line="89" selection-start-column="44" selection-end-line="89" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/component/DataReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/config/datasource/FirstDataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-rabbit/src/main/java/com/learn/config/ReturnMsgCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Bundled Protobuf Distribution</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>wuhan</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2862069" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:druid-spring-boot-starter:1.1.10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

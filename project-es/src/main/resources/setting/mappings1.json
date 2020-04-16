@@ -1,0 +1,70 @@
+{
+  "properties": {
+    "ids": {
+      "type": "integer"
+    },
+    "address": {
+      "type": "text",
+      "fields": {
+        "address_fullpinyin":{
+          "type":"completion",
+          "analyzer":"full_pinyin_analyzer"
+        },
+        "address_prefixpinyin":{
+          "type":"completion",
+          "analyzer":"prefix_pinyin_analyzer"
+        },
+        "address_text":{
+          "type":"completion",
+          "analyzer":"ik_smart"
+        }
+      }
+    },
+    "content": {
+      "type": "text",
+      "fields": {
+        "content_fullpinyin":{
+          "type":"completion",
+          "analyzer":"full_pinyin_analyzer"
+        },
+        "content_prefixpinyin":{
+          "type":"completion",
+          "analyzer":"prefix_pinyin_analyzer"
+        },
+        "content_text":{
+          "type":"completion",
+          "analyzer":"ik_smart"
+        }
+      }
+    },
+    "date": {
+      "type": "text"
+    },
+    "id": {
+      "type": "integer"
+    },
+    "liked": {
+      "type": "integer"
+    },
+    "location": {
+      "type": "geo_point"
+    },
+    "username": {
+      "type": "text",
+      "fields": {
+        "username_fullpinyin":{
+          "type":"completion",
+          "analyzer":"full_pinyin_analyzer"
+        },
+        "username_prefixpinyin":{
+          "type":"completion",
+          "analyzer":"prefix_pinyin_analyzer"
+        },
+        "username_text":{
+          "type":"completion",
+          "analyzer":"ik_smart"
+        }
+      }
+    }
+  }
+}

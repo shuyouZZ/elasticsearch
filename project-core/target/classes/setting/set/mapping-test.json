@@ -1,0 +1,46 @@
+{
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "text",
+      "fields": {
+        "title_fullpinyin":{
+          "type":"completion",
+          "analyzer":"full_pinyin_analyzer"
+        },
+        "title_prefixpinyin":{
+          "type":"completion",
+          "analyzer":"prefix_pinyin_analyzer"
+        },
+        "title_text":{
+          "type":"completion",
+          "analyzer":"ik_smart"
+        }
+      },
+      "analyzer":"prefix_pinyin_analyzer"
+    },
+    "type": {
+      "type": "integer"
+    },
+      "pid": {
+      "type": "integer"
+    },
+    "sindex": {
+      "type": "integer"
+    },
+    "createtime": {
+      "type": "date"
+    },
+    "isdelete": {
+      "type": "integer"
+    },
+    "deletetime": {
+      "type": "date"
+    },
+    "code": {
+      "type": "integer"
+    }
+  }
+}
