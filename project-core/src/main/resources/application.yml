@@ -9,18 +9,12 @@ server:
 
 spring:
   datasource:
-    #    druid:
-    #      db-type: com.alibaba.druid.pool.DruidDataSource
-    #      driver-class-name: oracle.jdbc.OracleDriver
-    #      url: jdbc:oracle:thin:@172.16.4.5:1521/xz2000.nrcloud.hb
-    #      username: xz2017
-    #      password: xz2017
     druid:
       db-type: com.alibaba.druid.pool.DruidDataSource
       driver-class-name: com.mysql.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/dshuyou?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
-      username: root
-      password: 123456
+      url:
+      username:
+      password:
 
   rabbitmq:
     host: localhost
@@ -31,7 +25,7 @@ spring:
 
   redis:
     host: localhost
-    #host: 172.16.4.136
+
     database: 0
     port: 6379
     password: #123456
@@ -57,8 +51,6 @@ spring:
     repositories:
       enabled: true
     cluster-nodes:
-      172.16.4.136:9200
-      #120.79.149.109:9200
 
   thymeleaf:
     prefix: classpath:/templates/
@@ -92,14 +84,7 @@ jwt:
 
 elasticsearch:
   ip:
-    #127.0.0.1:9200,127.0.0.2:9200,127.0.0.3:9200,127.0.0.4:9200,127.0.0.5:9200,127.0.0.6:9200
-    172.16.4.136:9200
-    #120.79.149.109:9200
 
-mybatis:
-  mapper-locations:
-  - classpath:wuhan/*.xml
-  - classpath*:wuhan/mapper3/*.xml
 databaseAndTable:
   database1:comments;database2:ums_member
 async:
